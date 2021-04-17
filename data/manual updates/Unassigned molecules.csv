@@ -1,0 +1,64 @@
+,Species,Matched.name,Allergen.mol,Allergen.mol.manual,Type,Group,row.index,Family,Allergen.name,Ref,match
+462,Agrostis_stolonifera,Agrostis_alba,Unassigned,Agr a 1,Aero Plant,Agrostis Agr a 1,46,NA,NA,AllergenOnline,3
+113,Ambrosia_psilostachya,Ambrosia_psilostachya,Unassigned,Amb p 5,Aero Plant,Ambrosia Amb a 5 Ra5 Amb p 5,113,NA,NA,AllergenOnline,1
+162,Anthoxanthum_odoratum,Anthoxanthum_odoratum,Unassigned,Ant o 1,Aero Plant,Anthoxanthum Ant o 1,162,NA,NA,AllergenOnline,1
+238,Artemisia_campestris,Artemisia_absinthium,Unassigned,Art v 1,Unassigned,Artemisia Art v 1,238,NA,NA,AllergenOnline,3
+1943,Artemisia_campestris,Artemisia_absinthium,Unassigned,Art v 1,Unassigned,Artemisia vulgaris like Art v 1,1943,NA,NA,AllergenOnline,3
+1944,Artemisia_campestris,Artemisia_annua,Unassigned,Art an 7,Unassigned,Art an 7 putative galactose oxidase,1944,NA,NA,AllergenOnline,3
+250,Artemisia_campestris,Artemisia_vulgaris,Unassigned,Art v 3,Aero Plant,Artemisia Art v 3,250,NA,NA,AllergenOnline,3
+253,Artemisia_campestris,Artemisia_vulgaris,Unassigned,Art v 4,Unassigned,Artemisia Art v 4,253,NA,NA,AllergenOnline,3
+1943,Artemisia_campestris,Artemisia_absinthium,Unassigned,Art v 1,Unassigned,Artemisia vulgaris like Art v 1,1943,NA,NA,AllergenOnline,3
+1944,Artemisia_campestris,Artemisia_annua,Unassigned,Art an 7,Unassigned,Art an 7 putative galactose oxidase,1944,NA,NA,AllergenOnline,3
+19541,Artemisia_vulgaris,Artemisia_vulgaris,Unassigned,Art an 7,Unassigned,Art an 7 putative galactose oxidase,1954,NA,NA,AllergenOnline,1
+2501,Artemisia_vulgaris,Artemisia_vulgaris,Unassigned,Art v 3,Aero Plant,Artemisia Art v 3,250,NA,NA,AllergenOnline,1
+2531,Artemisia_vulgaris,Artemisia_vulgaris,Unassigned,Art v 4,Unassigned,Artemisia Art v 4,253,NA,NA,AllergenOnline,1
+19541,Artemisia_vulgaris,Artemisia_vulgaris,Unassigned,Art an 7,Unassigned,Art an 7 putative galactose oxidase,1954,NA,NA,AllergenOnline,1
+563,Chenopodium_album,Chenopodium_album,Unassigned,Che a 2,Aero Plant,Chenopodium Che a 2,563,NA,NA,AllergenOnline,1
+740,Dactylis_glomerata,Dactylis_glomerata,,Dac g 1,Aero Plant,Dactylis Dac g 1,740,NA,NA,AllergenOnline,1
+743,Dactylis_glomerata,Dactylis_glomerata,,Dac g 2,Aero Plant,Dactylis Dac g 2,743,NA,NA,AllergenOnline,1
+746,Dactylis_glomerata,Dactylis_glomerata,,Dac g 5,Aero Plant,Dactylis Dac g 5,746,NA,NA,AllergenOnline,1
+701,Daucus_carota,Daucus_carota,Unassigned,cyclophilin,Food Plant,Daucus cyclophilin,701,NA,NA,AllergenOnline,1
+708,Daucus_carota,Daucus_carota,Unassigned,Dau c 1,Food Plant,Daucus Dau c 1,708,NA,NA,AllergenOnline,1
+718,Daucus_carota,Daucus_carota,Unassigned,Dau c 5,Food Plant,Daucus Dau c 5 isoflavone reductase,718,NA,NA,AllergenOnline,1
+1099,Holcus_lanatus,Holcus_lanatus,Unassigned,Hol l 1,Aero Plant,Holcus Hol l 1,1099,NA,NA,AllergenOnline,1
+1100,Holcus_lanatus,Holcus_lanatus,Unassigned,Hol l 5,Aero Plant,Holcus Hol l 5,1100,NA,NA,AllergenOnline,1
+10991,Holcus_mollis,Holcus_lanatus,Unassigned,Hol l 1,Aero Plant,Holcus Hol l 1,1099,NA,NA,AllergenOnline,3
+11001,Holcus_mollis,Holcus_lanatus,Unassigned,Hol l 5,Aero Plant,Holcus Hol l 5,1100,NA,NA,AllergenOnline,3
+788,Lolium_multiflorum,Lolium_perenne,,Lol p 1,Aero Plant,Lolium Lol p 1,788,NA,NA,AllergenOnline,3
+794,Lolium_multiflorum,Lolium_perenne,,Lol p 2,Aero Plant,Lolium Lol p 2,794,NA,NA,AllergenOnline,3
+797,Lolium_multiflorum,Lolium_perenne,,Lol p 5,Aero Plant,Lolium Lol p 5,797,NA,NA,AllergenOnline,3
+7881,Lolium_perenne,Lolium_perenne,,Lol p 1,Aero Plant,Lolium Lol p 1,788,NA,NA,AllergenOnline,1
+7941,Lolium_perenne,Lolium_perenne,,Lol p 2,Aero Plant,Lolium Lol p 2,794,NA,NA,AllergenOnline,1
+7971,Lolium_perenne,Lolium_perenne,,Lol p 5,Aero Plant,Lolium Lol p 5,797,NA,NA,AllergenOnline,1
+1624,Plantago_arenaria,Plantago_lanceolata,Unassigned,Pla l 1,Aero Plant,Plantago Pla l 1,1624,NA,NA,AllergenOnline,3
+16241,Plantago_lanceolata,Plantago_lanceolata,Unassigned,Pla l 1,Aero Plant,Plantago Pla l 1,1624,NA,NA,AllergenOnline,1
+16242,Plantago_major,Plantago_lanceolata,Unassigned,Pla l 1,Aero Plant,Plantago Pla l 1,1624,NA,NA,AllergenOnline,3
+997,Poa_angustifolia,Poa_pratensis,Unassigned,Poa p 5,Aero Plant,Poa not IUIS Poa p 9 like Poa p 5,997,NA,NA,AllergenOnline,3
+997,Poa_angustifolia,Poa_pratensis,Unassigned,Poa p 5,Aero Plant,Poa not IUIS Poa p 9 like Poa p 5,997,NA,NA,AllergenOnline,3
+1001,Poa_angustifolia,Poa_pratensis,,Poa p 1,Aero Plant,Poa Poa p 1,1001,NA,NA,AllergenOnline,3
+9971,Poa_annua,Poa_pratensis,Unassigned,Poa p 6,Aero Plant,Poa not IUIS Poa p 9 like Poa p 5,997,NA,NA,AllergenOnline,3
+10011,Poa_annua,Poa_pratensis,,Poa p 1,Aero Plant,Poa Poa p 1,1001,NA,NA,AllergenOnline,3
+9972,Poa_bulbosa,Poa_pratensis,Unassigned,Poa p 7,Aero Plant,Poa not IUIS Poa p 9 like Poa p 5,997,NA,NA,AllergenOnline,3
+10012,Poa_bulbosa,Poa_pratensis,,Poa p 1,Aero Plant,Poa Poa p 1,1001,NA,NA,AllergenOnline,3
+9973,Poa_compressa,Poa_pratensis,Unassigned,Poa p 8,Aero Plant,Poa not IUIS Poa p 9 like Poa p 5,997,NA,NA,AllergenOnline,3
+10013,Poa_compressa,Poa_pratensis,,Poa p 1,Aero Plant,Poa Poa p 1,1001,NA,NA,AllergenOnline,3
+9974,Poa_pratensis,Poa_pratensis,Unassigned,Poa p 9,Aero Plant,Poa not IUIS Poa p 9 like Poa p 5,997,NA,NA,AllergenOnline,1
+10014,Poa_pratensis,Poa_pratensis,,Poa p 1,Aero Plant,Poa Poa p 1,1001,NA,NA,AllergenOnline,1
+16375,Poa_trivialis,Poa_pratensis,Unassigned,Poa p 9,Aero Plant,Poa Poa p 9,1637,NA,NA,AllergenOnline,3
+9975,Poa_trivialis,Poa_pratensis,Unassigned,Poa p 10,Aero Plant,Poa not IUIS Poa p 9 like Poa p 5,997,NA,NA,AllergenOnline,3
+10015,Poa_trivialis,Poa_pratensis,,Poa p 1,Aero Plant,Poa Poa p 1,1001,NA,NA,AllergenOnline,3
+1671,Prunus_spinosa,Prunus_armeniaca,Unassigned,Pru 3,Food Plant,Prunus Pru 3,1671,NA,NA,AllergenOnline,3
+1679,Prunus_spinosa,Prunus_avium,Unassigned,PRP (Bet v 1 family),Food Plant,Prunus PRP (Bet v 1 family),1679,NA,NA,AllergenOnline,3
+1688,Prunus_spinosa,Prunus_dulcis,Unassigned,Pru du 6,Food Plant,Prunus Pru du 6 Amandin,1688,NA,NA,AllergenOnline,3
+1686,Prunus_spinosa,Prunus_dulcis,Unassigned,Pru p 2,Food Plant,Prunus persica Pru p 2 IUIS,1686,NA,NA,AllergenOnline,3
+1692,Prunus_spinosa,Prunus_dulcis,Unassigned,Pru p 2,Food Plant,Prunus Seed allergenic protein 2 (Conglutin gamma),1692,NA,NA,AllergenOnline,3
+1699,Prunus_spinosa,Prunus_dulcis_x_Prunus_persica,Unassigned,Pru 4 Profilin,Food Plant,Prunus Pru 4 Profilin peach cherry almond,1699,NA,NA,AllergenOnline,3
+1719,Pyrus_communis,Pyrus_communis,Unassigned,Pyr c 3,Food Plant,Pyrus LTP Pyr c 3 IUIS,1719,NA,NA,AllergenOnline,1
+1826,Solanum_nigrum,Solanum_lycopersicum_(Lycopersicon_esculentum),Unassigned,Sola l 3,Food Plant,Solanum Sola l 3 LTP (Lyc e 3),1826,NA,NA,AllergenOnline,3
+1830,Solanum_nigrum,Solanum_lycopersicum_(Lycopersicon_esculentum),Unassigned,Sola l 4,Food Plant,Solanum Sola l 4 PR-10 (Lyc e 4),1830,NA,NA,AllergenOnline,3
+1820,Solanum_nigrum,Solanum_lycopersicum_(Lycopersicon_esculentum),Unassigned,Sola l 6,Unassigned,Solanum lycopersicum Sola l 6,1820,NA,NA,AllergenOnline,3
+1821,Solanum_nigrum,Solanum_lycopersicum_(Lycopersicon_esculentum),Unassigned,Sola l 7,Unassigned,Solanum lycopersicum Sola l 7,1821,NA,NA,AllergenOnline,3
+1831,Solanum_nigrum,Solanum_tuberosum,Unassigned,profilin-like,Food Plant,Solanum profilin-like,1831,NA,NA,AllergenOnline,3
+1833,Solanum_nigrum,Solanum_tuberosum,Unassigned,Sola t 1,Food Plant,Solanum Sola t 1,1833,NA,NA,AllergenOnline,3
+1823,Solanum_nigrum,Solanum_lycopersicum_(Lycopersicon_esculentum),,Sola l 1,Food Plant,Solanum Sola l 1 profilin (Lyc e 1),1823,NA,NA,AllergenOnline,3
+1839,Solanum_nigrum,Solanum_tuberosum,,Sola t 3,Food Plant,Solanum Sola t 3,1839,NA,NA,AllergenOnline,3

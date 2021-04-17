@@ -1,0 +1,571 @@
+﻿Species;Allergen;Biochemical name;MW(SDS-PAGE);Route of Allergen Exposure;Date Created;Modified Date
+Acacia farnesiana (Vachellia farnesiana) (Needle bush);;;;;;
+;Aca f 1;Ole e 1-like protein;17 kDa;Airway;28.09.15;28.06.19
+;Aca f 2;profilin;14.3 kDa;Airway;06.08.14;28.06.19
+Actinidia chinensis (Gold kiwi fruit);;;;;;
+;Act c 1;actinidin, cysteine protease;30 kDa;Food;29.04.08;28.06.19
+;Act c 5;Kiwellin;28 kDa;Food;28.05.08;28.06.19
+;Act c 8;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Food;01.11.08;28.06.19
+;Act c 10;nsLTP1;10 kDa;Food;08.07.08;28.06.19
+Actinidia deliciosa (Green kiwi fruit);;;;;;
+;Act d 1;Cysteine protease (actinidin);30 kDa;Food;09.02.07;28.06.19
+;Act d 2;Thaumatin-like protein;24 kDa;Food;02.09.07;28.06.19
+;Act d 3;;40 kDa;Food;08.02.07;28.06.19
+;Act d 4;Phytocystatin;11 kDa;Food;18.02.07;28.06.19
+;Act d 5;Kiwellin;28 kDa;Food;18.02.07;28.06.19
+;Act d 6;Pectin methylesterase inhibitor;18 kDa;Food;18.12.07;28.06.19
+;Act d 7;Pectin methylesterase;50 kDa;Food;18.12.07;28.06.19
+;Act d 8;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Food;18.12.07;28.06.19
+;Act d 9;Profilin;14 kDa;Food;08.07.08;28.06.19
+;Act d 10;nsLTP1;10 kDa;Food;08.07.08;28.06.19
+;Act d 11;Major latex protein/ripening-related protein (MLP/RRP), Bet v 1 family member;17 kDa;Food;23.02.09;28.06.19
+;Act d 12;Cupin, 11S globulin;50,207.304 Da (mass spectrometry), 6 peptide sequences (C0HJF9, to be released upon publication);Food;28.11.13;28.06.19
+;Act d 13;2S albumin;11,359,6 Da (mass spectrometry), 4 peptide seqeunces (C0HJG, to be released upon publication);Food;28.11.13;28.06.19
+Alnus glutinosa (Alder);;;;;;
+;Aln g 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;18 kDa;Airway;13.03.03;28.06.19
+;Aln g 4;Polcalcin;6-7 kDa;Airway;13.03.03;28.06.19
+Amaranthus retroflexus (Redroot pigweed);;;;;;
+;Ama r 1;Ole e 1- like protein;18 kDa;Airway;28.05.15;28.06.19
+;Ama r 2;Profilin;14 kDa;Airway;15.10.09;28.06.19
+Ambrosia artemisiifolia (Short ragweed);;;;;;
+;Amb a 1;Pectate lyase;38 kDa;Airway;10.04.03;28.06.19
+;Amb a 2;"renamed to Amb a 1.05; number not available for future submissions";;Airway;10.04.03;28.06.19
+;Amb a 3;Plastocyanine;11 kDa;Airway;10.04.03;28.06.19
+;Amb a 4;Defensin-like protein;30 kDa;Airway;;28.06.19
+;Amb a 5;;5 kDa;Airway;10.04.03;28.06.19
+;Amb a 6;Non-specific lipid transfer protein type 1;10 kDa;Airway;10.04.03;28.06.19
+;Amb a 7;Plastocyanin;12 kDa;Airway;14.04.03;28.06.19
+;Amb a 8;Profilin;14 kDa;Airway;03.11.06;28.06.19
+;Amb a 9;Polcalcin;9 kDa;Airway;03.11.06;28.06.19
+;Amb a 10;Polcalcin-like protein (4 EF-hands);17 kDa;Airway;03.11.06;28.06.19
+;Amb a 11;Cysteine protease;37 kDa (natural purified mature protein), 52 kDa (natural purified zymogen);Airway;03.09.13;28.06.19
+;Amb a 12;Enolase;48 kDa;Airway;06.10.17;28.06.19
+Ambrosia psilostachya (Western ragweed);;;;;;
+;Amb p 5;;;Airway;14.04.03;28.06.19
+Ambrosia trifida (Giant ragweed);;;;;;
+;Amb t 5;;5 kDa;Airway;14.04.03;28.06.19
+Anacardium occidentale (Cashew);;;;;;
+;Ana o 1;Vicilin-like protein;50 kDa;Food;08.08.03;03.07.19
+;Ana o 2;Legumin-like protein;55 kDa;Food;17.10.04;03.07.19
+;Ana o 3;2S albumin;14 kDa;Food;18.04.04;03.07.19
+Apium graveolens (Celery);;;;;;
+;Api g 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;16 kDa;Food;17.06.03;08.07.19
+;Api g 2;Non-specific lipid-transfer protein, type 1;9 kDa;Food;21.08.09;09.07.19
+;Api g 3;Chlorophyll a-b binding protein, chloroplast;28 kDa;Food;17.06.03;09.07.19
+;Api g 4;Profilin;14 kDa;Food;17.06.03;09.07.19
+;Api g 5;FAD-containing oxidase;58 kDa;Food;17.06.03;09.07.19
+;Api g 6;Non-specific lipid transfer protein type 2;7 kDa;Food;13.04.11;09.07.19
+Arachis hypogaea (Peanut, groundnut);;;;;;
+;Ara h 1;Cupin (Vicillin-type, 7S globulin);64 kDa;Food;24.06.03;10.07.19
+;Ara h 2;Conglutin (2S albumin);17 kDa;Food;27.10.03;10.07.19
+;Ara h 3;Cupin (Legumin-type, 11S globulin, Glycinin);60 kDa, 37 kDa (fragment);Food;24.06.03;10.07.19
+;Ara h 4;renamed to Ara h 3.02, number not available for future submissions;;Food;24.06.03;04.05.12
+;Ara h 5;Profilin;15 kDa;Food;24.06.03;10.07.19
+;Ara h 6;Conglutin (2S albumin);15 kDa;Food;24.06.03;10.07.19
+;Ara h 7;Conglutin (2S albumin);15 kDa;Food;18.07.08;10.07.19
+;Ara h 8;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Food;25.04.04;10.07.19
+;Ara h 9;Nonspecific lipid-transfer protein type 1;9.8 kDa;Food;30.10.07;11.07.19
+;Ara h 10;16 kDa oleosin;16 kDa;Food;11.07.08;10.07.19
+;Ara h 11;14 kDa oleosin;14 kDa;Food;11.07.08;10.07.19
+;Ara h 12;Defensin;8 kDa (reducing), 12 kDa (non-reducing), 5.184 kDa (mass);Food;03.07.12;10.07.19
+;Ara h 13;Defensin;8 kDa (reducing), 11 kDa (non-reducing), 5.472 kDa (mass);Food;03.07.12;10.07.19
+;Ara h 14;Oleosin;17.5 kDa;Food;27.03.15;10.07.19
+;Ara h 15;Oleosin;17 kDa;Food;27.03.15;10.07.19
+;Ara h 16;non-specific Lipid Transfer Protein 2;8.5 kDa by SDS PAGE reducing;Food;21.05.15;10.07.19
+;Ara h 17;non-specific Lipid Transfer Protein 1;11 kDa by SDS-PAGE reducing;Food;21.05.15;10.07.19
+Artemisia absinthium (Absinthe wormwood);;;;;;
+;Art ab 1;Defensin-like protein with polyproline rich domain;24 to 26 kDa;Airway;07.06.19;10.07.19
+Artemisia annua (Sweet Wormwood);;;;;;
+;Art an 1;Defensin-like protein with polyproline rich domain;24 to 26 kDa;Airway;07.06.19;10.07.19
+;Art an 7;Putative Galactose Oxidase;62 kDa;Airway;02.12.17;10.07.19
+Artemisia argyi (Silvery wormwood);;;;;;
+;Art ar 2;PR-1;18 kDa;Airway;24.11.17;11.07.19
+Artemisia californica (California sagebrush);;;;;;
+;Art c 1;Defensin-like protein with polyproline-rich domain;24 to 26 kDa;Airway;13.08.19;07.09.19
+Artemisia frigida (Desert sagebrush);;;;;;
+;Art f 1;Defensin-like protein with polyproline rich domain;24 to 26 kDa;Airway;07.06.19;07.09.19
+Artemisia ludoviciana (Silver wormwood);;;;;;
+;Art l 1;Defensin-like protein with polyproline rich domain;24-26 kDa;Airway;07.06.19;11.07.19
+Artemisia tridentata (Common sagebrush);;;;;;
+;Art t 1;Defensin-like protein with polyproline rich domain;24 to 26 kDa;Airway;07.06.19;11.07.19
+Artemisia vulgaris (Mugwort, wormwood);;;;;;
+;Art v 1;Defensin-like protein;28 kDa;Airway;14.04.03;10.07.19
+;Art v 2;Pathogenesis-related protein PR-1;20 kDa (35 kDa non-red);Airway;17.04.03;11.07.19
+;Art v 3;Nonspecific lipid transfer protein type 1;12 kDa;Airway;17.04.03;11.07.19
+;Art v 4;Profilin;14 kDa;Airway;17.04.03;11.07.19
+;Art v 5;Polcalcin;10 kDa;Airway;03.11.06;11.07.19
+;Art v 6;Pectate lyase;44 kDa;Airway;03.11.06;11.07.19
+Bertholletia excelsa (Brazil nut);;;;;;
+;Ber e 1;2S sulfur-rich seed storage albumin;9 kDa;Food;24.06.03;16.07.19
+;Ber e 2;11S globulin seed storage protein;29 kDa;Food;02.11.06;16.07.19
+Beta vulgaris (Sugar beet);;;;;;
+;Beta v 1;Che a 1/Ole e 1 homolgue;17 kDa;Airway;18.08.08;16.07.19
+;Beta v 2;Profilin, pollen;14 kDa;Airway;18.08.08;16.07.19
+Betula verrucosa (Betula pendula) (European white birch);;;;;;
+;Bet v 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Airway;13.03.03;16.07.19
+;Bet v 2;Profilin;15 kDa;Airway;18.03.03;16.07.19
+;Bet v 3;Polcalcin-like protein (4 EF-hand);24 kDa;Airway;18.03.03;16.07.19
+;Bet v 4;Polcalcin;7-8 kDa;Airway;18.03.03;16.07.19
+;Bet v 6;PhenylCoumaran benzylic ether reductase;35 kDa;Airway;18.03.03;16.07.19
+;Bet v 7;Cyclophilin;18 kDa;Airway;18.03.03;16.07.19
+;Bet v 8;Glutathione-S-transferase;27 kDa;Airway;08.02.16;16.07.19
+Brassica juncea (Indian or oriental mustard);;;;;;
+;Bra j 1;2S albumin seed storage protein;14 kDa;Food;19.06.03;19.07.19
+Brassica napus (Rapeseed);;;;;;
+;Bra n 1;2S albumin seed storage protein;15 kDa;Food;19.06.03;19.07.19
+Brassica oleracea (Cabbage and others);;;;;;
+;Bra o 3;non-specific lipid transfer protein type 1;9 kDa;Food;13.10.06;19.07.19
+Brassica rapa (Field mustard, turnip);;;;;;
+;Bra r 1;2S albumin, napins;10-14 kDa;Food;13.10.06;19.07.19
+;Bra r 2;Prohevein homologue;25 kDa;Food;19.06.03;19.07.19
+;Bra r 5;Polcalcin;;Food;12.07.12;19.07.19
+Cannabis sativa (Indian hemp);;;;;;
+;Can s 3;Non-specific lipid transfer protein type 1;9 kDa;Airway;28.04.14;20.07.19
+Capsicum annuum (Chilli, bell pepper);;;;;;
+;Cap a 1;Osmotin-like protein (thaumatin-like protein);23 kDa;Food;08.08.03;20.07.19
+;Cap a 2;Profilin;14 kDa;Food;08.08.03;20.07.19
+Carica papaya (Papaya);;;;;;
+;Cari p 1;endo-polygalacturonase;57 kDa;Food;21.12.17;20.07.19
+Carpinus betulus (Hornbeam);;;;;;
+;Car b 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Airway;20.03.03;20.07.19
+Carya illinoinensis (Pecan);;;;;;
+;Car i 1;2S albumin seed storage protein;16 kDa;Food;07.12.09;20.07.19
+;Car i 2;Vicilin-like protein;55 kDa;Food;26.11.18;20.07.19
+;Car i 4;Legumin seed storage protein;Subunit of hexameric protein: 55.4 kDa;Food;07.12.09;20.07.19
+Castanea sativa (Chestnut);;;;;;
+;Cas s 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;22 kDa;Airway;20.03.03;20.07.19
+;Cas s 5;Chitinase;;Food;20.03.03;29.04.10
+;Cas s 8;Non-specific lipid transfer protein type 1;12-13 kDa (non-red), 9 kDa (red);Food;20.03.03;20.07.19
+;Cas s 9;Cytosolic class I small heat shock protein;17 kDa;Food;25.01.10;20.07.19
+Catharanthus roseus (Rosy periwinkle);;;;;;
+;Cat r 1;Cyclophilin;18 kDa;Airway;03.11.06;30.07.19
+Chenopodium album (Lamb's quarters, white goosefoot);;;;;;
+;Che a 1;Ole e 1 homologue;17 kDa;Airway;03.11.06;31.07.19
+;Che a 2;Profilin;14 kDa;Airway;03.11.06;31.07.19
+;Che a 3;Polcalcin;10 kDa;Airway;03.11.06;31.07.19
+Citrullus lanatus (Watermelon);;;;;;
+;Citr l 2;Profilin;14 kDa;Food;;22.11.16
+Citrus limon (Lemon);;;;;;
+;Cit l 3;Non-specific lipid-transfer protein type 1;9.6 kDa (MALDI-TOF MS);Food;17.10.04;31.07.19
+Citrus reticulata (Tangerine);;;;;;
+;Cit r 3;Non-specific lipid transfer protein type 1;9 kDa;Food;08.02.07;31.07.19
+Citrus sinensis (Sweet orange);;;;;;
+;Cit s 1;Germin-like protein;23 kDa;Food;17.10.04;31.07.19
+;Cit s 2;Profilin;14 kDa;Food;17.10.04;31.07.19
+;Cit s 3;Non-specific lipid-transfer protein type 1;9.46 kDa (MALDI-TOF MS);Food;17.10.04;31.07.19
+;Cit s 7;Gibberellin regulated protein;8 kDa;Food;22.06.16;07.08.19
+Coffea arabica (Arabian coffee);;;;;;
+;Cof a 1;Class III chitinase;32 kDa;Airway;08.04.11;31.07.19
+;Cof a 2;Metallothionein type 2;9 kDa;Airway;17.05.13;31.07.19
+;Cof a 3;Metallothionein type 3;7 kDa;Airway;17.05.13;31.07.19
+Corylus avellana (Hazelnut);;;;;;
+;Cor a 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Airway;20.03.03;01.08.19
+;Cor a 2;Profilin;14 kDa;Food;27.03.03;02.08.19
+;Cor a 6;Isoflavone reductase homologue;35 kDa;Airway;17.07.13;01.08.19
+;Cor a 8;Non-specific lipid transfer protein type 1;9 kDa;Food;27.03.03;01.08.19
+;Cor a 9;11S seed storage globulin (legumin-like);40 kDa;Food;27.03.03;01.08.19
+;Cor a 10;Luminal binding protein;70 kDa;Airway;27.03.03;02.08.19
+;Cor a 11;7S seed storage globulin (vicilin-like);48 kDa;Food;27.03.03;03.08.19
+;Cor a 12;17 kDa oleosin;17 kDa;Food;11.07.08;09.01.19
+;Cor a 13;14-16 kDa oleosin;14-16 kDa;Food;11.07.08;09.01.19
+;Cor a 14;2S albumin;10 kDa reducing;Food;23.10.08;09.01.19
+;Cor a 15;Oleosin;17 kDa;Food;07.07.19;03.08.19
+Cucumis melo (Muskmelon);;;;;;
+;Cuc m 1;Alkaline serine protease (cucumisin);67 kDa;Food;19.06.03;09.08.19
+;Cuc m 2;Profilin;14 kDa;Food;18.04.04;09.08.19
+;Cuc m 3;Pathogenesis-related protein PR-1;17 kDa;Food;03.11.06;09.08.19
+Cucurbita maxima (Pumpkin);;;;;;
+;Cuc ma 4;11S globulin;"50 kDa non reducing; 35 kDa and 23 kDa reducing";Food;17.05.19;09.08.19
+;Cuc ma 5;2S albumin;14 kDa;Food;17.05.19;09.08.19
+Daucus carota (Carrot);;;;;;
+;Dau c 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;16 kDa;Food;17.06.03;09.08.19
+;Dau c 4;Profilin;14 kDa;Food;17.06.03;09.08.19
+;Dau c 5;Isoflavone reductase-like protein;33 kDa;Food;03.04.12;15.08.19
+Fagopyrum esculentum (Common buckwheat);;;;;;
+;Fag e 2;2S albumin;16 kDa;Food;27.05.10;16.08.19
+;Fag e 3;Vicilin;19 kDa (fragment);Food;05.04.12;16.08.19
+;Fag e 4;Antimicrobial Peptide;3.9 kDa;Food;21.04.17;16.08.19
+;Fag e 5;Vicilin-like protein;55 kDa;Food;07.10.17;16.08.19
+Fagopyrum tataricum (Tartarian buckwheat);;;;;;
+;Fag t 2;2S albumin;16 kDa;Food;08.04.11;16.08.19
+Fagus sylvatica (European beech);;;;;;
+;Fag s 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Airway;22.09.10;16.08.19
+Fragaria ananassa (Strawberry);;;;;;
+;Fra a 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;18 kDa;Food;13.10.06;17.08.19
+;Fra a 3;Non-specific lipid transfer protein type 1 (nsLTP1);9 kDa;Food;13.10.06;17.08.19
+;Fra a 4;Profilin;13 kDa;Food;13.10.06;17.08.19
+Fraxinus excelsior (European ash);;;;;;
+;Fra e 1;Ole e 1-like protein family member;20 kDa;Airway;27.10.04;17.08.19
+Glycine max (Soybean);;;;;;
+;Gly m 1;Hydrophobic protein from soybean;7 kDa;Food;24.06.03;27.08.19
+;Gly m 2;Defensin;8 kDa;Airway;25.06.03;27.08.19
+;Gly m 3;Profilin;14 kDa;Food;25.06.03;27.08.19
+;Gly m 4;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Food;03.11.06;27.08.19
+;Gly m 5;Beta-conglycinin (vicilin, 7S globulin);see subunits;Food;19.08.08;27.08.19
+;Gly m 6;Glycinin (legumin, 11S globulin);see subunits;Food;19.08.08;27.08.19
+;Gly m 7;Seed biotinylated protein;76.2 kDa;Food;24.09.12;27.08.19
+;Gly m 8;2S albumin;28 kDa;Food;19.11.13;27.08.19
+Helianthus annuus (Sunflower);;;;;;
+;Hel a 1;;34 kDa;Airway;17.04.03;27.08.19
+;Hel a 2;Profilin;14.7 kDa;Airway;17.04.03;27.08.19
+;Hel a 3;Non-specific lipid transfer protein type 1 (nsLTP1);9 kDa;Food;03.11.06;27.08.19
+;Hel a 6;Pectate Lyase;42 kDa;Airway;11.12.17;27.08.19
+Hevea brasiliensis (Para rubber tree (latex));;;;;;
+;Hev b 1;Rubber elongation factor;14 kDa;Contact;03.07.03;11.07.19
+;Hev b 2;"beta-1,3-glucanase; glucan endo-1,3-beta-glucosidase, basic vacuolar isoform";35, 36.5 and 38 kDa;Contact;03.07.03;17.07.19
+;Hev b 3;Small rubber particle protein (SRPP);24 kDa;Contact;03.07.03;17.07.19
+;Hev b 4;"Lecithinase homologue; GDSL lipase/esterase family member";53-55 kDa;Contact;03.07.03;17.07.19
+;Hev b 5;Acidic protein, unknown function;16 kDa;Contact;24.07.03;17.07.19
+;Hev b 6;Hevein precursor;20 kDa;Contact;24.07.03;27.08.19
+;Hev b 7;Patatin-like protein;42 kDa;Contact;24.07.03;27.08.19
+;Hev b 8;Profilin;15 kDa;Contact;24.07.03;27.08.19
+;Hev b 9;Enolase;51 kDa;Contact;24.07.03;27.08.19
+;Hev b 10;Superoxide dismutase (Mn);26 kDa;Contact;24.07.03;27.08.19
+;Hev b 11;Class I chitinase;30 kDa;Contact;24.07.03;27.08.19
+;Hev b 12;Non-specific lipid transfer protein type 1 (nsLTP1);9 kDa;Contact;24.07.03;27.08.19
+;Hev b 13;Esterase;42 kDa;Contact;24.07.03;27.08.19
+;Hev b 14;Hevamine;30 kDa;Contact;30.07.10;27.08.19
+;Hev b 15;Serine protease inhibitor;7.5 kDa;Contact;24.04.14;27.08.19
+Humulus japonicus (Japanese hop);;;;;;
+;Hum j 1;;10 kDa;Airway;03.11.06;27.08.19
+Juglans nigra (Black walnut);;;;;;
+;Jug n 1;2S albumin seed storage protein;;Food;01.07.03;29.04.10
+;Jug n 2;Vicilin seed storage protein;;Food;01.07.03;29.04.10
+;Jug n 4;Legumin;34 kDa, 22 kDa;Food;20.12.16;27.08.19
+Juglans regia (English walnut);;;;;;
+;Jug r 1;2S albumin seed storage protein;15-16 kDa;Food;27.03.03;28.08.19
+;Jug r 2;Vicilin seed storage protein;44 kDa;Food;27.03.03;28.08.19
+;Jug r 3;Non-specific lipid transfer protein type 1 (nsLTP1);9 kDa;Food;27.03.03;28.08.19
+;Jug r 4;11S globulin seed storage protein;58.1 kDa;Food;08.02.07;28.08.19
+;Jug r 5;PR-10;20 kDa;Food;26.06.16;28.08.19
+;Jug r 6;vicilin-like cupin;47 kDa;Food;09.03.17;28.08.19
+;Jug r 7;Profilin;13 kDa;Food;21.12.17;28.08.19
+;Jug r 8;ns-LTP-2;9 kDa;Food;10.04.18;28.08.19
+Kochia scoparia (Burning bush);;;;;;
+;Koc s 1;Ole e 1- like protein;18 kDa;Airway;17.07.15;28.08.19
+;Koc s 2;profilin;~14.5 kDa;Airway;18.08.14;28.08.19
+Lactuca sativa (Cultivated lettuce);;;;;;
+;Lac s 1;Non-specific lipid transfer protein;9 kDa;Food;03.11.06;29.08.19
+Lens culinaris (Lentil);;;;;;
+;Len c 1;Gamma-vicilin subunit;47 kDa;Food;26.06.03;29.08.19
+;Len c 2;Seed-specific biotinylated protein;66 kDa;Food;26.06.03;29.08.19
+;Len c 3;Nonspecific lipid transfer protein type 1;9 kDa;Food;27.05.10;29.08.19
+Ligustrum vulgare (Common privet);;;;;;
+;Lig v 1;Ole e 1-like protein family member;20 kDa;Airway;02.04.03;29.08.19
+Litchi chinensis (Lychee);;;;;;
+;Lit c 1;Profilin;15 kDa;Food;08.08.03;29.08.19
+Lupinus albus (white lupine);;;;;;
+;Lup a 5;Profilin;15 kDa;Food;29.01.17;29.08.19
+Lupinus angustifolius (Narrow‑leaved blue lupin);;;;;;
+;Lup an 1;Conglutin beta (7S seed storage globulin, vicilin);55-61 kDa;Food;28.01.08;29.08.19
+Malus domestica (Apple);;;;;;
+;Mal d 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17.5 kDa;Food;17.04.03;29.08.19
+;Mal d 2;Thaumatin-like protein;23 kDa;Food;17.04.03;29.08.19
+;Mal d 3;Non-specific lipid transfer protein type 1 (nsLTP1);9 kDa;Food;22.04.03;29.08.19
+;Mal d 4;Profilin;N.A.;Food;22.04.03;29.04.10
+Manihot esculenta (Cassava, manioc);;;;;;
+;Man e 5;Glutamic acid rich protein;30 kDa (anomalous migration due to high P and E content);Food;13.04.11;30.08.19
+Mercurialis annua (Annual mercury);;;;;;
+;Mer a 1;Profilin;"14.1 kDa; 15.8 kDa";Airway;25.09.07;30.08.19
+Morus nigra (Mulberry);;;;;;
+;Mor n 3;Non-specific lipid transfer protein type 1 (nsLTP1);10 kDa;Food;27.05.09;30.08.19
+Olea europaea (Olive);;;;;;
+;Ole e 1;Common olive group 1;16 kDa;Airway;02.04.03;04.09.19
+;Ole e 2;Profilin-1;15 kDa;Airway;03.04.03;04.09.19
+;Ole e 3;Polcalcin;9 kDa;Airway;03.04.03;04.09.19
+;Ole e 4;;32 kDa;Airway;03.04.03;04.09.19
+;Ole e 5;Superoxide dismutase [Cu-Zn];16 kDa;Airway;03.04.03;04.09.19
+;Ole e 6;;10 kDa;Airway;03.02.03;04.09.19
+;Ole e 7;putative non-specific lipid transfer protein;9.5 kDa;Airway;02.04.03;04.05.19
+;Ole e 8;Polcalcin-like protein (4 EF-hands);21 kDa;Airway;07.04.03;04.09.19
+;Ole e 9;1 3-beta glucanase;46 kDa;Airway;25.04.04;04.09.19
+;Ole e 10;X8 domain containing protein;10.8 kDa;Airway;05.11.06;04.09.19
+;Ole e 11;Pectin methylesterase;37.4 kDa;Airway;27.05.10;04.09.19
+;Ole e 12;Isoflavone reductase;37 kDa;Airway;04.04.18;04.09.19
+;Ole e 13;Thaumatin;23 kDa;Airway;04.04.18;04.09.19
+;Ole e 14;Polygalacturonase;46.5 kDa;Airway;30.10.17;04.09.19
+;Ole e 15;Cyclophilin;19 kDa;Airway;20.03.18;04.09.19
+Ostrya carpinifolia (European hop‑hornbeam);;;;;;
+;Ost c 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Airway;22.09.10;05.09.19
+Parietaria judaica (Pellitory of the wall);;;;;;
+;Par j 1;Phospholipid transfer protein;15 kDa;Airway;22.04.03;05.09.19
+;Par j 2;Phospholipid transfer protein;10-14 kDa;Airway;22.04.03;05.09.19
+;Par j 3;Profilin;;Airway;22.04.03;05.09.19
+;Par j 4;Polcalcin;9 kDa;Airway;21.12.07;05.09.19
+Parietaria officinalis (Pellitory);;;;;;
+;Par o 1;Phospholipid transfer protein;15 kDa;Airway;22.04.03;05.09.19
+Parthenium hysterophorus (Feverfew);;;;;;
+;Par h 1;pollen defensin-like protein;12 kDa;Airway;26.06.16;05.09.19
+Persea americana (Avocado);;;;;;
+;Pers a 1;Class I chitinase;32 kDa;Food;03.07.03;05.09.19
+Phaseolus vulgaris (Green bean, French bean);;;;;;
+;Pha v 3;non-specific lipid transfer protein type 1;8.8-9.0 kDa;Food;04.09.09;05.09.19
+Pistacia vera (Pistachio);;;;;;
+;Pis v 1;2S albumin;7 kDa;Food;08.02.07;05.09.19
+;Pis v 2;11S globulin subunit;32 kDa;Food;08.02.07;05.09.19
+;Pis v 3;vicillin;55 kDa;Food;05.06.07;05.09.19
+;Pis v 4;manganese superoxide dismutase;25.7 kDa;Food;25.09.07;05.09.19
+;Pis v 5;11S globulin subunit;36 kDa (acidic subunit);Food;08.02.08;05.09.19
+Pisum sativum (Pea);;;;;;
+;Pis s 1;Vicilin;44 kDa;Food;03.11.06;05.09.19
+;Pis s 2;Convicilin;63 kDa;Food;03.11.06;05.09.19
+;Pis s 3;nsLTP;9.5 kDa;Food;06.05.16;05.09.19
+Plantago lanceolata (English plantain);;;;;;
+;Pla l 1;Ole e 1-related protein;18 kDa;Airway;07.04.03;05.09.19
+;Pla l 2;Profilin;15 kDa;Airway;30.12.15;06.09.19
+Platanus acerifolia (London plane tree);;;;;;
+;Pla a 1;Putative invertase inhibitor;18 kDa;Airway;10.04.03;05.09.19
+;Pla a 2;Polygalacturonase;43 kDa;Airway;08.04.03;05.09.19
+;Pla a 3;Non-specific lipid transfer protein 1;10 kDa;Airway;05.11.06;05.09.19
+Platanus orientalis (Oriental plane tree);;;;;;
+;Pla or 1;Plant invertase/pectin methylesterase inhibitor;18 kDa;Airway;12.07.08;06.09.19
+;Pla or 2;Polygalacturonase;42 kDa;Airway;12.07.08;06.09.19
+;Pla or 3;nsLTP1;11 kDa;Airway;12.07.08;06.09.19
+Prosopis juliflora (Mesquite);;;;;;
+;Pro j 1;Ole e 1- like protein;18 kDa;Airway;17.07.15;06.09.19
+;Pro j 2;Profilin;14.3 kDa;Airway;01.06.14;06.09.19
+Prunus armeniaca (Apricot);;;;;;
+;Pru ar 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;N.A.;Food;22.04.03;04.06.13
+;Pru ar 3;Non-specific lipid transfer protein 1 (nsLTP1);9 kDa;Food;22.04.03;06.09.19
+;Pru ar 5;acidic protein Hev b 5-like;17.4 kDa;Food;17.02.19;06.09.19
+Prunus avium (Sweet cherry);;;;;;
+;Pru av 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;9 kDa;Food;22.04.03;06.09.19
+;Pru av 2;Thaumatin-like protein;23 kDa;Food;22.04.03;06.09.19
+;Pru av 3;Non-specific lipid transfer protein 1 (nsLTP1);10 kDa;Food;24.04.03;06.09.19
+;Pru av 4;Profilin;15 kDa;Food;22.04.03;06.09.19
+Prunus domestica (European plum);;;;;;
+;Pru d 3;Non-specific lipid transfer protein 1 (nsLTP1);9 kDa;Food;24.04.03;06.09.19
+Prunus dulcis (Almond);;;;;;
+;Pru du 3;Non-specific lipid transfer protein 1 (nsLTP1);9 kDa;Food;23.09.09;06.09.19
+;Pru du 4;Profilin;14 kDa;Food;03.11.06;07.09.19
+;Pru du 5;60s acidic ribosomal prot. P2;10 kDa;Food;18.02.07;07.09.19
+;Pru du 6;Amandin, 11S globulin legumin-like protein;ca. 360 kDa;Food;25.01.10;07.09.19
+;Pru du 8;Antimicrobial seed storage protein;31 kDa;Food;30.10.18;07.09.19
+Prunus mume (Japanese apricot);;;;;;
+;Pru m 7;gibberellin-regulated protein;6.9 kDa;Food;22.11.16;07.09.19
+Prunus persica (Peach);;;;;;
+;Pru p 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;18 kDa;Food;05.06.07;07.09.19
+;Pru p 2;Thaumatin-like protein;25-28 kDa;Food;01.02.10;07.09.19
+;Pru p 3;Non-specific lipid transfer protein 1 (nsLTP1);10 kDa;Food;24.04.03;07.09.19
+;Pru p 4;Profilin;14 kDa;Food;24.04.03;07.09.19
+;Pru p 7;Gibberellin-regulated protein (PF02704);6910.84 Da (mass spectrometry, mature protein);Food;12.09.12;07.09.19
+;Pru p 9;Pathogenesis-related protein PR-1;18 kDa;Airway;12.12.18;07.09.19
+Punica granatum (Pomegranate);;;;;;
+;Pun g 1;Non-specific lipid transfer protein 1 (nsLTP1);9 kDa;Food;25.04.13;07.09.19
+;Pun g 7;Gibberellin regulated protein;7 kDa;Food;07.09.18;07.09.19
+Pyrus communis (Pear);;;;;;
+;Pyr c 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;18 kDa;Food;24.04.03;07.09.19
+;Pyr c 3;Nonspecific lipid-transfer protein 1;9 kDa;Food;24.04.03;07.09.19
+;Pyr c 4;Profilin;14 kDa;Food;24.04.03;07.09.19
+;Pyr c 5;Isoflavone reductase related protein, putative phenylcoumaran benzylic ether reductase;34 kDa;Food;24.04.03;07.09.19
+Quercus alba (White oak);;;;;;
+;Que a 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Airway;27.03.03;07.09.19
+Quercus mongolica (Mongolian oak);;;;;;
+;Que m 1;Pathogenesis protein 10;17 kDa;Airway;18.01.19;07.09.19
+Ricinus communis (Castor bean);;;;;;
+;Ric c 1;2S albumin;11 kDa;Food;08.08.03;07.09.19
+Rubus idaeus (Red raspberry);;;;;;
+;Rub i 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;17 kDa;Food;18.02.07;07.09.19
+;Rub i 3;Non-specific lipid transfer protein 1 (nsLTP1);11 kDa;Food;18.02.07;07.09.19
+Salsola kali (Russian thistle, Saltwort);;;;;;
+;Sal k 1;Pectin methylesterase;43 kDa;Airway;17.04.03;07.09.19
+;Sal k 2;Protein kinase homologue;36 kDa;Airway;17.04.03;07.09.19
+;Sal k 3;Cobalamin independent methionine synthase;39+45 kDa;Airway;08.09.09;07.09.19
+;Sal k 4;Profilin;14.4 kDa;Airway;08.09.09;07.09.19
+;Sal k 5;Ole e 1-like protein;18.2 kDa;Airway;27.11.09;07.09.19
+;Sal k 6;Polygalacturonase;47 kDa cleaves to 28 kDa;Airway;01.06.17;07.09.19
+;Sal k 7;Polcalcin;8.5 kDa;Airway;24.03.17;07.09.19
+Sesamum indicum (Sesame);;;;;;
+;Ses i 1;2S albumin;9 kDa;Food;07.04.03;01.08.18
+;Ses i 2;2S albumin;7;Food;07.04.03;29.04.10
+;Ses i 3;7S vicilin-like globulin;45;Food;10.04.03;29.04.10
+;Ses i 4;oleosin;17;Food;Jun 8 2006;29.04.10
+;Ses i 5;oleosin;15;Food;Jun 8 2006;29.04.10
+;Ses i 6;11S globulin;52;Food;Jun 8 2006;20.11.14
+;Ses i 7;11S globulin;57;Food;Feb 8 2007;20.11.14
+Sinapis alba (Yellow mustard);;;;;;
+;Sin a 1;2S albumin;14;Food;19.06.03;29.04.10
+;Sin a 2;11S globulin (legumin-like) seed storage protein;51;Food;Jan 28 200;05.02.15
+;Sin a 3;non-specific lipid transfer protein type 1;12.3 kDa;Food;Jul 21 200;29.04.10
+;Sin a 4;Profilin;13/14 kDa;Food;Jul 21 200;29.04.10
+Solanum lycopersicum (Lycopersicon esculentum) (Tomato);;;;;;
+;Sola l 1;Profilin;14;Food;08.08.03;05.03.13
+;Sola l 2;Beta-fructofuranosidase;50;Food;12.08.03;05.03.13
+;Sola l 3;Non-specific lipid transfer protein type 1 (nsLTP1);9;Food;Nov 3 2006;23.03.15
+;Sola l 4;Pathogenesis-related protein, PR-10, Bet v 1 family member, TSI-1;;Food;;11.10.16
+;Sola l 5;Cyclophilin;19 kDa;Food;;11.10.16
+;Sola l 6;Non-specific lipid transfer protein type 2 (nsLTP2);7 kDa;Food;;18.11.16
+;Sola l 7;nsLTP type 1;12.5 kDa (SDS PAGE reducing);Food;;18.11.16
+Solanum tuberosum (Potato);;;;;;
+;Sola t 1;Patatin;43;Food;14.08.03;29.04.10
+;Sola t 2;Cathepsin D inhibitor PDI;21;Food;14.08.03;29.04.10
+;Sola t 3;Cysteine protease inhibitor;21;Food;14.08.03;29.04.10
+;Sola t 4;Serine protease inhibitor 7;16;Food;14.08.03;29.04.10
+Syringa vulgaris (Lilac);;;;;;
+;Syr v 1;Ole e 1-related protein;20;Unknown;07.04.03;29.04.10
+;Syr v 3;Polcalcin;N.A.;Unknown;07.04.03;29.04.10
+Triplochiton scleroxylon (Obeche);;;;;;
+;Trip s 1;Endochitinase;38 kD;Unknown;;11.10.16
+Vigna radiata (Mung bean);;;;;;
+;Vig r 1;Pathogenesis-related protein, PR-10, Bet v 1 family member;16 kDa;Food;03.11.06;06.09.19
+;Vig r 2;8S Globulin (Vicilin);52 kDa;Food;03.05.12;06.09.19
+;Vig r 3;"Renamed to Vig r 2.0201; number not available for future submissions";50 kDa;Food;11.10.16;06.09.19
+;Vig r 4;Seed albumin;30 kDa;Food;03.05.12;06.09.19
+;Vig r 5;"Identified as fragment of Vig r 2; number not available for future submissions";18 kDa;Food;11.10.16;06.09.19
+;Vig r 6;Cytokinin-specific binding protein (CSBP), Bet v 1 family member;18 kDa;Food;03.05.12;06.09.19
+Vitis vinifera (Grape);;;;;;
+;Vit v 1;Non-specific lipid transfer protein 1 (nsLTP1);9 kDa;Food;24.06.03;06.09.19
+Ziziphus mauritiana (Chinese‑date);;;;;;
+;Ziz m 1;Class III chitinase;30 kDa;Food;03.11.06;06.09.19
+Ananas comosus (Pineapple);;;;;;
+;Ana c 1;Profilin;15 kDa;Food;19.06.03;03.07.19
+;Ana c 2;Bromelain;22.8 kDa;Food;03.11.06;03.07.19
+Anthoxanthum odoratum (Sweet vernal grass);;;;;;
+;Ant o 1;Beta-expansin;27 kDa;Airway;06.02.03;03.07.19
+Asparagus officinalis (Asparagus);;;;;;
+;Aspa o 1;Non-specific lipid transfer protein type 1;9 kDa;Food;19.06.03;16.07.19
+Cocos nucifera (Coconut);;;;;;
+;Coc n 1;vicilin-like protein;53 kDa;Airway;28.02.16;31.07.19
+Crocus sativus (Saffron crocus);;;;;;
+;Cro s 1;;21 kDa;Airway;03.11.06;03.08.19
+;Cro s 2;Profilin;14 kDa;Airway;03.11.06;03.08.19
+Cynodon dactylon (Bermuda grass);;;;;;
+;Cyn d 1;Beta-expansin;32 kDa;Airway;06.02.03;09.08.19
+;Cyn d 7;Polcalcin;12 kDa;Airway;06.02.03;09.08.19
+;Cyn d 12;Profilin;14.5 kDa;Airway;06.02.03;09.08.19
+;Cyn d 15;;9 kDa;Airway;03.11.06;09.08.19
+;Cyn d 22;enolase;;Airway;25.04.04;09.08.19
+;Cyn d 23;;9 kDa;Airway;06.03.03;09.08.19
+;Cyn d 24;Pathogenesis-related protein PR-1;21 kDa;Airway;03.11.06;09.08.19
+Dactylis glomerata (Orchard grass);;;;;;
+;Dac g 1;Beta-expansin;32 kDa;Airway;06.02.03;09.08.19
+;Dac g 2;;11 kDa;Airway;06.02.03;09.08.19
+;Dac g 3;;14 kDa;Airway;06.02.03;09.08.19
+;Dac g 4;;60 kDa;Airway;06.02.03;09.08.19
+;Dac g 5;;25/28 kDa;Airway;11.02.03;09.08.19
+Festuca pratensis (Meadow fescue);;;;;;
+;Fes p 4;;60 kDa;Airway;11.02.03;17.08.19
+Holcus lanatus (Velvet grass);;;;;;
+;Hol l 1;Beta-expansin;34 kDa;Airway;11.02.03;27.08.19
+;Hol l 5;;30 kDa;Airway;11.02.03;27.08.19
+Hordeum vulgare (Barley);;;;;;
+;Hor v 1;"deleted (identical to Hor v 15); designation reserved for beta-expansin pollen allergen";;Food;11.02.03;27.08.19
+;Hor v 5;;30 kDa;Airway;12.02.03;27.08.19
+;Hor v 12;Profilin;14 kDa;Food;25.03.03;27.08.19
+;Hor v 15;Alpha-amylase inhibitor BMAI-1 precursor;14.5 kDa;Food;27.10.03;27.08.19
+;Hor v 16;Alpha-amylase;;Food;27.10.03;29.04.10
+;Hor v 17;Beta-amylase;;Food;27.10.03;29.04.10
+;Hor v 20;Gamma-hordein 3;34 kDa;Food;12.02.03;27.08.19
+Lolium perenne (Rye grass);;;;;;
+;Lol p 1;Beta-expansin;27 kDa;Airway;12.02.03;29.08.19
+;Lol p 2;;11 kDa;Airway;12.02.03;29.08.19
+;Lol p 3;;11 kDa;Airway;12.02.03;29.08.19
+;Lol p 4;;57 kDa;Airway;13.02.03;29.08.19
+;Lol p 5;;31 kDa;Airway;13.02.03;29.08.19
+;Lol p 11;Ole e 1-related protein;16 kDa;Airway;17.02.03;29.08.19
+Musa acuminata (Banana);;;;;;
+;Mus a 1;Profilin;15 kDa;Food;16.07.09;30.08.19
+;Mus a 2;Class 1 chitinase;33 kDa;Food;18.11.08;30.08.19
+;Mus a 3;Non-specific lipid transfer protein type 1 (nsLTP1);9 kDa;Food;30.11.09;30.08.19
+;Mus a 4;Thaumatin-like protein;20 kDa;Food;30.11.09;30.08.19
+;Mus a 5;Beta-1,3-glucanase;30 kDa;Food;27.11.09;30.08.19
+;Mus a 6;ascorbate peroxidase;27 kDa;Food;25.08.15;30.08.19
+Oryza sativa (Rice);;;;;;
+;Ory s 1;Beta-expansin;35 kDa;Airway;17.02.03;05.09.19
+;Ory s 12;Profilin A;14 kDa;Airway;25.03.03;05.09.19
+Paspalum notatum (Bahia grass);;;;;;
+;Pas n 1;Beta expansin;29 kDa;Airway;28.01.08;05.09.19
+Phalaris aquatica (Canary grass);;;;;;
+;Pha a 1;Beta-expansin;34 kDa;Airway;17.02.03;05.09.19
+;Pha a 5;;28.8-33.5 kDa;Airway;17.02.03;05.09.19
+Phleum pratense (Timothy);;;;;;
+;Phl p 1;Beta-expansin;27 kDa;Airway;13.02.03;05.09.19
+;Phl p 2;Grass group II/III;10-12 kDa;Airway;17.02.03;05.09.19
+;Phl p 4;Berberine bridge enzyme;55 kDa;Airway;13.02.03;05.09.19
+;Phl p 5;;32 kDa;Airway;13.02.03;05.09.19
+;Phl p 6;;11 kDa;Airway;17.02.03;05.09.19
+;Phl p 7;Polcalcin;6 kDa (8.6 kDa calc mass);Airway;18.02.03;05.09.19
+;Phl p 11;Ole e 1-related protein;20 kDa;Airway;18.02.03;05.09.19
+;Phl p 12;Profilin;14 kDa;Airway;18.02.03;05.09.19
+;Phl p 13;Polygalacturonase;55 kDa;Airway;18.02.03;05.09.19
+Phoenix dactylifera (Date palm);;;;;;
+;Pho d 2;Profilin;14 kDa;Food;13.03.03;05.09.19
+Poa pratensis (Kentucky blue grass);;;;;;
+;Poa p 1;Beta-expansin;33 kDa;Airway;18.02.03;06.09.19
+;Poa p 5;;34 kDa;Airway;18.02.03;06.09.19
+Secale cereale (Rye);;;;;;
+;Sec c 1;"renamed to Sec c 38; designation reserved for beta-expansin pollen allergen";;Unknown;;11.10.16
+;Sec c 5;Group 5 grass pollen allergen;;Unknown;;11.10.16
+;Sec c 20;Gamma-secalin;70;Food;18.02.03;17.09.12
+;Sec c 38;Dimeric alpha-amylase/trypsin inhibitor;13.5;Unknown;18.02.03;17.09.12
+Sorghum halepense (Johnson grass);;;;;;
+;Sor h 1;Beta-expansin;30-35 kDa;Unknown;06.03.03;20.11.14
+;Sor h 2;"Expansin-like protein; grass pollen group 2 allergen";12 kDa;Unknown;;07.08.17
+;Sor h 13;Exopolygalacturonase (Glycosyl hydrolase 28);54-55 kDa (glycosylated protein);Unknown;;11.10.16
+Triticum aestivum (Wheat);;;;;;
+;Tri a 12;Profilin;14;Unknown;25.03.03;18.02.16
+;Tri a 14;Non-specific lipid transfer protein 1;9;Food;Feb 18 200;22.11.14
+;Tri a 15;Monomeric alpha-amylase inhibitor 0.28;;Unknown;;11.10.16
+;Tri a 17;beta-amylase;56 kDa;Food;;11.09.18
+;Tri a 18;Agglutinin isolectin 1;;Food;06.03.03;29.04.10
+;Tri a 19;Omega-5 gliadin, seed storage protein;65;Food;06.03.03;29.04.10
+;Tri a 20;Gamma gliadin;35 to 38 kDa;Food;;11.10.16
+;Tri a 21;Alpha-beta-gliadin;;Unknown;;11.10.16
+;Tri a 25;Thioredoxin;;Food;Oct 13 200;07.04.11
+;Tri a 26;High molecular weight glutenin;88;Food;Oct 13 200;25.05.11
+;Tri a 27;Thiol reductase homologue;27;Unknown;Oct 15 200;22.11.14
+;Tri a 28;Dimeric alpha-amylase inhibitor 0.19;13;Unknown;Oct 15 200;22.11.14
+;Tri a 29;Tetrameric alpha-amylase inhibitor CM1/CM2;13;Unknown;Oct 15 200;29.04.10
+;Tri a 30;Tetrameric alpha-amylase inhibitor CM3;16;Unknown;Oct 15 200;29.04.10
+;Tri a 31;Triosephosphate-isomerase;;Unknown;;11.10.16
+;Tri a 32;1-cys-peroxiredoxin;;Unknown;;11.10.16
+;Tri a 33;Serpin;;Unknown;;11.10.16
+;Tri a 34;Glyceraldehyde-3-phosphate-dehydrogenase;;Unknown;;11.10.16
+;Tri a 35;Dehydrin;;Unknown;;11.10.16
+;Tri a 36;Low molecular weight glutenin GluB3-23;40 kDa;Food;;11.10.16
+;Tri a 37;Alpha purothionin;12 kDa;Food;;11.10.16
+;Tri a 39;Serine protease inhibitor-like protein;;Unknown;;11.10.16
+;Tri a 40;Chloroform/methanol-soluble (CM) 17 protein [alpha amylase inhibitor];15.96 kDa;Unknown;;29.11.16
+;Tri a 41;Mitochondrial ubiquitin ligase activator of NFKB 1;;Food;;11.10.16
+;Tri a 42;Hypothetical protein from cDNA;;Food;;11.10.16
+;Tri a 43;Hypothetical protein from cDNA;;Food;;11.10.16
+;Tri a 44;Endosperm transfer cell specific PR60 precursor;;Food;;11.10.16
+;Tri a 45;Elongation factor 1 (EIF1);;Food;;11.10.16
+Triticum turgidum ssp durum (Durum wheat);;;;;;
+;Tri tu 14;nsLipid transfer protein 1;9.2 kDa;Food;28.12.18;06.01.19
+Urochloa mutica (Para grass);;;;;;
+;Uro m 1;Beta expansin;30 kDa;Unknown;;17.08.18
+Zea mays (Maize);;;;;;
+;Zea m 1;Beta-expansin;25-35;Airway;06.03.03;06.09.19
+;Zea m 8;Class IV chitinase;28.6 kDa;Food;15.12.16;06.09.19
+;Zea m 12;Profilin;14 kDa;Airway;25.03.03;06.09.19
+;Zea m 14;Nonspecific lipid-transfer protein;9 kDa;Food;13.03.03;06.09.19
+;Zea m 25;thioredoxin;13.8 kDa;Airway;13.10.06;06.09.19
+Chamaecyparis obtusa (Japanese cypress);;;;;;
+;Cha o 1;Pectate lyase;47 kDa;Airway;27.03.03;31.07.19
+;Cha o 2;Polygalacturonase;45 kDa;Airway;27.03.03;31.07.19
+;Cha o 3;Cellulase (glycosyl hydrolase);63kDa;Airway;25.08.15;31.07.19
+Cryptomeria japonica (Sugi, Japanese cedar);;;;;;
+;Cry j 1;Pectate lyase;41-45 kDa (45-50 kDa non-red);Airway;27.03.03;03.08.19
+;Cry j 2;Polygalacturonase;45 kDa (37 kDa non-red);Airway;01.04.03;03.08.19
+Cupressus arizonica (Cypress);;;;;;
+;Cup a 1;Pectate lyase;43 kDa;Airway;02.04.03;09.08.19
+Cupressus sempervirens (Common cypress);;;;;;
+;Cup s 1;Pectate lyase;43 kDa;Airway;02.04.03;15.08.19
+;Cup s 2;Polygalacturonase;43 kDa;Airway;29.05.17;09.08.19
+;Cup s 3;Thaumatin-like protein;34 kDa;Airway;25.04.04;09.08.19
+Juniperus ashei (Mountain cedar);;;;;;
+;Jun a 1;Pectate lyase;43 kDa;Airway;02.04.03;28.08.19
+;Jun a 2;Polygalacturonase;43 kDa;Airway;02.04.03;28.08.19
+;Jun a 3;Thaumatin-like protein;30 kDa;Airway;02.04.03;28.08.19
+Juniperus oxycedrus (Prickly juniper);;;;;;
+;Jun o 4;Polcalcin-like protein (4 EF hand domains);29 kDa;Airway;02.04.03;28.08.19
+Juniperus sabinoides (Mountain cedar);;;;;;
+;Jun s 1;;;Airway;02.04.03;28.08.19
+Juniperus virginiana (Eastern red cedar);;;;;;
+;Jun v 1;Pectate lyase;43 kDa;Airway;02.04.03;28.08.19
+;Jun v 3;Thaumatin-like protein;N.A.;Airway;08.04.03;28.08.19
+Pinus koraiensis (Korean pine);;;;;;
+;Pin k 2;Vicilin;48 kDa;Food;28.10.16;05.09.19
+Pinus pinea (Stone pine);;;;;;
+;Pin p 1;2S albumin;6 kDa (reducing) and 15 kDa (non-reducing);Food;18.08.15;05.09.19

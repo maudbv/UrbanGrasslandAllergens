@@ -1,0 +1,219 @@
+﻿Species,Species_name,Species_acceptedname,family,subfamily,Frequency,allergen_score_old,allergenicity_anecdotal,allergen_score_corrected,IUIS.record,SDAP.record,AllFam.record,Allergenonline.record,Allergome.record,additional_ref,react.europe.Allergome,FDA,allergenicity_strict,ref_severity,Comment_severity
+Holcus_lanatus,Holcus lanatus,Holcus_lanatus,Poaceae,Pooideae,5,1,1,4,1,1,1,1,1,1,55%,695,1,,"IUIS: High reactivity of Hol l 1 and Hol l 5; Pooideae, tribe Aveneae"
+Chenopodium_album,Chenopodium album,Chenopodium_album,Chenopodiaceae,Chenopodioideae,1,2,1,2,1,1,1,1,1,1,8%,1134,1,Weber 2015; Gadermaier 2004,"Major allergen in some areas (Saudi arabia...), but perhaps not in europe?"
+Artemisia_vulgaris,Artemisia vulgaris,Artemisia_vulgaris,Asteraceae,Asteroideae,6,3,1,4,1,1,1,1,1,1,15%,1145,1,Weber 2004,"Classified as a major allergen in Europe, with sensitivisation rates of 10-15%. Cross reactivity with Ambrosia (partial) and other Artemisia species (very high). No clear info on patient reactivity."
+Ambrosia_coronopifolia,Ambrosia coronopifolia,Ambrosia_psilostachya,Asteraceae,Asteroideae,2,0,1,4,1,1,1,1,1,1,40%,1189,1,Weber 2004,Major allergen; cross-reactivity with otehr Ragweeds
+Anthoxanthum_odoratum,Anthoxanthum odoratum,Anthoxanthum_odoratum,Poaceae,Pooideae,2,3,1,4,1,1,1,1,1,1,64%,,1,Weber 2004; Niederberger 1998,cross-reactivity with other Pooideae; Allergome; IUIS
+Dactylis_glomerata,Dactylis glomerata,Dactylis_glomerata,Poaceae,Pooideae,16,3,1,4,1,1,1,1,1,1,43%,,1,Weber 2004,cross-reactivity with other Pooideae; Allergome; IUIS
+Lolium_perenne,Lolium perenne,Lolium_perenne,Poaceae,Pooideae,6,3,1,4,1,1,1,1,1,1,45 % (Germany),,1,Weber 2004; Niederberger 1998,cross-reactivity with other Pooideae
+Plantago_lanceolata,Plantago lanceolata,Plantago_lanceolata,Plantaginaceae,NA,28,2,1,3,1,1,1,1,1,1,11%,,1,"Weber 1985, 2003, 2015; Baldo et al. 1982; Gadermeier et al. 2014",cross reactivity with Grass and Ragweed; Reported 36% incidence in allergic population (Gademaier 2014)
+Poa_pratensis,Poa pratensis,Poa_pratensis,Poaceae,Pooideae,8,2,1,4,1,1,1,1,1,1,48%,,1,Weber 2004; Niederberger 1998,"cross-reactivity with other Pooideae, Poeae grasses"
+Daucus_carota,Daucus carota,Daucus_carota,Apiaceae,Apioideae,6,1,0,0,1,1,0,1,0,0,,,0,,Only the root is a known food allergen
+Festuca_pratensis,Festuca pratensis,Festuca_pratensis,Poaceae,Pooideae,1,2,1,4,1,1,0,0,1,1,60%,,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Arabidopsis_thaliana,Arabidopsis thaliana,Arabidopsis_thaliana,Brassicaceae,NA,28,0,1,1,0,1,0,0,1,1,NA,NA,1,Chardin 2003,possible allergen only
+Festuca_arundinacea,Festuca arundinacea,Festuca_arundinacea,Poaceae,Pooideae,1,0,1,3,0,0,1,0,1,1,64%,637,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Agrostis_capillaris,Agrostis capillaris,Agrostis_capillaris,Poaceae,Pooideae,36,3,1,3,0,0,0,0,1,1,NA,599,1,Weber 2004,cross-reactivity with other Pooideae
+Agrostis_stolonifera,Agrostis stolonifera,Agrostis_stolonifera,Poaceae,Pooideae,1,3,1,3,0,0,0,0,1,1,NA,600,1,Weber 2004,cross-reactivity with other Pooideae
+Bromus_inermis,Bromus inermis,Bromus_inermis,Poaceae,Pooideae,6,2,1,3,0,0,0,0,1,1,40%,614,1,Weber 2004,cross-reactivity with other Pooideae
+Festuca_rubra_agg.,Festuca rubra agg.,Festuca_rubra,Poaceae,Pooideae,23,3,1,3,0,0,0,0,1,1,NA,635,1,Weber 2004,cross-reactivity with other Pooideae
+Arrhenatherum_elatius,Arrhenatherum elatius,Arrhenatherum_elatius,Poaceae,Pooideae,9,1,1,3,0,0,0,0,1,1,NA,663,1,Weber 2004,cross-reactivity with other Pooideae
+Agrostis_gigantea,Agrostis gigantea,Agrostis_gigantea,Poaceae,Pooideae,4,3,1,3,0,0,0,0,1,1,NA,,1,Weber 2004,cross-reactivity with other Pooideae
+Lolium_multiflorum,Lolium multiflorum,Lolium_multiflorum,Poaceae,Pooideae,1,3,1,3,0,0,0,0,1,1,50%,,1,Weber 2004,cross-reactivity with other Pooideae
+Plantago_major,Plantago major,Plantago_major,Plantaginaceae,NA,2,2,1,3,0,0,0,0,1,1,NA,,1,"Weber 1985, 2015",cf. Plantago lanceolata
+Senecio_jacobaea,Senecio jacobaea,Senecio_jacobaea,Asteraceae,Asteroideae,5,0,1,2,0,0,0,0,1,1,NA,,1,Luengo 2008,Cross reactive with Artemisia vulgaris; affected 13.5 % of hay fever patients in the Luengo study.
+Taraxacum_sect._Ruderalia,Taraxacum sect. Ruderalia,Taraxacum,Asteraceae,Cichorioideae,15,0,1,2,0,0,0,0,0,1,,588,1,Bousquet et al. 1984; Yong et al. 2007,Yong study with T. vulgare: cross reactivity with Artemisia vulgaris. 8.5% positive reactions to SPT
+Poa_annua,Poa annua,Poa_annua,Poaceae,Pooideae,2,2,1,3,0,0,0,0,0,1,,601,1,Weber 2004,cross-reactivity with other Poa species
+Poa_compressa,Poa compressa,Poa_compressa,Poaceae,Pooideae,21,2,1,3,0,0,0,0,0,1,,603,1,Weber 2004,cross-reactivity with other Poa species
+Poa_trivialis,Poa trivialis,Poa_trivialis,Poaceae,Pooideae,1,2,1,3,0,0,0,0,0,1,,607,1,Weber 2004,cross-reactivity with other Poa species
+Bromus_hordeaceus,Bromus hordeaceus,Bromus_hordeaceus,Poaceae,Pooideae,16,3,1,3,0,0,0,0,0,1,,617,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses, genus Bromus"
+Festuca_ovina,Festuca ovina,Festuca_ovina,Poaceae,Pooideae,4,3,1,3,0,0,0,0,0,1,,636,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Elymus_repens,Elymus repens,Elymus_repens,Poaceae,Pooideae,32,1,1,3,0,0,0,0,0,1,,671,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Crataegus_monogyna,Crataegus monogyna,Crataegus_monogyna,Rosaceae,Amygdaloideae,1,1,1,1,0,0,0,0,0,1,,841,1,Weber 2010,"FDA reports no supportive data, in spite of but article from Lewis & Vilnay 1979 (unaccessible). Cited by Weber 2010"
+Medicago_lupulina,Medicago lupulina,Medicago_lupulina,Fabaceae,Papilionoideae,14,2,1,1,0,0,0,0,0,1,,1057,1,Bousquet et al. 1984,"skin prick tests to medicago sativa with low reactivity scores, possibly cross reactivity, in Bousquet."
+Trifolium_pratense,Trifolium pratense,Trifolium_pratense,Fabaceae,Papilionoideae,2,1,1,2,0,0,0,0,0,1,,1090,1,Bousquet et al. 1984; Lucas & Buckley 1989,Lucas and Bousquet Show high (c. 13%) prevalence of skin test reaction
+Trifolium_repens,Trifolium repens,Trifolium_repens,Fabaceae,Papilionoideae,6,1,1,1,0,0,0,0,0,1,,1094,1,,similar to Trifolium pratense
+Rumex_thyrsiflorus,Rumex thyrsiflorus,Rumex_thyrsiflorus,Polygonaceae,Polygonoideae,33,0,1,2,0,0,0,0,0,1,,1103,1,Solomon 1969;Bousquet 1984; Weber 2015,"""moderate hay fever inducer"" - Weber 2015"
+Rumex_acetosella,Rumex acetosella,Rumex_acetosella,Polygonaceae,Polygonoideae,37,2,1,2,0,0,0,0,0,1,,1106,1,Solomon 1969;Bousquet 1984; Weber 2015,"""moderate hay fever inducer"" - Weber 2015"
+Solidago_canadensis,Solidago canadensis,Solidago_canadensis,Asteraceae,Asteroideae,5,1,1,1,0,0,0,0,0,1,,1118,1,Goldberg 1998,
+Cytisus_scoparius,Cytisus scoparius,Cytisus_scoparius,Fabaceae,Papilionoideae,1,1,1,1,0,0,0,0,0,1,,1245,1,Weber 1985,allergenicity unclear. FDA says no allergen
+Carex_arenaria,Carex arenaria,Carex_arenaria,Cyperaceae,Cyperoideae,4,0,1,1,0,0,0,0,0,1,,1251,1,Weber 1985,"Sedges are expected to be allergenic, but only little support yet.  FDA : ""no supporting data collected""; no cross-reactivity with poaceae"
+Carex_caryophyllea,Carex caryophyllea,Carex_caryophyllea,Cyperaceae,Cyperoideae,1,0,1,1,0,0,0,0,0,1,,1251,1,Weber 1985,"Sedges are expected to be allergenic, but only little support yet.  FDA : ""no supporting data collected""; no cross-reactivity with poaceae"
+Carex_hirta,Carex hirta,Carex_hirta,Cyperaceae,Cyperoideae,17,1,1,1,0,0,0,0,0,1,,1251,1,Weber 1985,"Sedges are expected to be allergenic, but only little support yet.  FDA : ""no supporting data collected""; no cross-reactivity with poaceae"
+Carex_ligerica,Carex ligerica,Carex_ligerica,Cyperaceae,Cyperoideae,1,0,1,1,0,0,0,0,0,1,,1251,1,Weber 1985,"Sedges are expected to be allergenic, but only little support yet.  FDA : ""no supporting data collected""; no cross-reactivity with poaceae"
+Carex_praecox,Carex praecox,Vignea_praecox,Cyperaceae,NA,5,0,1,1,0,0,0,0,0,1,,1251,1,Weber 1985,"Sedges are expected to be allergenic, but only little support yet.  FDA : ""no supporting data collected""; no cross-reactivity with poaceae"
+Carex_spicata,Carex spicata,Carex_spicata,Cyperaceae,Cyperoideae,1,0,1,1,0,0,0,0,0,1,,1251,1,Weber 1985,"Sedges are expected to be allergenic, but only little support yet.  FDA : ""no supporting data collected""; no cross-reactivity with poaceae"
+Artemisia_campestris,Artemisia campestris,Artemisia_campestris,Asteraceae,Asteroideae,23,3,1,4,0,0,0,0,0,1,,1273,1,Weber 2003; D'amato 2007,cross-reactivity with other artemisia species
+Achillea_millefolium,Achillea millefolium,Achillea_millefolium,Asteraceae,Asteroideae,34,1,1,1,0,0,0,0,0,1,,1274,0,Kiistala 1999; Compes 2006,severity unclear; extrapolate from slight cross reactivity with other Asteraceae
+Bromus_sterilis,Bromus sterilis,Bromus_sterilis,Poaceae,Pooideae,4,2,1,3,0,0,0,0,0,1,,,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses, genus Bromus"
+Bromus_tectorum,Bromus tectorum,Bromus_tectorum,Poaceae,Pooideae,4,1,1,3,0,0,0,0,0,1,,,1,Weber 2004; 2015,"cross-reactivity with other Pooideae, Poeae grasses, genus Bromus"
+Calamagrostis_epigejos,Calamagrostis epigejos,Calamagrostis_epigejos,Poaceae,Pooideae,23,1,1,3,0,0,0,0,0,1,,,1,Weber 2004,cross-reactivity with other Pooideae
+Clematis_vitalba,Clematis vitalba,Clematis_vitalba,Ranunculaceae,Ranunculoideae,1,2,1,0,0,0,0,0,0,1,,,0,Hruska 2003,anecdotal evidence only; no further evidence; some reports of contact dermatitis
+Convolvulus_arvensis,Convolvulus arvensis,Convolvulus_arvensis,Convolvulaceae,NA,16,2,1,0,0,0,0,0,0,1,,,0,Hruska 2003,"anecdotal evidence only; one other mention in italian allergens (CIAMPOLINI E  & CRESTI M., 1981)"
+Conyza_canadensis,Conyza canadensis,Conyza_canadensis,Asteraceae,Asteroideae,16,1,1,0,0,0,0,0,0,1,,,0,Ščevková 2014,anecdotal evidence only
+Corynephorus_canescens,Corynephorus canescens,Corynephorus_canescens,Poaceae,Pooideae,10,0,1,3,0,0,0,0,0,1,,,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Danthonia_decumbens,Danthonia decumbens,Danthonia_decumbens,Poaceae,Danthonioideae,1,0,1,1,0,0,0,0,0,1,,,1,Weber 2004,no clear info on Danthonia - Default allergen score = 1 for a Poaceae
+Deschampsia_flexuosa,Deschampsia flexuosa,Deschampsia_flexuosa,Poaceae,Pooideae,2,1,1,3,0,0,0,0,0,1,,,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Digitaria_ischaemum,Digitaria ischaemum,Digitaria_ischaemum,Poaceae,Panicoideae,3,1,1,2,0,0,0,0,0,1,,,1,Weber 2004,cross-reactivity within Panicoidae; Grass 1 allergens = upgrade to moderate allergen
+Digitaria_sanguinalis,Digitaria sanguinalis,Digitaria_sanguinalis,Poaceae,Panicoideae,3,1,1,2,0,0,0,0,0,1,,,1,Weber 2004,cross-reactivity within Panicoidae; Grass 1 allergens = upgrade to moderate allergen
+Echium_vulgare,Echium vulgare,Echium_vulgare,Boraginaceae,Boraginoideae,12,0,1,2,0,0,0,0,0,1,,,0,Katelaris et al. 1982,similar to Paterson's curse (Echium plantagineum)?
+Eragrostis_minor,Eragrostis minor,Eragrostis_minor,Poaceae,Chloridoideae,1,0,1,2,0,0,0,0,0,1,,,1,Weber 2004,"""﻿cross-reacting profilins and calcium-binding allergens are minor allergens"""
+Festuca_brevipila,Festuca brevipila,Festuca_trachyphylla,Poaceae,Pooideae,39,0,1,3,0,0,0,0,0,1,,,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Galium_verum,Galium verum,Galium_verum,Rubiaceae,Rubioideae,8,2,0,0,0,0,0,0,0,1,,,0,Hruska 2003,anecdotal evidence only; mostly contact dermatitis
+Geranium_pyrenaicum,Geranium pyrenaicum,Geranium_pyrenaicum,Geraniaceae,NA,1,2,1,0,0,0,0,0,0,1,,,0,Hruska 2003,"anecdotal evidence only. Geranium spp. Reported to have allergenic pollen in Allergome, but provide no primary medical references in the literature. "
+Holcus_mollis,Holcus mollis,Holcus_mollis,Poaceae,Pooideae,4,1,1,3,0,0,0,0,0,1,,,1,Weber 2004,"Cross reactivity within Pooideae, tribe Aveneae, same genus as Holcus lanatus"
+Hypericum_perforatum,Hypericum perforatum,Hypericum_perforatum,Hypericaceae,NA,20,2,1,0,0,0,0,0,0,1,,,0,Hruska 2003,anecdotal evidence only
+Koeleria_macrantha,Koeleria macrantha,Koeleria_pyramidata_subsp._pyramidata,Poaceae,Pooideae,1,3,1,3,0,0,0,0,0,1,,,1,Weber 2004,"cross-reactivity with other Pooidae, Poeae grasses"
+Koeleria_pyramidata,Koeleria pyramidata,Koeleria_pyramidata,Poaceae,Pooideae,1,0,1,3,0,0,0,0,0,1,,,1,Weber 2004,cross-reactivity with other Pooideae
+Linaria_vulgaris,Linaria vulgaris,Linaria_vulgaris,Plantaginaceae,NA,6,2,1,0,0,0,0,0,0,1,,,0,Hruska 2003,anecdotal evidence only
+Medicago_falcata,Medicago falcata,Medicago_falcata,Fabaceae,Papilionoideae,1,0,1,1,0,0,0,0,0,1,,,0,Bousquet et al. 1984,similar to Medicago sativa ?
+Medicago_minima,Medicago minima,Medicago_minima_var._brevispina,Fabaceae,Papilionoideae,1,0,1,1,0,0,0,0,0,1,,,0,Bousquet et al. 1984,similar to Medicago sativa ?
+Medicago_x_varia,Medicago x varia,Medicago_varia,Fabaceae,Papilionoideae,13,0,1,1,0,0,0,0,0,1,,,0,Bousquet et al. 1984,similar to Medicago sativa ?
+Plantago_arenaria,Plantago arenaria,Plantago_arenaria,Plantaginaceae,NA,2,0,1,3,0,0,0,0,0,1,,,0,Weber 2015,cf. Plantago lanceolata
+Poa_angustifolia,Poa angustifolia,Poa_angustifolia,Poaceae,Pooideae,41,3,1,3,0,0,0,0,0,1,,,1,Weber 2004,cross-reactivity with other Poa species
+Poa_bulbosa,Poa bulbosa,Poa_bulbosa,Poaceae,Pooideae,2,0,1,3,0,0,0,0,0,1,,,1,Weber 2004,"cross-reactivity with other Pooideae, Poeae grasses"
+Polygonum_aviculare,Polygonum aviculare,Polygonum_aviculare,Polygonaceae,Polygonoideae,3,2,1,0,0,0,0,0,0,1,,,0,Hruska 2003,"anecdotal evidence only; Polygonum spp. cited in Allergome, but no medical reference."
+Potentilla_argentea,Potentilla argentea,Potentilla_argentea,Rosaceae,Rosoideae,33,1,1,0,0,0,0,0,0,1,,,0,Ščevková 2014,"anecdotal evidence only; potentilla sometimes recommended for ""allergy free garden"" (anecdotal evidence)"
+Potentilla_reptans,Potentilla reptans,Potentilla_reptans,Rosaceae,Rosoideae,2,1,1,0,0,0,0,0,0,1,,,0,Ščevková 2014,anecdotal evidence only
+Ranunculus_bulbosus,Ranunculus bulbosus,Ranunculus_bulbosus,Ranunculaceae,Ranunculoideae,2,1,1,0,0,0,0,0,0,1,,,0,Ščevková 2014,anecdotal evidence only
+Saponaria_officinalis,Saponaria officinalis,Saponaria_officinalis,Caryophyllaceae,NA,4,2,1,0,0,0,0,0,0,1,,,0,Hruska 2003,anecdotal evidence only; Some allergenicity perhaps but not of the pollen (cf. Allergome)
+Senecio_inaequidens,Senecio inaequidens,Senecio_inaequidens,Asteraceae,Asteroideae,2,0,1,2,0,0,0,0,0,1,,,0,Luengo 2008,strong cross-reactivity of Senecio species in Luengo et al. 
+Senecio_vernalis,Senecio vernalis,Senecio_vernalis,Asteraceae,Asteroideae,2,0,1,2,0,0,0,0,0,1,,,0,Luengo 2008,strong cross-reactivity of Senecio species in Luengo et al. 
+Setaria_viridis,Setaria viridis,Setaria_viridis,Poaceae,Panicoideae,13,1,1,2,0,0,0,0,0,1,,,1,Weber 2004,cross-reactivity within Panicoidae; Grass 1 allergens = upgrade to moderate allergen
+Stellaria_media,Stellaria media,Stellaria_media,Caryophyllaceae,NA,4,1,1,0,0,0,0,0,0,1,,,0,Hruska 2003,anecdotal evidence only; no further evidence
+Taraxacum_sect._Erythrosperma,Taraxacum sect. Erythrosperma,Taraxacum_sect._Erythrosperma,Asteraceae,NA,5,0,1,2,0,0,0,0,0,1,,,0,,Assumed similar to Taraxacum sect. Ruderalia
+Verbascum_lychnitis,Verbascum lychnitis,Verbascum_lychnitis,Scrophulariaceae,NA,3,0,1,0,0,0,0,0,0,1,,,0,Bikakci 2006,anecdotal evidence only
+Verbascum_nigrum,Verbascum nigrum,Verbascum_nigrum,Scrophulariaceae,NA,2,0,1,0,0,0,0,0,0,1,,,0,Bikakci 2006,anecdotal evidence only
+Melilotus_officinalis,Melilotus officinalis,Melilotus_officinalis,Fabaceae,Papilionoideae,3,1,1,0,0,0,0,0,0,0,,1089,0,,"according to FDA, no data supporting  Melilotus album allergies. "
+Tanacetum_vulgare,Tanacetum vulgare,Tanacetum_vulgare,Asteraceae,Asteroideae,6,1,1,1,0,0,0,0,0,0,,1260,0,,only contact dermatitis reported
+Agrimonia_eupatoria,Agrimonia eupatoria,Agrimonia_eupatoria,Rosaceae,Rosoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Ajuga_genevensis,Ajuga genevensis,Ajuga_genevensis,Lamiaceae,Teucrioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Anchusa_officinalis,Anchusa officinalis,Anchusa_officinalis,Boraginaceae,Boraginoideae,6,0,0,0,0,0,0,0,0,0,,,0,,
+Anthriscus_caucalis,Anthriscus caucalis,Anthriscus_caucalis,Apiaceae,Apioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Arabidopsis_arenosa_subsp._arenosa,Arabidopsis arenosa subsp. arenosa,Arabidopsis_arenosa_subsp._arenosa,Brassicaceae,NA,1,0,0,1,0,0,0,0,0,1,,,0,Chardin 2013, (reference for A. thaliana) - extended for the genus
+Arenaria_serpyllifolia,Arenaria serpyllifolia,Arenaria_serpyllifolia,Caryophyllaceae,NA,32,0,0,0,0,0,0,0,0,0,,,0,,
+Armeria_maritima_subsp._elongata,Armeria maritima subsp. elongata,Armeria_vulgaris,Celastraceae,NA,7,0,0,0,0,0,0,0,0,0,,,0,,
+Berteroa_incana,Berteroa incana,Berteroa_incana,Brassicaceae,NA,35,0,0,0,0,0,0,0,0,0,,,0,,
+Campanula_rapunculus,Campanula rapunculus,Campanula_patula_var._rapunculus,Campanulaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Capsella_bursa.pastoris,Capsella bursa-pastoris,Capsella_bursa-pastoris,Brassicaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,
+Cardamine_hirsuta,Cardamine hirsuta,Cardamine_hirsuta,Brassicaceae,NA,4,0,0,0,0,0,0,0,0,0,,,0,,
+Centaurea_jacea,Centaurea jacea,Centaurea_jacea,Asteraceae,Carduoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Centaurea_stoebe,Centaurea stoebe,Centaurea_stoebe,Asteraceae,Carduoideae,20,0,0,0,0,0,0,0,0,0,,,0,,
+Cerastium_arvense,Cerastium arvense,Cerastium_arvense,Caryophyllaceae,NA,6,0,0,0,0,0,0,0,0,0,,,0,,
+Cerastium_glomeratum,Cerastium glomeratum,Cerastium_glomeratum,Caryophyllaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,
+Cerastium_glutinosum,Cerastium glutinosum,Cerastium_kunthii,Caryophyllaceae,NA,6,0,0,0,0,0,0,0,0,0,,,0,,
+Cerastium_holosteoides,Cerastium holosteoides,Cerastium_fontanum_subsp._vulgare,Caryophyllaceae,NA,14,0,0,0,0,0,0,0,0,0,,,0,,
+Cerastium_semidecandrum,Cerastium semidecandrum,Cerastium_semidecandrum,Caryophyllaceae,NA,50,0,0,0,0,0,0,0,0,0,,,0,,
+Chondrilla_juncea,Chondrilla juncea,Chondrilla_juncea,Asteraceae,Cichorioideae,15,0,0,0,0,0,0,0,0,0,,,0,,
+Cirsium_arvense,Cirsium arvense,Cirsium_arvense,Asteraceae,Carduoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Cirsium_vulgare,Cirsium vulgare,Cirsium_vulgare,Asteraceae,Carduoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Crepis_capillaris,Crepis capillaris,Crepis_capillaris,Asteraceae,Cichorioideae,10,0,0,0,0,0,0,0,0,0,,,0,,
+Cynoglossum_officinale,Cynoglossum officinale,Cynoglossum_officinale,Boraginaceae,Cynoglossoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Dianthus_carthusianorum,Dianthus carthusianorum,Dianthus_carthusianorum,Caryophyllaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,Some allergenicity perhaps but not of the pollen (cf. Allergome)
+Dianthus_deltoides,Dianthus deltoides,Dianthus_deltoides,Caryophyllaceae,NA,9,0,0,0,0,0,0,0,0,0,,,0,,Some allergenicity perhaps but not of the pollen (cf. Allergome)
+Dianthus_giganteus,Dianthus giganteus,Dianthus_giganteus,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,Some allergenicity perhaps but not of the pollen (cf. Allergome)
+Dipsacus_fullonum,Dipsacus fullonum,Dipsacus_fullonum,Caprifoliaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Draba_verna,Draba verna,Draba_verna,Brassicaceae,NA,25,0,0,0,0,0,0,0,0,0,,,0,,
+Equisetum_arvense,Equisetum arvense,Equisetum_arvense,Equisetaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,No allergy has been reported for Field Horsetail: http://www.pollenlibrary.com/Specie/Equisetum+arvense/
+Equisetum_x_moorei,Equisetum x moorei,Equisetum,Equisetaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,no evidence of allergy for horsetail
+Erigeron_acris,Erigeron acris,Erigeron_acris,Asteraceae,Asteroideae,2,0,0,0,0,0,0,0,0,0,,,0,,
+Erigeron_annuus,Erigeron annuus,Erigeron_annuus,Asteraceae,Asteroideae,3,0,0,0,0,0,0,0,0,0,,,0,,
+Erodium_cicutarium,Erodium cicutarium,Erodium_cicutarium,Geraniaceae,NA,12,0,0,0,0,0,0,0,0,0,,,0,,
+Euonymus_europaea,Euonymus europaea,Euonymus_europaea,Celastraceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Euphorbia_cyparissias,Euphorbia cyparissias,Euphorbia_cyparissias,Euphorbiaceae,Euphorbioideae,18,0,0,0,0,0,0,0,0,0,,,0,,contact dermatitis with the latex. No allergies to pollen reported.
+Ficaria_verna,Ficaria verna,Ficaria_verna,Ranunculaceae,Ranunculoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Filago_arvensis,Filago arvensis,Filago_arvensis,Asteraceae,Asteroideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Gagea_pratensis,Gagea pratensis,Stellaster_pratensis,Caryophyllaceae,NA,2,0,0,0,0,0,0,0,0,0,,,0,,
+Galium_aparine,Galium aparine,Galium_aparine,Rubiaceae,Rubioideae,3,0,0,0,0,0,0,0,0,0,,,0,,
+Galium_boreale,Galium boreale,Galium_boreale,Rubiaceae,Rubioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Galium_mollugo,Galium mollugo,Galium_mollugo,Rubiaceae,Rubioideae,3,0,0,0,0,0,0,0,0,0,,,0,,
+Geranium_molle,Geranium molle,Geranium_molle,Geraniaceae,NA,10,0,1,0,0,0,0,0,0,0,,,0,,"Geranium spp. Reported to have allergenic pollen in Allergome, but provide no primary medical references in the literature. "
+Geranium_pusillum,Geranium pusillum,Geranium_pusillum,Geraniaceae,NA,6,0,1,0,0,0,0,0,0,0,,,0,,"Geranium spp. Reported to have allergenic pollen in Allergome, but provide no primary medical references in the literature. "
+Geranium_robertianum,Geranium robertianum,Geranium_robertianum,Geraniaceae,NA,1,0,1,0,0,0,0,0,0,0,,,0,,"Geranium spp. Reported to have allergenic pollen in Allergome, but provide no primary medical references in the literature. "
+Glechoma_hederacea,Glechoma hederacea,Glechoma_hederacea,Lamiaceae,Nepetoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Gypsophila_paniculata,Gypsophila paniculata,Gypsophila_paniculata,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Helichrysum_arenarium,Helichrysum arenarium,Helichrysum_arenarium,Asteraceae,Asteroideae,12,0,0,0,0,0,0,0,0,0,,,0,,
+Herniaria_glabra,Herniaria glabra,Herniaria_glabra,Caryophyllaceae,NA,2,0,0,0,0,0,0,0,0,0,,,0,,
+Hieracium_bauhini,Hieracium bauhini,Hieracium_bauhini,Asteraceae,Cichorioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Hieracium_pilosella,Hieracium pilosella,Hieracium_pilosella,Asteraceae,Cichorioideae,15,0,0,0,0,0,0,0,0,0,,,0,,
+Hieracium_umbellatum,Hieracium umbellatum,Hieracium_umbellatum,Asteraceae,Cichorioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Holosteum_umbellatum,Holosteum umbellatum,Holosteum_umbellatum,Caryophyllaceae,NA,9,0,0,0,0,0,0,0,0,0,,,0,,
+Hypochaeris_radicata,Hypochaeris radicata,Hypochaeris_radicata,Asteraceae,Cichorioideae,17,0,0,0,0,0,0,0,0,0,,,0,,
+Jasione_montana,Jasione montana,Jasione_montana,Campanulaceae,NA,8,0,0,0,0,0,0,0,0,0,,,0,,
+Lamium_purpureum,Lamium purpureum,Lamium_purpureum,Lamiaceae,Lamioideae,10,0,0,0,0,0,0,0,0,0,,,0,,
+Lapsana_communis,Lapsana communis,Lapsana_communis,Asteraceae,Cichorioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Leucanthemum_vulgare_agg.,Leucanthemum vulgare agg.,Leucanthemum_vulgare,Asteraceae,Asteroideae,1,1,1,0,0,0,0,0,0,0,,,0,Ščevková 2014,anecdotal evidence only
+Lotus_corniculatus,Lotus corniculatus,Lotus_corniculatus,Fabaceae,Papilionoideae,3,0,0,0,0,0,0,0,0,0,,,0,,
+Luzula_campestris,Luzula campestris,Luzula_campestris,Juncaceae,NA,5,0,1,0,0,0,0,0,0,0,,,0,,"Only ""suspected"" of causing allergic reaction, but no strong evidence; No allergy has been reported for Common  wood rush; http://www.pollenlibrary.com/Specie/Luzula+multiflora"
+Luzula_multiflora,Luzula multiflora,Luzula_multiflora,Juncaceae,NA,1,0,1,0,0,0,0,0,0,0,,,0,,"Only ""suspected"" of causing allergic reaction, but no strong evidence; No allergy has been reported for Common  wood rush; http://www.pollenlibrary.com/Specie/Luzula+multiflora"
+Malva_moschata,Malva moschata,Malva_moschata,Malvaceae,Malvoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Melampyrum_pratense,Melampyrum pratense,Melampyrum_pratense,Orobanchaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Moehringia_trinervia,Moehringia trinervia,Moehringia_trinervia,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Myosotis_arvensis,Myosotis arvensis,Myosotis_arvensis,Boraginaceae,Cynoglossoideae,2,0,0,0,0,0,0,0,0,0,,,0,,
+Myosotis_ramosissima,Myosotis ramosissima,Myosotis_ramosissima,Boraginaceae,Cynoglossoideae,28,0,0,0,0,0,0,0,0,0,,,0,,
+Myosotis_stricta,Myosotis stricta,Myosotis_stricta,Boraginaceae,Cynoglossoideae,6,0,0,0,0,0,0,0,0,0,,,0,,
+Oenothera_biennis_agg.,Oenothera biennis agg.,Oenothera_biennis,Onagraceae,Onagroideae,14,0,0,0,0,0,0,0,0,0,,,0,,
+Ononis_repens,Ononis repens,Ononis_repens,Fabaceae,Papilionoideae,2,0,0,0,0,0,0,0,0,0,,,0,,
+Papaver,Papaver,Papaver,Papaveraceae,Papaveroideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Papaver_argemone,Papaver argemone,Papaver_argemone,Papaveraceae,Papaveroideae,2,0,0,0,0,0,0,0,0,0,,,0,,
+Papaver_dubium,Papaver dubium,Papaver_dubium,Papaveraceae,Papaveroideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Petrorhagia_prolifera,Petrorhagia prolifera,Petrorhagia_prolifera,Caryophyllaceae,NA,18,0,0,0,0,0,0,0,0,0,,,0,,
+Petrorhagia_saxifraga,Petrorhagia saxifraga,Petrorhagia_saxifraga,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Peucedanum_oreoselinum,Peucedanum oreoselinum,Peucedanum_oreoselinum,Apiaceae,Apioideae,4,0,0,0,0,0,0,0,0,0,,,0,,
+Picris_hieracioides,Picris hieracioides,Picris_hieracioides,Asteraceae,Cichorioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Pimpinella_saxifraga_agg.,Pimpinella saxifraga agg.,Pimpinella_saxifraga,Apiaceae,Apioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Polygonatum_odoratum,Polygonatum odoratum,Polygonatum_odoratum,Asparagaceae,Nolinoideae,2,0,0,0,0,0,0,0,0,0,,,0,,
+Portulaca_oleracea,Portulaca oleracea,Portulaca_oleracea,Portulacaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Potentilla_incana,Potentilla incana,Potentilla_incana,Rosaceae,Rosoideae,4,0,1,0,0,0,0,0,0,0,,,0,,anecdotal evidence only
+Potentilla_verna,Potentilla verna,Potentilla_verna,Rosaceae,Rosoideae,3,0,1,0,0,0,0,0,0,0,,,0,,anecdotal evidence only
+Prunus_spinosa,Prunus spinosa,Prunus_spinosa,Rosaceae,Amygdaloideae,1,0,1,0,0,0,0,0,0,0,,,0,,Prunus persica (peach) evidence of pollen allergy (IUIS)... But otherwise only allergies to fruit for other prunus species
+Ranunculus_acris,Ranunculus acris,Ranunculus_acris,Ranunculaceae,Ranunculoideae,1,0,1,0,0,0,0,0,0,0,,,0,,anecdotal evidence only
+Rosa_canina_agg.,Rosa canina agg.,Rosa_canina,Rosaceae,Rosoideae,2,1,1,1,0,0,0,0,0,0,,,0,,anecdotal evidence only
+Rubus_caesius,Rubus caesius,Rubus_caesius,Rosaceae,Rosoideae,5,1,0,0,0,0,0,0,0,0,,,0,,
+Rubus_sect._Rubus,Rubus sect. Rubus,Rubus,Rosaceae,Rosoideae,2,1,0,0,0,0,0,0,0,0,,,0,,
+Salvia_pratensis,Salvia pratensis,Salvia_pratensis,Lamiaceae,Nepetoideae,2,0,0,0,0,0,0,0,0,0,,,0,,
+Sanguisorba_minor_subsp._balearica,Sanguisorba minor subsp. balearica,Poterium_sanguisorba_subsp._balearicum,Asteraceae,NA,1,1,1,0,0,0,0,0,0,0,,,0,,No evidence of allergy (except unsupported mention in pollenibrary.com); cited as having possible  anti-allergic properties
+Saxifraga_tridactylites,Saxifraga tridactylites,Saxifraga_tridactylites,Saxifragaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,
+Scleranthus_annuus_agg.,Scleranthus annuus agg.,Scleranthus_annuus,Caryophyllaceae,NA,4,0,0,0,0,0,0,0,0,0,,,0,,
+Scleranthus_perennis,Scleranthus perennis,Scleranthus_perennis,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Scorzoneroides_autumnalis,Scorzoneroides autumnalis,Scorzoneroides_autumnalis,Asteraceae,Cichorioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Securigera_varia,Securigera varia,Securigera_varia,Fabaceae,Papilionoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Sedum_acre,Sedum acre,Sedum_acre,Crassulaceae,NA,16,0,0,0,0,0,0,0,0,0,,,0,,
+Sedum_album,Sedum album,Sedum_album,Crassulaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Sedum_maximum,Sedum maximum,Sedum_maximum,Crassulaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Sedum_rupestre,Sedum rupestre,Sedum_rupestre,Crassulaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Sedum_sexangulare,Sedum sexangulare,Sedum_sexangulare,Crassulaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,
+Silene_conica,Silene conica,Silene_conica,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Silene_latifolia_subsp._alba,Silene latifolia subsp. alba,Silene_latifolia,Caryophyllaceae,NA,10,0,0,0,0,0,0,0,0,0,,,0,,
+Silene_vulgaris,Silene vulgaris,Silene_vulgaris,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Sisymbrium_loeselii,Sisymbrium loeselii,Sisymbrium_loeselii,Brassicaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Solanum_nigrum,Solanum nigrum,Solanum_nigrum,Solanaceae,Solanoideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Spergula_morisonii,Spergula morisonii,Spergula_morisonii,Caryophyllaceae,NA,4,0,0,0,0,0,0,0,0,0,,,0,,
+Spergularia_rubra,Spergularia rubra,Spergularia_rubra,Caryophyllaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Stellaria_graminea,Stellaria graminea,Stellaria_graminea,Caryophyllaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,
+Stellaria_pallida,Stellaria pallida,Stellaria_pallida,Caryophyllaceae,NA,12,0,0,0,0,0,0,0,0,0,,,0,,
+Teesdalia_nudicaulis,Teesdalia nudicaulis,Teesdalia_nudicaulis,Brassicaceae,NA,4,0,0,0,0,0,0,0,0,0,,,0,,
+Thymus_pulegioides,Thymus pulegioides,Thymus_pulegioides,Lamiaceae,Nepetoideae,3,0,0,0,0,0,0,0,0,0,,,0,,
+Tragopogon,Tragopogon,Tragopogon,Asteraceae,Cichorioideae,2,0,0,0,0,0,0,0,0,0,,,0,,
+Tragopogon_dubius,Tragopogon dubius,Tragopogon_dubius,Asteraceae,Cichorioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Tragopogon_pratensis,Tragopogon pratensis,Tragopogon_pratensis,Asteraceae,Cichorioideae,1,0,0,0,0,0,0,0,0,0,,,0,,
+Trifolium_arvense,Trifolium arvense,Trifolium_arvense,Fabaceae,Papilionoideae,33,1,1,1,0,0,0,0,0,0,,,0,,similar to Trifolium pratense
+Trifolium_campestre,Trifolium campestre,Trifolium_campestre,Fabaceae,Papilionoideae,11,0,1,1,0,0,0,0,0,0,,,0,,similar to Trifolium pratense
+Trifolium_dubium,Trifolium dubium,Trifolium_dubium,Fabaceae,Papilionoideae,4,0,1,1,0,0,0,0,0,0,,,0,,similar to Trifolium pratense
+Trifolium_striatum,Trifolium striatum,Trifolium_striatum,Fabaceae,Papilionoideae,1,0,1,1,0,0,0,0,0,0,,,0,,similar to Trifolium pratense
+Turritis_glabra,Turritis glabra,Turritis_glabra,Brassicaceae,NA,2,0,0,0,0,0,0,0,0,0,,,0,,
+Veronica_arvensis,Veronica arvensis,Veronica_arvensis,Plantaginaceae,NA,41,0,0,0,0,0,0,0,0,0,,,0,,
+Veronica_chamaedrys,Veronica chamaedrys,Veronica_chamaedrys,Plantaginaceae,NA,5,0,0,0,0,0,0,0,0,0,,,0,,
+Veronica_officinalis,Veronica officinalis,Veronica_officinalis,Plantaginaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Veronica_prostrata,Veronica prostrata,Veronica_prostrata,Plantaginaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Veronica_sublobata,Veronica sublobata,Veronica_hederifolia,Plantaginaceae,NA,12,0,0,0,0,0,0,0,0,0,,,0,,
+Vicia_angustifolia,Vicia angustifolia,Vicia_sativa_subsp._cordata,Fabaceae,Papilionoideae,27,1,1,0,0,0,0,0,0,0,,,0,,limited evidence on Vicia Sativa (Picon et al. 1991); FDA =  1261
+Vicia_cracca,Vicia cracca,Vicia_cracca,Fabaceae,Papilionoideae,1,0,0,0,0,0,0,0,0,0,,,0,,limited evidence on Vicia Sativa (Picon et al. 1991); FDA =  1261
+Vicia_hirsuta,Vicia hirsuta,Vicia_hirsuta,Fabaceae,Papilionoideae,23,2,0,0,0,0,0,0,0,0,,,0,,"pollen : limited evidence on Vicia Sativa (Picon et al. 1991); FDA =  1261: severe contact allergy - Occupational allergic contact dermatitis caused by weeds of the Compositae, Fabaceae and Rosaceae plant families"
+Vicia_lathyroides,Vicia lathyroides,Vicia_lathyroides,Fabaceae,Papilionoideae,27,0,0,0,0,0,0,0,0,0,,,0,,limited evidence on Vicia Sativa (Picon et al. 1991); FDA =  1261
+Vicia_sepium,Vicia sepium,Vicia_sepium,Fabaceae,Papilionoideae,1,0,0,0,0,0,0,0,0,0,,,0,,limited evidence on Vicia Sativa (Picon et al. 1991); FDA =  1261
+Vicia_tetrasperma,Vicia tetrasperma,Vicia_tetrasperma,Fabaceae,Papilionoideae,2,0,0,0,0,0,0,0,0,0,,,0,,limited evidence on Vicia Sativa (Picon et al. 1991); FDA =  1261
+Vicia_villosa,Vicia villosa,Vicia_villosa,Fabaceae,Papilionoideae,7,0,0,0,0,0,0,0,0,0,,,0,,limited evidence on Vicia Sativa (Picon et al. 1991); FDA =  1261
+Viola_arvensis,Viola arvensis,Viola_arvensis,Violaceae,NA,2,0,0,0,0,0,0,0,0,0,,,0,,
+Viola_canina,Viola canina,Viola_canina,Violaceae,NA,3,0,0,0,0,0,0,0,0,0,,,0,,
+Viola_suavis,Viola suavis,Viola_suavis,Violaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,
+Viola_tricolor,Viola tricolor,Viola_tricolor,Violaceae,NA,1,0,0,0,0,0,0,0,0,0,,,0,,

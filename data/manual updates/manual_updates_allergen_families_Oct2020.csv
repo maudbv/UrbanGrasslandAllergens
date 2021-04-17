@@ -1,0 +1,31 @@
+Allergen.mol,Allergen.simple,Allergen.genus,AllFam,Allergen.Family,AllFam.manual,manual.source
+Pla l AHC,Pla_l_AHC,Plantago_AHC,Unknown,Unknown,Adenosylhomocysteinases,Allergome; Gadermaier 2014
+Amb a CPI,Amb_a_CPI,Ambrosia_CPI,Unknown,Unknown,AF005: Cystatin,"AllFam, Allergome"
+Ech p Cytochrome C,Ech_p_Cytochrome_C,Echium_C,Unknown,Unknown,AF006: Cytochrome c,Allergome
+Lol p 10,Lol_p_10,Lolium_10,Unknown,Unknown,AF006: Cytochrome c,http://www.meduniwien.ac.at/allfam/details.php?family=AF006#ref69
+Pla l Cytochrome C,Pla_l_Cytochrome_C,Plantago_C,Unknown,Unknown,AF006: Cytochrome c,http://www.allergome.org/script/dettaglio.php?id_molecule=2438
+Poa p 10,Poa_p_10,Poa_10,Unknown,Unknown,AF006: Cytochrome c,allergome
+Pla l 4,Pla_l_4,Plantago_4,Unknown,Unknown,AF007: EF hand family,http://www.allergome.org/script/dettaglio.php?id_molecule=11841
+Pla l MDH,Pla_l_MDH,Plantago_MDH,Unknown,Unknown,AF014: Lactate/malate dehydrogenase,http://www.allergome.org/script/dettaglio.php?id_molecule=11843
+Sen j MDH,Sen_j_MDH,Senecio_MDH,Unknown,Unknown,AF014: Lactate/malate dehydrogenase,http://www.allergome.org/script/dettaglio.php?id_molecule=4060
+Amb a 12,Amb_a_12,Ambrosia_12,Unknown,Unknown,AF031: Enolase,IUIS
+Pla l 22,Pla_l_22,Plantago_22,Unknown,Unknown,AF031: Enolase,http://www.allergome.org/script/dettaglio.php?id_molecule=11848
+Pla l TPI,Pla_l_TPI,Plantago_TPI,Unknown,Unknown,AF032: Triosephosphate isomerase,http://www.allergome.org/script/dettaglio.php?id_molecule=11842
+Lol p CyP,Lol_p_CyP,Lolium_CyP,Unknown,Unknown,AF038: Cyclophilin,allergome
+Ara t GLP,Ara_t_GLP,Arabidopsis_GLP,Unknown,Unknown,AF045: Cupin,http://www.allergome.org/script/dettaglio.php?id_molecule=779
+Lol p Legumin,Lol_p_Legumin,Lolium_Legumin,Unknown,Unknown,AF045: Cupin,Allergome; AllFam
+Ara t 3,Ara_t_3,Arabidopsis_3,Unknown,Unknown,AF050: Prolamin superfamily,http://www.allergome.org/script/dettaglio.php?id_molecule=1085
+Ara t 8,Ara_t_8,Arabidopsis_8,Unknown,Unknown,AF051: Profilin,http://www.allergome.org/script/dettaglio.php?id_molecule=840
+Lol p FT,Lol_p_FT,Lolium_FT,Unknown,Unknown,AF052: Glycoside hydrolase family 32,Allergome; https://www.uniprot.org/uniprot/Q8S3M4
+Art v TLP,Art_v_TLP,Artemisia_TLP,Unknown,Unknown,AF060: Thaumatin-like protein,Allergome
+Sen j PL,Sen_j_PL,Senecio_PL,Unknown,Unknown,AF073: Pectate lyase,http://www.allergome.org/script/dettaglio.php?id_molecule=4061
+Ara t expansin,Ara_t_expansin,Arabidopsis_expansin,Unknown,Unknown,AF093: Expansin and expansin-like,https://fermi.utmb.edu/cgi-bin/SDAP/sdap_01
+Poa p 9,Poa_p_9,Poa_9,Unknown,Unknown,AF093: Expansin and expansin-like,"SDAP: """"Beta-expansin; Old Name: Poa p 5, KBG 31, KBG 41, KBG 60, Poa p IX""""; http://fermi.utmb.edu/cgi-bin/SDAP/sdap_02?dB_Type=0&allid=38"
+Amb a 2,Amb_a_2,Ambrosia_2,Unknown,Unknown,AF112: Plastocyanin,AllFam
+Amb a 7,Amb_a_7,Ambrosia_7,Unknown,Unknown,AF112: Plastocyanin,IUIS
+Pla l FPA,Pla_l_FPA,Plantago_FPA,Unknown,Unknown,AF197: Fructose bisphosphate aldolase class I,http://www.allergome.org/script/dettaglio.php?id_molecule=11844
+Pla l ATPS,Pla_l_ATPS,Plantago_ATPS,Unknown,Unknown,ATP synthase,Allergome; Gadermaier 2014
+Unassigned,Unassigned,Ambrosia_Unassigned,Unknown,Unknown,NA,NA
+Pla l PGK,Pla_l_PGK,Plantago_PGK,Unknown,Unknown,Phosphoglycerate kinase,http://www.allergome.org/script/dettaglio.php?id_molecule=11845
+Art an 7,Art_an_7,Artemisia_7,Unknown,Unknown,Putative Galactose Oxidase,IUIS
+Poa p b,Poa_p_b,Poa_b,Unknown,Unknown,NA,no reference found apart from SDAP

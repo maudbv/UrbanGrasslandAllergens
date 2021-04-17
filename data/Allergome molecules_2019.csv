@@ -1,0 +1,493 @@
+﻿Type,Name,IUIS,inSilico,Source,Last Update,Code
+1,Aeg ta 11,0,1,Aegilops cylindrica; Aegilops squarrosa; Aegilops tauschii; Cylindropyrum cylindricum; Grasses; Patropyrum tauschii; Plants; Poaceae; Tausch's Goatgrass; Triticum cylindricum; Triticum tauschii,12.08.13,11051
+2,Aeg ta 12,0,1,Aegilops cylindrica; Aegilops squarrosa; Aegilops tauschii; Cylindropyrum cylindricum; Grasses; Patropyrum tauschii; Plants; Poaceae; Tausch's Goatgrass; Triticum cylindricum; Triticum tauschii,12.08.13,11021
+3,Aeg ta 5,0,1,Aegilops cylindrica; Aegilops squarrosa; Aegilops tauschii; Cylindropyrum cylindricum; Grasses; Patropyrum tauschii; Plants; Poaceae; Tausch's Goatgrass; Triticum cylindricum; Triticum tauschii,13.08.13,11079
+4,Agr c 7,0,,Agropyron cristatum; Crested Wheatgrass; Grasses; Plants; Poaceae; Quack Grass,18.08.08,1387
+5,Agr ca 1,0,,Agrostis capillaris; Agrostis tenuis; Agrostis vulgaris; Browntop; Common Bent; Grasses; Plants; Poaceae,15.12.12,5801
+6,Agr ca 5,0,,Agrostis capillaris; Agrostis tenuis; Agrostis vulgaris; Browntop; Common Bent; Grasses; Plants; Poaceae,15.12.12,9730
+7,Agr g 1,0,,Agrostis alba; Agrostis alba alba; Agrostis gigantea; Agrostis gigantea var. dispar; Agrostis nigra; Agrostis stolonifera var. major; Black Bent; Grasses; Plants; Poaceae; Redtop; Water Bentgrass,03.11.16,6
+8,Agr g 4,0,,Agrostis alba; Agrostis alba alba; Agrostis gigantea; Agrostis gigantea var. dispar; Agrostis nigra; Agrostis stolonifera var. major; Black Bent; Grasses; Plants; Poaceae; Redtop; Water Bentgrass,03.11.16,5800
+9,Agr s 5,0,,Agrostis stolonifera; Creeping Bent; Grasses; Plants; Poaceae,16.08.09,7652
+10,Aln g 1,1,,Alder; Alnus glutinosa; Betulaceae; Birch/Hazel/Oak-related Species; European Alder; Fagales; Plants,21.08.19,7
+11,Aln g 1/Bet v 1/Cor a 1 TPC7,0,,Alder; Alnus glutinosa; Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Castanea sativa; Chestnut; Corylaceae; Corylus avellana; European Alder; Fagaceae; Fagales; Hazelnut; Plants; Silver Birch,03.09.15,3820
+12,Aln g 1/Bet v 1/Cor a 1 TPC9,0,,Alder; Alnus glutinosa; Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Castanea sativa; Chestnut; Corylaceae; Corylus avellana; European Alder; Fagaceae; Fagales; Hazelnut; Plants; Silver Birch,15.12.12,3821
+13,Aln g 2,0,,Alder; Alnus glutinosa; Betulaceae; Birch/Hazel/Oak-related Species; European Alder; Fagales; Plants,18.09.16,8
+14,Aln g 4,1,,Alder; Alnus glutinosa; Betulaceae; Birch/Hazel/Oak-related Species; European Alder; Fagales; Plants,21.04.15,9
+15,Alo p 1,0,,Alopecurus pratensis; Grasses; Meadow Foxtail; Plants; Poaceae,21.04.14,2754
+16,Alo p 5,0,,Alopecurus pratensis; Grasses; Meadow Foxtail; Plants; Poaceae,21.04.14,5802
+17,Ama r 1,1,,Amaranthaceae; Amaranthus retroflexus; Careless Weed; Plants; Redroot Amaranth; Redroot Pigweed; Spiny Amaranth,28.12.16,11811
+18,Ama r 2,1,,Amaranthaceae; Amaranthus retroflexus; Careless Weed; Plants; Redroot Amaranth; Redroot Pigweed; Spiny Amaranth,13.03.15,8168
+19,Ama v 2,0,1,Amaranthaceae; Amaranthus viridis; Plants; Slender Amaranth,13.03.15,9448
+20,Amb a 1,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,14.07.19,24
+21,Amb a 10,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,12.08.16,25
+22,Amb a 11,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,24.11.13,11405
+23,Amb a 12,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,15.10.17,12031
+24,Amb a 3,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,12.08.16,27
+25,Amb a 4,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,12.08.16,8728
+26,Amb a 5,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,12.08.16,28
+27,Amb a 6,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,26.08.16,29
+28,Amb a 7,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,26.08.13,30
+29,Amb a 8,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,18.09.16,751
+30,Amb a 9,1,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,12.08.16,746
+31,Amb a CPI,0,,Ambrosia artemisiifolia; Ambrosia elatior; Asteraceae; Mugwort/Ragweed-related Species; Plants; Short Ragweed,12.08.16,2441
+32,Amb p 1,0,,Ambrosia psilostachya; Asteraceae; Mugwort/Ragweed-related Species; Plants; Western Ragweed,20.07.13,9064
+33,Amb p 5,1,,Ambrosia psilostachya; Asteraceae; Mugwort/Ragweed-related Species; Plants; Western Ragweed,26.08.13,31
+34,Amb t 5,1,,Ambrosia trifida; Asteraceae; Giant Ragweed; Mugwort/Ragweed-related Species; Plants,27.10.13,32
+35,Amb t 8,0,,Ambrosia trifida; Asteraceae; Giant Ragweed; Mugwort/Ragweed-related Species; Plants,20.07.13,2095
+36,Ant o 1,1,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,21.04.14,38
+37,Ant o 12,0,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,17.08.08,815
+38,Ant o 13,0,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,21.01.09,2524
+39,Ant o 2,0,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,15.12.12,812
+40,Ant o 4,0,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,15.12.12,813
+41,Ant o 5,0,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,10.09.18,39
+42,Ant o 6,0,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,29.10.12,814
+43,Ant o 7,0,,Anthoxanthum odoratum; Grasses; Plants; Poaceae; Sweet Vernal,18.08.08,1395
+44,Ara t 3,0,,Arabidopsis thaliana; Brassicaceae; Mouse-ear Cress; Plants; Thale Cress,21.04.15,1085
+45,Ara t 8,0,,Arabidopsis thaliana; Brassicaceae; Mouse-ear Cress; Plants; Thale Cress,16.08.15,840
+46,Ara t GLP,0,,Arabidopsis thaliana; Brassicaceae; Mouse-ear Cress; Plants; Thale Cress,16.08.15,779
+47,Arr e 1,0,,Arrhenatherum elatius; Avena elatior; False Oat-grass; Grasses; Plants; Poaceae,21.04.14,2751
+48,Arr e 5,0,,Arrhenatherum elatius; Avena elatior; False Oat-grass; Grasses; Plants; Poaceae,21.04.14,7662
+49,Art ab 1,1,,Absinthe; Absinthe Wormwood; Absinthium; Artemisia absinthium; Asteraceae; Common Wormwood; Mugwort; Mugwort/Ragweed-related Species; Plants,16.06.19,7638
+50,Art an 1,1,,Annual Wormwood; Artemisia annua; Asteraceae; Chinese Wormwood; Mugwort/Ragweed-related Species; Plants; Sweet Annie; Sweet Sagewort; Sweet Wormwood,16.06.19,12055
+51,Art an 3,0,1,Annual Wormwood; Artemisia annua; Asteraceae; Chinese Wormwood; Mugwort/Ragweed-related Species; Plants; Sweet Annie; Sweet Sagewort; Sweet Wormwood,03.12.17,12066
+52,Art an 7,1,,Annual Wormwood; Artemisia annua; Asteraceae; Chinese Wormwood; Mugwort/Ragweed-related Species; Plants; Sweet Annie; Sweet Sagewort; Sweet Wormwood,29.04.18,12010
+53,Art ap 1,0,,Artemisia; Artemisia apiacea; Asteraceae; Mugwort/Ragweed-related Species; Plants,15.12.12,3761
+54,Art ar 1,0,1,Artemisia argyi; Asteraceae; Chinese Mugwort; Mugwort/Ragweed-related Species; Plants; Silvery Wormwood,30.11.17,12038
+55,Art ar 2,1,,Artemisia argyi; Asteraceae; Chinese Mugwort; Mugwort/Ragweed-related Species; Plants; Silvery Wormwood,29.11.17,12036
+56,Art ar 3,0,1,Artemisia argyi; Asteraceae; Chinese Mugwort; Mugwort/Ragweed-related Species; Plants; Silvery Wormwood,03.12.17,12064
+57,Art c 1,1,,Artemisia californica; Asteraceae; California Sagebrush; Mugwort/Ragweed-related Species; Plants,18.08.19,12059
+58,Art ca 1,0,1,Artemisia; Artemisia capillaris; Asteraceae; Mugwort/Ragweed-related Species; Plants,03.12.17,12053
+59,Art ca 3,0,1,Artemisia; Artemisia capillaris; Asteraceae; Mugwort/Ragweed-related Species; Plants,03.12.17,12062
+60,Art f 1,1,,Arctic Sagebrush; Artemisia frigida; Asteraceae; Fringed Sagewort; Fringed Wormwood; Mugwort/Ragweed-related Species; Plants; Prairie Sagewort,16.06.19,12060
+61,Art gm 1,0,1,Artemisia gmelinii; Artemisia sacrorum; Asteraceae; Gmelin wormwood; Mugwort/Ragweed-related Species; Plants,03.12.17,12049
+62,Art l 1,1,,Artemisia ludoviciana; Asteraceae; Cudweed Sagewort; Gray Sagewort; Louisiana Sagewort; Louisiana Wormwood; Mugwort Wormwood; Mugwort/Ragweed-related Species; Plants; Prairie Sage; Silver Wormwood; White Sage; White Sagebrush,16.06.19,12058
+63,Art la 1,0,1,Artemisia; Artemisia lavandulifolia; Asteraceae; Mugwort/Ragweed-related Species; Plants,30.11.17,12045
+64,Art la 3,0,1,Artemisia; Artemisia lavandulifolia; Asteraceae; Mugwort/Ragweed-related Species; Plants,03.12.17,12065
+65,Art si 1,0,1,Artemisia sieversiana; Asteraceae; Mugwort; Mugwort/Ragweed-related Species; Plants,30.11.17,12041
+66,Art si 3,0,1,Artemisia sieversiana; Asteraceae; Mugwort; Mugwort/Ragweed-related Species; Plants,03.12.17,12063
+67,Art t 1,1,,Artemisia tridentata; Asteraceae; Basin Sagebrush; Black Sage; Blue Sage; Mountain Big Sagebrush; Mugwort/Ragweed-related Species; Plants,17.06.19,12061
+68,Art v 1,1,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,22.05.19,753
+69,Art v 2,1,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,26.08.16,58
+70,Art v 3,1,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,22.05.19,59
+71,Art v 4,1,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,18.09.16,60
+72,Art v 47kD,0,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,02.11.12,57
+73,Art v 5,1,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,26.08.16,1070
+74,Art v 6,1,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,18.03.18,2535
+75,Art v 60kD,0,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,26.08.16,750
+76,Art v TLP,0,,Artemisia vulgaris; Asteraceae; English Mugwort; Mugwort/Ragweed-related Species; Plants,23.09.12,10205
+77,Ave s 1,0,,Avena sativa; Cultivated Oat; Grasses; Plants; Poaceae,18.08.09,730
+78,Ave s 12,0,,Avena sativa; Cultivated Oat; Grasses; Plants; Poaceae,17.08.08,818
+79,Ave s 13,0,,Avena sativa; Cultivated Oat; Grasses; Plants; Poaceae,21.01.09,2523
+80,Ave s 2,0,,Avena sativa; Cultivated Oat; Grasses; Plants; Poaceae,15.12.12,816
+81,Ave s 4,0,,Avena sativa; Cultivated Oat; Grasses; Plants; Poaceae,15.12.12,817
+82,Ave s 5,0,,Avena sativa; Cultivated Oat; Grasses; Plants; Poaceae,15.12.12,744
+83,Ave s 7,0,,Avena sativa; Cultivated Oat; Grasses; Plants; Poaceae,18.08.08,1392
+84,Bet ab 1,0,,Betula albo-sinensis; Betula albosinensis; Betulaceae; Birch/Hazel/Oak-related Species; Chinese Red Birch; Fagales; Plants,24.07.11,9540
+85,Bet al 1,0,,Betula alleghaniensis; Betula lutea; Betulaceae; Birch/Hazel/Oak-related Species; Fagales; Plants; Yellow Birch,21.10.11,9545
+86,Bet ch 1,0,,Betula chichibuensis; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants,25.07.11,6170
+87,Bet co 1,0,,Betula costata; Betulaceae; Birch/Hazel/Oak-related Species; Fagales; Korean Birch; Plants,25.07.11,6174
+88,Bet da 1,0,,Betula dahurica; Betula davurica; Betulaceae; Birch/Hazel/Oak-related Species; Dahurian Birch; Fagales; Plants,24.07.11,9541
+89,Bet gr 1,0,,Betula grossa; Betulaceae; Birch/Hazel/Oak-related Species; Fagales; Japanese Cherry Birch; Plants,24.07.11,9542
+90,Bet hu 1,0,,Betula humilis; Betulaceae; Birch/Hazel/Oak-related Species; Fagales; Plants; Shrub Birch,24.07.11,9543
+91,Bet le 1,0,,Betula lenta; Betulaceae; Birch/Hazel/Oak-related Species; Cherry Birch; Plants; Sweet Birch,21.10.11,6166
+92,Bet me 1,0,,Betula medwedewii; Betula medwediewii; Betulaceae; Birch/Hazel/Oak-related Species; Fagales; Medvedev's Birch; Plants,24.07.11,9544
+93,Bet n 1,0,,Betula nigra; Betulaceae; Birch/Hazel/Oak-related Species; Black Birch; Plants; River Birch,25.07.11,6167
+94,Bet p 1,0,,Asian White Birch; Betula platyphylla; Betulaceae; Birch/Hazel/Oak-related Species; Plants,25.07.11,1255
+95,Bet pa 1,0,,American White Birch; Betula papyrifera; Betulaceae; Birch/Hazel/Oak-related Species; Canoe Birch; Fagales; Paper Birch; Plants,24.07.11,9546
+96,Bet po 1,0,,Betula populifolia; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Gray Birch; Plants,21.10.11,6168
+97,Bet pu 1,0,,Betula alba; Betula pubescens; Betulaceae; Birch/Hazel/Oak-related Species; Downy Birch; Fagales; Mountain Birch; Plants; White Birch,24.07.11,1301
+98,Bet pu 2,0,,Betula alba; Betula pubescens; Betulaceae; Birch/Hazel/Oak-related Species; Downy Birch; Fagales; Mountain Birch; Plants; White Birch,07.01.10,5971
+99,Bet pu 4,0,,Betula alba; Betula pubescens; Betulaceae; Birch/Hazel/Oak-related Species; Downy Birch; Fagales; Mountain Birch; Plants; White Birch,26.01.09,5972
+100,Bet pu 6,0,,Betula alba; Betula pubescens; Betulaceae; Birch/Hazel/Oak-related Species; Downy Birch; Fagales; Mountain Birch; Plants; White Birch,05.12.10,5973
+101,Bet pu 7,0,,Betula alba; Betula pubescens; Betulaceae; Birch/Hazel/Oak-related Species; Downy Birch; Fagales; Mountain Birch; Plants; White Birch,28.08.10,5974
+102,Bet sc 1,0,,Betula schmidtii; Betulaceae; Birch/Hazel/Oak-related Species; Fagales; Plants; Schmidt's Birch,14.04.09,6172
+103,Bet ut 1,0,,Betula utilis; Betulaceae; Bhojpatra; Birch/Hazel/Oak-related Species; Cao Pi Hua; Himalayan Birch; Plants,24.07.11,9539
+104,Bet v 1,1,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,24.07.19,89
+105,Bet v 1 fv Mal 4x,0,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,23.08.14,6015
+106,Bet v 2,1,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,26.05.19,127
+107,Bet v 3,1,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,15.04.18,128
+108,Bet v 4,1,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,22.05.19,129
+109,Bet v 6,1,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,15.04.18,131
+110,Bet v 7,1,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,15.04.18,134
+111,Bet v 8,1,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,15.04.18,12096
+112,Bet v Glucanase,0,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,15.12.12,1490
+113,Bet v PME,0,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,21.01.18,135
+114,Bet v TLP,0,,Betula pendula; Betula verrucosa; Betulaceae; Birch; Birch/Hazel/Oak-related Species; Fagales; Plants; Silver Birch,23.09.12,10206
+115,Beta v 1,1,,Amaranthaceae; Beetroot; Beta vulgaris; Common Beet; Plants,16.12.12,5798
+116,Beta v 2,1,,Amaranthaceae; Beetroot; Beta vulgaris; Common Beet; Plants,20.08.08,5799
+117,Bou g 1,0,,Blue Grama Grass; Bouteloua gracilis; Grasses; Plants; Poaceae,16.12.12,1568
+118,Bra ca 8,0,1,Brassica campestris; Brassicaceae; Field Mustard; Plants,18.07.12,10089
+119,Bra di 1,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,07.11.12,10230
+120,Bra di 11,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,22.07.13,11024
+121,Bra di 12,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,07.11.12,10233
+122,Bra di 13,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,07.11.12,10240
+123,Bra di 2,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,07.11.12,10237
+124,Bra di 4,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,07.11.12,10238
+125,Bra di 5,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,07.11.12,10239
+126,Bra di 7,0,1,Agropyron distachyo; Brachypodium distachyon; Brachypodium distachyum; Bromus geniculatus; Festuca distachya; Grasses; Plants; Poaceae; Purple False Brome; Trachynia distachya; Zerna distachya,07.11.12,10235
+127,Bra j 8,0,1,Brassica juncea; Brassicaceae; Oriental Mustard; Plants,18.07.12,10091
+128,Bra n 4,0,,Brassica napus; Brassicaceae; Canola; Plants; Rapeseed,03.03.19,710
+129,Bra n 7,0,,Brassica napus; Brassicaceae; Canola; Plants; Rapeseed,03.03.19,170
+130,Bra n 8,0,,Brassica napus; Brassicaceae; Canola; Plants; Rapeseed,03.03.19,1073
+131,Bra n PG,0,,Brassica napus; Brassicaceae; Canola; Plants; Rapeseed,03.03.19,1072
+132,Bra ni 8,0,,Black Mustard; Brassica nigra; Brassicaceae; Plants,24.04.11,3922
+133,Bra r 3,0,,Bird Rape; Brassica rapa; Brassicaceae; Field Mustard; Plants; Turnip; Turnip Mustard,26.10.14,1060
+134,Bra r 5,1,,Bird Rape; Brassica rapa; Brassicaceae; Field Mustard; Plants; Turnip; Turnip Mustard,07.07.13,171
+135,Bra r 7,0,,Bird Rape; Brassica rapa; Brassicaceae; Field Mustard; Plants; Turnip; Turnip Mustard,21.04.15,172
+136,Bra r 8,0,1,Bird Rape; Brassica rapa; Brassicaceae; Field Mustard; Plants; Turnip; Turnip Mustard,20.03.13,10093
+137,Bra sy 1,0,1,Agropyron sylvaticum; Brachypodium gracile f. pubescens; Brachypodium miserum; Brachypodium pubescens; Brachypodium sylvaticum; Brachypodium watti; Brevipodium sylvaticum; Bromus dumosus; Bromus sylvaticus; Festuca sylvatica; Grasses; Plants; Poaceae; Slender False Brome; Triticum sylvaticum; Wood False Brome,02.11.12,10232
+138,Bro a 1,0,,Bromus arvensis; Field Brome; Grasses; Plants; Poaceae,16.12.12,2752
+139,Bro a 4,0,,Bromus arvensis; Field Brome; Grasses; Plants; Poaceae,04.11.12,173
+140,Bro i 1,0,,Bromus inermis; Grasses; Plants; Poaceae; Smooth Brome Grass,21.04.14,9729
+141,Bro i 5,0,,Bromus inermis; Grasses; Plants; Poaceae; Smooth Brome Grass,21.04.14,9731
+142,Bro i 7,0,,Bromus inermis; Grasses; Plants; Poaceae; Smooth Brome Grass,18.08.08,1394
+143,Bro pa 10kD,0,,Broussonetia papyrifera; China Mulberry-tree; Moraceae; Morus papyrifera; Paper Mulberry; Papyrius papyriferus; Plants,11.06.13,10917
+144,Bro pa 15kD,0,,Broussonetia papyrifera; China Mulberry-tree; Moraceae; Morus papyrifera; Paper Mulberry; Papyrius papyriferus; Plants,15.04.14,11618
+145,Bro pa 72kD,0,,Broussonetia papyrifera; China Mulberry-tree; Moraceae; Morus papyrifera; Paper Mulberry; Papyrius papyriferus; Plants,15.04.14,11619
+146,Car b 1,1,,Birch/Hazel/Oak-related Species; Carpinus betulus; Corylaceae; Fagales; Hornbeam; Plants,18.09.16,180
+147,Car b 2,0,,Birch/Hazel/Oak-related Species; Carpinus betulus; Corylaceae; Fagales; Hornbeam; Plants,05.04.15,726
+148,Car b 4,0,,Birch/Hazel/Oak-related Species; Carpinus betulus; Corylaceae; Fagales; Hornbeam; Plants,05.04.15,727
+149,Car mi 2,0,,Arecaceae; Burmese Fishtail Palm; Caryota mitis; Florida Royal Palm; Plants,15.08.15,3564
+150,Cari p Chitinase,0,,Carica papaya; Caricaceae; Papaya; Plants,23.12.17,1272
+151,Cas s 1,1,,Birch/Hazel/Oak-related Species; Castanea sativa; Chestnut; Fagaceae; Fagales; Plants,02.01.16,192
+152,Cas s 2,0,,Birch/Hazel/Oak-related Species; Castanea sativa; Chestnut; Fagaceae; Fagales; Plants,18.09.16,748
+153,Cat r 1,1,,Apocynaceae; Catharanthus roseus; Chatas; Chula; Madagascar Periwinkle; Plants; Rosy Periwinkle; Vinca rosea,22.11.15,2900
+154,Cat r 2,0,,Apocynaceae; Catharanthus roseus; Chatas; Chula; Madagascar Periwinkle; Plants; Rosy Periwinkle; Vinca rosea,07.02.09,2902
+155,Cha o 1,1,,Cedar/Cypress/Juniper-related Species; Chamaecyparis obtusa; Cupressaceae; Hinoki; Japanese Cypress; Plants,16.08.15,197
+156,Cha o 2,1,,Cedar/Cypress/Juniper-related Species; Chamaecyparis obtusa; Cupressaceae; Hinoki; Japanese Cypress; Plants,16.08.15,198
+157,Cha o 3,1,,Cedar/Cypress/Juniper-related Species; Chamaecyparis obtusa; Cupressaceae; Hinoki; Japanese Cypress; Plants,30.08.15,11866
+158,Che a 1,1,,Amaranthaceae; Chenopodium album; Goosefoot; Lamb's-quarters; Plants,26.05.19,199
+159,Che a 2,1,,Amaranthaceae; Chenopodium album; Goosefoot; Lamb's-quarters; Plants,06.04.18,1068
+160,Che a 3,1,,Amaranthaceae; Chenopodium album; Goosefoot; Lamb's-quarters; Plants,06.04.18,1069
+161,Chl el 1,0,,Andropogon barbatus; Andropogon polydactylos; Chloris arundinacea; Chloris barbata; Chloris consanguinea; Chloris dandyana; Chloris elata; Chloris polydactyla; Grasses; Plants; Poaceae; Tall Windmill Grass,25.03.15,11739
+162,Chl el 13,0,,Andropogon barbatus; Andropogon polydactylos; Chloris arundinacea; Chloris barbata; Chloris consanguinea; Chloris dandyana; Chloris elata; Chloris polydactyla; Grasses; Plants; Poaceae; Tall Windmill Grass,25.03.15,11740
+163,Chl el 7,0,,Andropogon barbatus; Andropogon polydactylos; Chloris arundinacea; Chloris barbata; Chloris consanguinea; Chloris dandyana; Chloris elata; Chloris polydactyla; Grasses; Plants; Poaceae; Tall Windmill Grass,25.03.15,11741
+164,Cin cm 2,0,1,Camphor Laurel; Camphor Tree; Camphora camphora; Camphorwood; Cinnamomum camphora; Lauraceae; Laurus camphora; Plants,19.07.12,9923
+165,Coc n 1,1,,Arecaceae; Coconut; Cocos nucifera; Plants,09.03.16,11942
+166,Coc n 5,0,,Arecaceae; Coconut; Cocos nucifera; Plants,15.08.15,3560
+167,Cor a 1,1,,Birch/Hazel/Oak-related Species; Corylaceae; Corylus avellana; Fagaceae; Fagales; Hazelnut; Plants,21.08.19,232
+168,Cor a 10,1,,Birch/Hazel/Oak-related Species; Corylaceae; Corylus avellana; Fagaceae; Fagales; Hazelnut; Plants,29.12.14,243
+169,Cor a 2,1,,Birch/Hazel/Oak-related Species; Corylaceae; Corylus avellana; Fagaceae; Fagales; Hazelnut; Plants,15.04.18,244
+170,Cor a 6,1,,Birch/Hazel/Oak-related Species; Corylaceae; Corylus avellana; Fagaceae; Fagales; Hazelnut; Plants,19.07.13,10994
+171,Cor he 1,0,,Asian Hazel; Betulaceae; Birch/Hazel/Oak-related Species; Corylus heterophylla; Fagales; Plants; Siberian filbert; Siberian Hazelnut,16.12.12,5836
+172,Cro s 1,1,,Crocus sativus; Iridaceae; Plants; Saffron; Saffron Crocus,16.12.12,2921
+173,Cro s 2,1,,Crocus sativus; Iridaceae; Plants; Saffron; Saffron Crocus,13.03.15,1475
+174,Cro s 3,0,,Crocus sativus; Iridaceae; Plants; Saffron; Saffron Crocus,24.07.11,9051
+175,Cry j 1,1,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,14.07.19,248
+176,Cry j 2,1,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,15.04.18,249
+177,Cry j 3,0,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,23.03.15,805
+178,Cry j 4,0,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,17.03.07,3659
+179,Cry j AP,0,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,06.09.14,8727
+180,Cry j Chitinase,0,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,31.08.15,2520
+181,Cry j CPA9,0,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,04.11.12,9056
+182,Cry j IFR,0,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,29.12.14,902
+183,Cry j LTP,0,,Cedar/Cypress/Juniper-related Species; Cryptomeria japonica; Cupressaceae; Japanese Cedar; Plants; Sugi,04.07.10,8740
+184,Cup a 1,1,,Arizona Cypress; Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus arizonica; Plants,22.05.19,256
+185,Cup a 2,0,1,Arizona Cypress; Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus arizonica; Plants,23.08.12,3551
+186,Cup a 3,0,,Arizona Cypress; Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus arizonica; Plants,03.09.15,898
+187,Cup a 4,0,,Arizona Cypress; Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus arizonica; Plants,21.04.15,3552
+188,Cup s 1,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus sempervirens; Mediterranean Cypress; Plants,25.03.18,257
+189,Cup s 14kD,0,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus sempervirens; Mediterranean Cypress; Plants,05.11.12,9924
+190,Cup s 2,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus sempervirens; Mediterranean Cypress; Plants,29.01.17,10177
+191,Cup s 3,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus sempervirens; Mediterranean Cypress; Plants,23.08.14,1217
+192,Cup s 7,0,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus sempervirens; Mediterranean Cypress; Plants,01.08.19,12206
+193,Cup s 8,0,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Cupressus sempervirens; Mediterranean Cypress; Plants,25.01.09,2096
+194,Cyn cr 1,0,,Crested Dog's Tail Grass; Cynosurus cristatus; Dogstail; Grasses; Plants; Poaceae,16.12.12,2753
+195,Cyn cr 5,0,,Crested Dog's Tail Grass; Cynosurus cristatus; Dogstail; Grasses; Plants; Poaceae,27.12.12,9732
+196,Cyn d 1,1,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,22.05.19,266
+197,Cyn d 11,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,16.12.12,2755
+198,Cyn d 12,1,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,20.03.18,279
+199,Cyn d 13,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,25.03.15,2525
+200,Cyn d 15,1,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,05.11.12,364
+201,Cyn d 2,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,18.09.16,773
+202,Cyn d 22,1,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,24.10.15,1218
+203,Cyn d 23,1,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,29.03.18,691
+204,Cyn d 24,1,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,24.10.15,1310
+205,Cyn d 4,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,26.05.19,819
+206,Cyn d 5,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,12.12.10,820
+207,Cyn d 6,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,05.11.12,821
+208,Cyn d 7,1,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,24.10.15,280
+209,Cyn d CP,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,20.01.13,10792
+210,Cyn d EXY,0,,Bermuda grass; Cynodon dactylon; Grasses; Panicum dactylon; Plants; Poaceae,20.01.13,10793
+211,Dac g 1,1,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,21.04.15,281
+212,Dac g 12,0,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,17.08.08,2097
+213,Dac g 13,0,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,21.01.09,282
+214,Dac g 2,1,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,14.08.12,283
+215,Dac g 3,1,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,23.08.15,284
+216,Dac g 4,1,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,05.11.12,285
+217,Dac g 5,1,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,24.07.19,286
+218,Dac g 7,0,,Cocksfoot Grass; Dactylis glomerata; Grasses; Orchard Grass; Plants; Poaceae,18.08.08,1388
+219,Dis s 1,0,,Distichlis spicata; Distichlis stricta; Grasses; Plants; Poaceae; Salt Grass,16.12.12,1569
+220,Dis s 7,0,,Distichlis spicata; Distichlis stricta; Grasses; Plants; Poaceae; Salt Grass,18.08.08,1393
+221,Ech p Cytochrome C,0,,Boraginaceae; Echium lycopsis; Echium plantagineum; Paterson's Curse; Plants; Salvation Jane,07.08.11,2439
+222,Ela g 2,0,1,Arecaceae; Elaeis guineensis; Oil Palm; Plants,02.02.12,3985
+223,Ela g Bd31kD,0,,Arecaceae; Elaeis guineensis; Oil Palm; Plants,06.11.12,900
+224,Ela ol 2,0,1,American Oil Palm; Arecaceae; Corozo oleifera; Elaeis oleifera; Plants,18.07.12,10095
+225,Fag s 1,1,,Beech; Beechnut; Birch/Hazel/Oak-related Species; European Beech; Fagaceae; Fagales; Fagus sylvatica; Plants,02.01.16,1086
+226,Fag s 2,0,,Beech; Beechnut; Birch/Hazel/Oak-related Species; European Beech; Fagaceae; Fagales; Fagus sylvatica; Plants,26.01.09,5870
+227,Fag s 4,0,,Beech; Beechnut; Birch/Hazel/Oak-related Species; European Beech; Fagaceae; Fagales; Fagus sylvatica; Plants,26.01.09,5871
+228,Fes e 1,0,,Avena secunda; Bromus arundinaceus; Bromus elatior; Bucetum elatius; Festuca arundinacea; Festuca elatior; Festuca fenas; Festuca mediterranea; Festuca orientalis; Festuca phoenix; Gnomonia elatior; Grasses; Lolium arundinaceum; Plants; Poa elatior; Poa kunthii; Poa phoenix; Poa uliginosa; Poaceae; Reed Fescue; Schedonorus arundinaceus; Schedonorus elatior; Schedonorus phoenix; Tragus elatior,05.09.13,348
+229,Fes e 13,0,,Avena secunda; Bromus arundinaceus; Bromus elatior; Bucetum elatius; Festuca arundinacea; Festuca elatior; Festuca fenas; Festuca mediterranea; Festuca orientalis; Festuca phoenix; Gnomonia elatior; Grasses; Lolium arundinaceum; Plants; Poa elatior; Poa kunthii; Poa phoenix; Poa uliginosa; Poaceae; Reed Fescue; Schedonorus arundinaceus; Schedonorus elatior; Schedonorus phoenix; Tragus elatior,21.01.13,349
+230,Fes e 4,0,,Avena secunda; Bromus arundinaceus; Bromus elatior; Bucetum elatius; Festuca arundinacea; Festuca elatior; Festuca fenas; Festuca mediterranea; Festuca orientalis; Festuca phoenix; Gnomonia elatior; Grasses; Lolium arundinaceum; Plants; Poa elatior; Poa kunthii; Poa phoenix; Poa uliginosa; Poaceae; Reed Fescue; Schedonorus arundinaceus; Schedonorus elatior; Schedonorus phoenix; Tragus elatior,06.11.12,350
+231,Fes e 5,0,,Avena secunda; Bromus arundinaceus; Bromus elatior; Bucetum elatius; Festuca arundinacea; Festuca elatior; Festuca fenas; Festuca mediterranea; Festuca orientalis; Festuca phoenix; Gnomonia elatior; Grasses; Lolium arundinaceum; Plants; Poa elatior; Poa kunthii; Poa phoenix; Poa uliginosa; Poaceae; Reed Fescue; Schedonorus arundinaceus; Schedonorus elatior; Schedonorus phoenix; Tragus elatior,05.09.13,1001
+232,Fes e 7,0,,Avena secunda; Bromus arundinaceus; Bromus elatior; Bucetum elatius; Festuca arundinacea; Festuca elatior; Festuca fenas; Festuca mediterranea; Festuca orientalis; Festuca phoenix; Gnomonia elatior; Grasses; Lolium arundinaceum; Plants; Poa elatior; Poa kunthii; Poa phoenix; Poa uliginosa; Poaceae; Reed Fescue; Schedonorus arundinaceus; Schedonorus elatior; Schedonorus phoenix; Tragus elatior,18.08.08,1389
+233,Fes p 1,0,,Festuca pratensis; Grasses; Meadow Fescue; Plants; Poaceae,21.04.14,777
+234,Fes p 13,0,,Festuca pratensis; Grasses; Meadow Fescue; Plants; Poaceae,21.01.09,351
+235,Fes p 4,1,,Festuca pratensis; Grasses; Meadow Fescue; Plants; Poaceae,17.08.08,352
+236,Fes p 5,0,,Festuca pratensis; Grasses; Meadow Fescue; Plants; Poaceae,08.08.16,699
+237,Fes r 1,0,,Festuca rubra; Grasses; Plants; Poaceae; Red Fescue,06.11.12,1599
+238,Fes r 5,0,,Festuca rubra; Grasses; Plants; Poaceae; Red Fescue,17.08.08,798
+239,For s 1,0,,Forsythia; Forsythia suspensa; Oleaceae; Olive-related Species; Plants,16.12.12,353
+240,Fra e 1,1,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,18.09.16,354
+241,Fra e 10,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,15.05.15,11762
+242,Fra e 11,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,15.05.15,11761
+243,Fra e 12,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,15.05.15,9234
+244,Fra e 2,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,06.04.18,355
+245,Fra e 3,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,06.04.18,356
+246,Fra e 6,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,15.05.15,11759
+247,Fra e 7,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,24.12.15,11760
+248,Fra e 9,0,,Ash; Fraxinus excelsior; Oleaceae; Olive-related Species; Plants,15.05.15,2548
+249,Hel a 1,1,,Asteraceae; Helianthus annuus; Mugwort/Ragweed-related Species; Plants; Sunflower,26.08.13,376
+250,Hel a 2,1,,Asteraceae; Helianthus annuus; Mugwort/Ragweed-related Species; Plants; Sunflower,07.04.15,377
+251,Hel a 6,1,,Asteraceae; Helianthus annuus; Mugwort/Ragweed-related Species; Plants; Sunflower,17.12.17,12067
+252,Hol l 1,1,,Grasses; Holcus lanatus; Plants; Poaceae; Velvet Grass,16.08.15,405
+253,Hol l 2,0,,Grasses; Holcus lanatus; Plants; Poaceae; Velvet Grass,15.12.12,1003
+254,Hol l 4,0,,Grasses; Holcus lanatus; Plants; Poaceae; Velvet Grass,15.12.12,408
+255,Hol l 5,1,,Grasses; Holcus lanatus; Plants; Poaceae; Velvet Grass,23.08.15,409
+256,Hor v 1,0,,Barley; Grasses; Hordeum sativum; Hordeum vulgare; Plants; Poaceae,17.03.18,417
+257,Hor v 12,1,,Barley; Grasses; Hordeum sativum; Hordeum vulgare; Plants; Poaceae,17.03.18,1406
+258,Hor v 13,0,,Barley; Grasses; Hordeum sativum; Hordeum vulgare; Plants; Poaceae,17.03.18,2526
+259,Hor v 2,0,,Barley; Grasses; Hordeum sativum; Hordeum vulgare; Plants; Poaceae,17.03.18,1321
+260,Hor v 4,0,,Barley; Grasses; Hordeum sativum; Hordeum vulgare; Plants; Poaceae,17.03.18,416
+261,Hor v 5,1,,Barley; Grasses; Hordeum sativum; Hordeum vulgare; Plants; Poaceae,17.03.18,422
+262,Hor v 7,0,1,Barley; Grasses; Hordeum sativum; Hordeum vulgare; Plants; Poaceae,07.11.12,10234
+263,Hum j 1,1,,Cannabaceae; Humulus japonicus; Humulus scandens; Japanese Hop; Plants,02.12.12,1240
+264,Hum j 2,0,,Cannabaceae; Humulus japonicus; Humulus scandens; Japanese Hop; Plants,13.03.15,1693
+265,Hum j 3,0,,Cannabaceae; Humulus japonicus; Humulus scandens; Japanese Hop; Plants,02.12.12,1239
+266,Imp c 4,0,,Cogon Grass; Grasses; Imperata cylindrica; Plants; Poaceae,21.01.13,835
+267,Imp c 5,0,,Cogon Grass; Grasses; Imperata cylindrica; Plants; Poaceae,21.01.13,836
+268,Imp c 7,0,,Cogon Grass; Grasses; Imperata cylindrica; Plants; Poaceae,25.03.15,11742
+269,Imp c VIIIe1,0,,Cogon Grass; Grasses; Imperata cylindrica; Plants; Poaceae,02.12.12,833
+270,Jun a 1,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Juniperus ashei; Juniperus sabinoides; Mountain Cedar; Plants,15.04.18,427
+271,Jun a 2,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Juniperus ashei; Juniperus sabinoides; Mountain Cedar; Plants,23.08.15,428
+272,Jun a 3,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Juniperus ashei; Juniperus sabinoides; Mountain Cedar; Plants,03.09.15,429
+273,Jun c 1,0,,Cedar/Cypress/Juniper-related Species; Common Juniper; Cupressaceae; Juniperus communis; Plants,10.02.09,1341
+274,Jun o 1,0,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Juniperus oxycedrus; Plants; Prickly Juniper,16.08.15,897
+275,Jun o 4,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Juniperus oxycedrus; Plants; Prickly Juniper,21.04.15,430
+276,Jun r 3,0,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Japanese Juniper; Juniperus rigida; Plants,23.08.14,1598
+277,Jun v 1,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Eastern Red Cedar; Juniperus virginiana; Plants,24.02.16,431
+278,Jun v 145kD,0,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Eastern Red Cedar; Juniperus virginiana; Plants,24.02.16,433
+279,Jun v 3,1,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Eastern Red Cedar; Juniperus virginiana; Plants,24.02.16,776
+280,Koc s 1,1,,Amaranthaceae; Bassia scoparia; Burning Bush; Kochia scoparia; Plants; Summer Cypress,19.07.15,11815
+281,Koc s 2,1,,Amaranthaceae; Bassia scoparia; Burning Bush; Kochia scoparia; Plants; Summer Cypress,24.08.14,11663
+282,Lig v 1,1,,Common Privet; Ligustrum vulgare; Oleaceae; Olive-related Species; Plants,18.09.16,446
+283,Lig v 2,0,,Common Privet; Ligustrum vulgare; Oleaceae; Olive-related Species; Plants,05.04.15,2098
+284,Lil l 1,0,,Easter Lily; Liliaceae; Lilium longiflorum; Plants; Trumpet Lily,17.05.15,11749
+285,Lil l 2,0,,Easter Lily; Liliaceae; Lilium longiflorum; Plants; Trumpet Lily,11.02.09,1196
+286,Lil l PG,0,,Easter Lily; Liliaceae; Lilium longiflorum; Plants; Trumpet Lily,12.04.09,3016
+287,Lol m 2,0,1,Grasses; Italian Ryegrass; Lolium italicum; Lolium multiflorum; Plants; Poaceae,15.12.12,5865
+288,Lol m 5,0,,Grasses; Italian Ryegrass; Lolium italicum; Lolium multiflorum; Plants; Poaceae,21.12.08,1002
+289,Lol p 1,1,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,17.08.18,450
+290,Lol p 10,0,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,21.01.13,454
+291,Lol p 11,1,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,22.07.13,455
+292,Lol p 12,0,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,21.11.10,456
+293,Lol p 13,0,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,05.03.11,1015
+294,Lol p 2,1,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,16.08.15,457
+295,Lol p 3,1,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,18.12.12,458
+296,Lol p 4,1,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,24.08.12,459
+297,Lol p 5,1,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,10.09.18,460
+298,Lol p 7,0,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,24.01.13,1390
+299,Lol p CyP,0,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,23.08.15,7676
+300,Lol p FT,0,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,17.12.12,7677
+301,Lol p Legumin,0,,Grasses; Lolium perenne; Plants; Poaceae; Rye grass,06.09.14,7678
+302,Mer a 1,1,,Annual Mercury; Euphorbiaceae; Mercurialis annua; Plants,26.05.19,476
+303,Met gl 2,0,1,Cedar/Cypress/Juniper-related Species; Cupressaceae; Dawn Redwood; Metasequoia glyptostroboides; Plants,12.09.11,5832
+304,Nic t 3,0,,Common Tobacco; Nicotiana tabacum; Plants; Solanaceae,06.04.18,5993
+305,Nic t 8,0,,Common Tobacco; Nicotiana tabacum; Plants; Solanaceae,04.02.12,1407
+306,Nic t Villin,0,,Common Tobacco; Nicotiana tabacum; Plants; Solanaceae,18.12.12,2700
+307,Ole e 1,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,22.08.19,482
+308,Ole e 10,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,23.04.16,1319
+309,Ole e 11,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,23.04.16,5966
+310,Ole e 12,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,08.04.18,9073
+311,Ole e 14,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,17.12.17,12073
+312,Ole e 15,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,20.03.18,12111
+313,Ole e 2,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,15.04.18,490
+314,Ole e 3,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,06.04.18,491
+315,Ole e 36kD,0,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,02.12.12,1194
+316,Ole e 4,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,23.04.16,492
+317,Ole e 5,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,23.04.16,493
+318,Ole e 6,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,23.04.16,494
+319,Ole e 7,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,22.05.19,495
+320,Ole e 8,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,23.04.16,496
+321,Ole e 9,1,,Olea europaea; Oleaceae; Olive Tree; Olive-related Species; Plants,22.05.19,497
+322,Ory s 1,1,,Grasses; Oryza sativa; Plants; Poaceae; Rice,21.04.15,499
+323,Ory s 11,0,,Grasses; Oryza sativa; Plants; Poaceae; Rice,22.07.13,3828
+324,Ory s 12,1,,Grasses; Oryza sativa; Plants; Poaceae; Rice,13.03.15,996
+325,Ory s 13,0,,Grasses; Oryza sativa; Plants; Poaceae; Rice,22.07.13,3830
+326,Ory s 2,0,,Grasses; Oryza sativa; Plants; Poaceae; Rice,24.10.15,1243
+327,Ory s 23,0,,Grasses; Oryza sativa; Plants; Poaceae; Rice,29.03.18,5964
+328,Ory s 3,0,,Grasses; Oryza sativa; Plants; Poaceae; Rice,02.12.12,3829
+329,Ory s 7,0,,Grasses; Oryza sativa; Plants; Poaceae; Rice,07.08.15,2835
+330,Ory s GBSS_I,0,,Grasses; Oryza sativa; Plants; Poaceae; Rice,31.07.13,11008
+331,Ost c 1,1,,Betulaceae; Birch/Hazel/Oak-related Species; Corylaceae; European Hop-hornbeam; Fagales; Ostrya carpinifolia; Plants,22.12.12,979
+332,Par h 1,1,,Asteraceae; Feverfew; Mugwort/Ragweed-related Species; Parthenium hysterophorus; Plants,22.08.17,502
+333,Par j 1,1,,Parietaria; Parietaria diffusa; Parietaria judaica; Pellitory; Plants; Urticaceae,15.04.18,503
+334,Par j 2,1,,Parietaria; Parietaria diffusa; Parietaria judaica; Pellitory; Plants; Urticaceae,22.08.19,507
+335,Par j 3,1,,Parietaria; Parietaria diffusa; Parietaria judaica; Pellitory; Plants; Urticaceae,18.09.16,510
+336,Par j 4,1,,Parietaria; Parietaria diffusa; Parietaria judaica; Pellitory; Plants; Urticaceae,21.04.15,1071
+337,Par j J1-J2,0,,Parietaria; Parietaria diffusa; Parietaria judaica; Pellitory; Plants; Urticaceae,10.12.12,3048
+338,Par m 1,0,,Parietaria; Parietaria mauritanica; Pellitory; Plants; Urticaceae,25.08.10,513
+339,Par o 1,1,,Parietaria; Parietaria erecta; Parietaria officinalis; Pellitory; Plants; Urticaceae,24.06.12,514
+340,Pas n 1,1,,Bahia Grass; Grasses; Paspalum notatum; Plants; Poaceae,24.10.15,874
+341,Pas n 13,0,,Bahia Grass; Grasses; Paspalum notatum; Plants; Poaceae,24.10.15,9456
+342,Pha a 1,1,,Canary grass; Grasses; Phalaris aquatica; Plants; Poaceae,23.08.15,547
+343,Pha a 5,1,,Canary grass; Grasses; Phalaris aquatica; Plants; Poaceae,23.08.15,548
+344,Phl p 1,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,22.08.19,549
+345,Phl p 11,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,26.05.19,552
+346,Phl p 12,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,22.05.19,553
+347,Phl p 13,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,29.04.19,554
+348,Phl p 2,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,14.07.19,555
+349,Phl p 3,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,01.07.18,556
+350,Phl p 4,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,26.05.19,557
+351,Phl p 5,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,14.07.19,558
+352,Phl p 6,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,14.07.19,569
+353,Phl p 7,1,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,22.05.19,570
+354,Phl p CP,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,28.04.19,10795
+355,Phl p EXY,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,20.01.13,10794
+356,Phl p Fe/Mn-SOD,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,15.05.15,11763
+357,Phl p P1-P2-P5-P6,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,06.12.12,2670
+358,Phl p P2-P6,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,06.12.12,696
+359,Phl p P5-P1,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,06.12.12,721
+360,Phl p P6-P2,0,,Grasses; Phleum pratense; Plants; Poaceae; Timothy Grass,06.12.12,720
+361,Pho d 2,1,,Arecaceae; Date Palm; Phoenix dactylifera; Plants,22.08.19,571
+362,Pho d 40kD,0,,Arecaceae; Date Palm; Phoenix dactylifera; Plants,02.12.12,8444
+363,Pho d 90kD,0,,Arecaceae; Date Palm; Phoenix dactylifera; Plants,18.12.12,8445
+364,Pho ro 2,0,,Arecaceae ; Miniature Date Palm; Phoenix roebelenii; Plants; Pygmy Date Palm,26.06.15,11801
+365,Phr a 1,0,,Common Reed; Grasses; Phragmites australis; Phragmites communis; Plants; Poaceae,07.07.13,731
+366,Phr a 12,0,,Common Reed; Grasses; Phragmites australis; Phragmites communis; Plants; Poaceae,16.11.05,826
+367,Phr a 13,0,,Common Reed; Grasses; Phragmites australis; Phragmites communis; Plants; Poaceae,07.07.13,2527
+368,Phr a 4,0,,Common Reed; Grasses; Phragmites australis; Phragmites communis; Plants; Poaceae,07.07.13,824
+369,Phr a 5,0,,Common Reed; Grasses; Phragmites australis; Phragmites communis; Plants; Poaceae,07.07.13,825
+370,Pla a 1,1,,American Sycamore; London Plane Tree; Plants; Platanaceae; Platanus acerifolia; Platanus hybrida,22.05.19,572
+371,Pla a 2,1,,American Sycamore; London Plane Tree; Plants; Platanaceae; Platanus acerifolia; Platanus hybrida,26.05.19,573
+372,Pla a 3,1,,American Sycamore; London Plane Tree; Plants; Platanaceae; Platanus acerifolia; Platanus hybrida,22.05.19,1322
+373,Pla a 8,0,,American Sycamore; London Plane Tree; Plants; Platanaceae; Platanus acerifolia; Platanus hybrida,21.07.13,839
+374,Pla a TLP,0,,American Sycamore; London Plane Tree; Plants; Platanaceae; Platanus acerifolia; Platanus hybrida,23.08.15,10211
+375,Pla l 1,1,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,22.05.19,574
+376,Pla l 2,1,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,04.01.16,11840
+377,Pla l 22,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11848
+378,Pla l 4,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11841
+379,Pla l AHC,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11846
+380,Pla l ATPS,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11847
+381,Pla l Cytochrome C,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,07.08.11,2438
+382,Pla l FPA,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11844
+383,Pla l MDH,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11843
+384,Pla l PGK,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11845
+385,Pla l TPI,0,,English Plantain; Plantaginaceae; Plantago lanceolata; Plants; Ribwort,16.08.15,11842
+386,Pla ma 2,0,1,Broadleaf Plantain; Buckhorn Plantain; Common Plantain; Greater Plantain; Plantaginaceae; Plantago asiatica; Plantago major; Plants; Rippleseed Plantain,25.07.12,10097
+387,Pla oc 1,0,,American Sycamore; Plane Tree; Plants; Platanaceae; Platanus glabrata; Platanus occidentalis; Platanus occidentalis var. glabr,02.12.12,2771
+388,Pla or 1,1,,Oriental Planetree; Plants; Platanaceae; Platanus hispanica; Platanus orientalis,04.07.15,2772
+389,Pla or 2,1,,Oriental Planetree; Plants; Platanaceae; Platanus hispanica; Platanus orientalis,20.08.15,4077
+390,Pla or 3,1,,Oriental Planetree; Plants; Platanaceae; Platanus hispanica; Platanus orientalis,20.08.15,5769
+391,Pla or 4,0,1,Oriental Planetree; Plants; Platanaceae; Platanus hispanica; Platanus orientalis,12.09.11,5994
+392,Pla or CyP,0,,Oriental Planetree; Plants; Platanaceae; Platanus hispanica; Platanus orientalis,23.08.15,6175
+393,Pla r 1,0,,California Sycamore; Plants; Platanaceae; Platanus californica; Platanus racemosa; Western Sycamore,02.12.12,2773
+394,Poa p 1,1,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,23.08.15,576
+395,Poa p 10,0,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,07.08.11,577
+396,Poa p 12,0,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,02.02.10,828
+397,Poa p 13,0,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,21.01.09,579
+398,Poa p 2,0,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,15.12.12,827
+399,Poa p 4,0,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,15.12.12,580
+400,Poa p 5,1,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,10.09.18,581
+401,Poa p 6,0,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,07.07.13,743
+402,Poa p 7,0,,Grasses; June Grass; Kentucky Blue grass; Plants; Poa pratensis; Poaceae,18.08.08,1391
+403,Pro j 1,1,,Algorrobo; Fabaceae; Ironwood; Mesquite; Mimosa juliflora; Plants; Prosopis juliflora; Prosopsis juliflora,28.12.16,11817
+404,Pro j 2,1,,Algorrobo; Fabaceae; Ironwood; Mesquite; Mimosa juliflora; Plants; Prosopis juliflora; Prosopsis juliflora,15.06.14,11630
+405,Pro j 20kD,0,,Algorrobo; Fabaceae; Ironwood; Mesquite; Mimosa juliflora; Plants; Prosopis juliflora; Prosopsis juliflora,02.12.12,933
+406,Pru p 9,1,,Amygdalus persica; Nectarine; Peach; Persica vulgaris; Plants; Prunus persica; Rosaceae,16.12.18,12189
+407,Que a 1,1,,Birch/Hazel/Oak-related Species; English Oak; Fagaceae; Fagales; Plants; Quercus alba; White Oak,26.08.16,610
+408,Que a 2,0,,Birch/Hazel/Oak-related Species; English Oak; Fagaceae; Fagales; Plants; Quercus alba; White Oak,05.04.15,728
+409,Que a 4,0,,Birch/Hazel/Oak-related Species; English Oak; Fagaceae; Fagales; Plants; Quercus alba; White Oak,05.04.15,729
+410,Que m 1,1,,Birch/Hazel/Oak-related Species; Fagaceae; Mongolian Oak; Plants; Quercus mongolica,20.01.19,12197
+411,Que ru 1,0,1,Birch/Hazel/Oak-related Species; Fagaceae; Fagales; Northern Red Oak; Plants; Quercus rubra,29.06.15,10130
+412,Que su 1,0,1,Birch/Hazel/Oak-related Species; Cork Oak; Fagaceae; Fagales; Plants; Quercus suber,18.12.12,10129
+413,Que su 2,0,1,Birch/Hazel/Oak-related Species; Cork Oak; Fagaceae; Fagales; Plants; Quercus suber,27.10.12,10224
+414,Ric c 8,0,,Castor Bean; Euphorbiaceae; Plants; Ricinus communis,23.08.14,1191
+415,Rob p 2,0,,Fabaceae; Locust Tree; Plants; Robinia pseudoacacia,22.11.09,2912
+416,Rob p 4,0,,Fabaceae; Locust Tree; Plants; Robinia pseudoacacia,22.11.09,2913
+417,Rob p Glucanase,0,,Fabaceae; Locust Tree; Plants; Robinia pseudoacacia,22.11.09,2914
+418,Roy re 2,0,1,Arecaceae; Arecaceae ; Cuban Royal Palm; Florida Royal Palm; Palma elata; Plants; Roystonea elata; Roystonea floridana; Roystonea regia,15.08.15,3562
+419,Sac sp 13,0,,Fodder Cane; Grasses; Imperata spontanea; Kans Grass; Plants; Poaceae; Saccharum aegyptiacum; Saccharum arenicola; Saccharum biflorum; Saccharum boga; Saccharum caducum; Saccharum canaliculatum; Saccharum casi; Saccharum chinense; Saccharum glaza; Saccharum insulare; Saccharum klagha; Saccharum lota; Saccharum modhara; Saccharum palisotii; Saccharum propinquum; Saccharum semidecumbens; Saccharum speciossisimum; Saccharum spontaneum; Saccharum tenuis; Tricholaena semidecumbens; Wild Cane; Wild Sugarcane,25.03.15,11743
+420,Sac sp 7,0,,Fodder Cane; Grasses; Imperata spontanea; Kans Grass; Plants; Poaceae; Saccharum aegyptiacum; Saccharum arenicola; Saccharum biflorum; Saccharum boga; Saccharum caducum; Saccharum canaliculatum; Saccharum casi; Saccharum chinense; Saccharum glaza; Saccharum insulare; Saccharum klagha; Saccharum lota; Saccharum modhara; Saccharum palisotii; Saccharum propinquum; Saccharum semidecumbens; Saccharum speciossisimum; Saccharum spontaneum; Saccharum tenuis; Tricholaena semidecumbens; Wild Cane; Wild Sugarcane,25.03.15,11744
+421,Sal k 1,1,,Amaranthaceae; Kali tragus; Kali turgidum; Plants; Russian-thistle; Salsola kali; Salsola pestifer; Salsola tragus,22.05.19,3348
+422,Sal k 2,1,,Amaranthaceae; Kali tragus; Kali turgidum; Plants; Russian-thistle; Salsola kali; Salsola pestifer; Salsola tragus,26.08.13,617
+423,Sal k 3,1,,Amaranthaceae; Kali tragus; Kali turgidum; Plants; Russian-thistle; Salsola kali; Salsola pestifer; Salsola tragus,26.08.13,8167
+424,Sal k 4,1,,Amaranthaceae; Kali tragus; Kali turgidum; Plants; Russian-thistle; Salsola kali; Salsola pestifer; Salsola tragus,04.04.15,2099
+425,Sal k 5,1,,Amaranthaceae; Kali tragus; Kali turgidum; Plants; Russian-thistle; Salsola kali; Salsola pestifer; Salsola tragus,23.04.16,8202
+426,Sal k 6,1,,Amaranthaceae; Kali tragus; Kali turgidum; Plants; Russian-thistle; Salsola kali; Salsola pestifer; Salsola tragus,02.06.17,12023
+427,Sal k 7,1,,Amaranthaceae; Kali tragus; Kali turgidum; Plants; Russian-thistle; Salsola kali; Salsola pestifer; Salsola tragus,02.06.17,12008
+428,Sam n 1,0,,Adoxaceae; Eldberry; European Elder; Plants; Sambucus nigra,28.12.14,1246
+429,Sec c 1,0,,Grasses; Plants; Poaceae; Rye; Secale cereale,31.05.15,620
+430,Sec c 12,0,,Grasses; Plants; Poaceae; Rye; Secale cereale,03.09.10,830
+431,Sec c 13,0,,Grasses; Plants; Poaceae; Rye; Secale cereale,21.01.09,2528
+432,Sec c 2,0,,Grasses; Plants; Poaceae; Rye; Secale cereale,15.12.12,829
+433,Sec c 3,0,,Grasses; Plants; Poaceae; Rye; Secale cereale,18.12.12,5882
+434,Sec c 4,0,,Grasses; Plants; Poaceae; Rye; Secale cereale,21.07.13,622
+435,Sec c 5,1,,Grasses; Plants; Poaceae; Rye; Secale cereale,21.04.14,623
+436,Sen j MDH,0,,Asteraceae; Jacobaea vulgaris; Mugwort/Ragweed-related Species; Plants; Ragwort; Senecio jacobaea; Stinking Willie; Tansy Ragwort,13.04.09,4060
+437,Sen j PL,0,,Asteraceae; Jacobaea vulgaris; Mugwort/Ragweed-related Species; Plants; Ragwort; Senecio jacobaea; Stinking Willie; Tansy Ragwort,10.02.09,4061
+438,Set it 1,0,1,Foxtail Millet; Grasses; Plants; Poaceae; Setaria italica,15.08.13,11282
+439,Set it 11,0,1,Foxtail Millet; Grasses; Plants; Poaceae; Setaria italica,15.08.13,11022
+440,Set it 12,0,1,Foxtail Millet; Grasses; Plants; Poaceae; Setaria italica,22.07.13,11020
+441,Set it 13,0,1,Foxtail Millet; Grasses; Plants; Poaceae; Setaria italica,15.08.13,11284
+442,Sor b 1,0,1,Grasses; Plants; Poaceae; Sorghum; Sorghum bicolor; Sorghum vulgare,24.10.15,770
+443,Sor b 11,0,1,Grasses; Plants; Poaceae; Sorghum; Sorghum bicolor; Sorghum vulgare,22.07.13,11023
+444,Sor b 12,0,1,Grasses; Plants; Poaceae; Sorghum; Sorghum bicolor; Sorghum vulgare,27.10.12,10226
+445,Sor b 13,0,1,Grasses; Plants; Poaceae; Sorghum; Sorghum bicolor; Sorghum vulgare,15.08.13,11283
+446,Sor b 2,0,1,Grasses; Plants; Poaceae; Sorghum; Sorghum bicolor; Sorghum vulgare,22.08.17,12025
+447,Sor b 7,0,1,Grasses; Plants; Poaceae; Sorghum; Sorghum bicolor; Sorghum vulgare,28.10.12,10236
+448,Sor h 1,1,,Grasses; Johnson Grass; Plants; Poaceae; Sorghum halepense,29.03.18,643
+449,Sor h 12,0,,Grasses; Johnson Grass; Plants; Poaceae; Sorghum halepense,29.03.18,1115
+450,Sor h 13,1,,Grasses; Johnson Grass; Plants; Poaceae; Sorghum halepense,29.03.18,11623
+451,Sor h 2,1,,Grasses; Johnson Grass; Plants; Poaceae; Sorghum halepense,22.08.17,11901
+452,Sor h 23,0,,Grasses; Johnson Grass; Plants; Poaceae; Sorghum halepense,29.03.18,12117
+453,Sor h 7,0,,Grasses; Johnson Grass; Plants; Poaceae; Sorghum halepense,29.03.18,1397
+454,Sor h CP,0,,Grasses; Johnson Grass; Plants; Poaceae; Sorghum halepense,20.01.13,10796
+455,Spo in 1,0,,Agrostis elongata; Agrostis indica; Agrostis tenacissima; Agrostis tenuissima; Grasses; Plants; Poaceae; Rattail Smutgrass; Smut Grass; Sporobolus angustus; Sporobolus berterianus; Sporobolus berteroanus; Sporobolus elongatus; Sporobolus exilis; Sporobolus indicus; Sporobolus lamarckii; Vilfa angusta; Vilfa berteroana; Vilfa elongata; Vilfa exilis; Vilfa familiaris; Vilfa indica; Vilfa rupestris,25.03.15,11745
+456,Spo in 13,0,,Agrostis elongata; Agrostis indica; Agrostis tenacissima; Agrostis tenuissima; Grasses; Plants; Poaceae; Rattail Smutgrass; Smut Grass; Sporobolus angustus; Sporobolus berterianus; Sporobolus berteroanus; Sporobolus elongatus; Sporobolus exilis; Sporobolus indicus; Sporobolus lamarckii; Vilfa angusta; Vilfa berteroana; Vilfa elongata; Vilfa exilis; Vilfa familiaris; Vilfa indica; Vilfa rupestris,25.03.15,11746
+457,Spo in 7,0,,Agrostis elongata; Agrostis indica; Agrostis tenacissima; Agrostis tenuissima; Grasses; Plants; Poaceae; Rattail Smutgrass; Smut Grass; Sporobolus angustus; Sporobolus berterianus; Sporobolus berteroanus; Sporobolus elongatus; Sporobolus exilis; Sporobolus indicus; Sporobolus lamarckii; Vilfa angusta; Vilfa berteroana; Vilfa elongata; Vilfa exilis; Vilfa familiaris; Vilfa indica; Vilfa rupestris,25.03.15,11747
+458,Syr v 1,1,,Common Lilac; Oleaceae; Olive-related Species; Plants; Syringa vulgaris,18.09.16,644
+459,Syr v 2,0,,Common Lilac; Oleaceae; Olive-related Species; Plants; Syringa vulgaris,05.04.15,2100
+460,Syr v 3,1,,Common Lilac; Oleaceae; Olive-related Species; Plants; Syringa vulgaris,06.04.18,648
+461,Tax d 2,0,1,Bald Cypress; Cedar/Cypress/Juniper-related Species; Cupressaceae; Plants; Taxodium distichum,12.09.11,5861
+462,Thu oc 3,0,,Arborvitae; Cedar/Cypress/Juniper-related Species; Cupressaceae; Northern White-cedar; Plants; Thuja occidentalis,23.08.14,3667
+463,Thu p 1,0,,Cedar/Cypress/Juniper-related Species; Cupressaceae; Giant Arborvitae; Plants; Thuja plicata,10.02.09,1342
+464,Tri a 1,0,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,17.08.18,769
+465,Tri a 12,1,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,17.03.18,767
+466,Tri a 13,0,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,21.01.09,2529
+467,Tri a 2,0,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,15.12.12,768
+468,Tri a 3,0,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,03.12.12,725
+469,Tri a 4,0,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,29.08.12,831
+470,Tri a 5,0,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,18.12.12,745
+471,Tri a 7,0,,Grasses; Plants; Poaceae; Triticum aestivum; Wheat,18.08.08,1396
+472,Tri p 1,0,,Grasses; Plants; Poaceae; Trisetum paniceum; Wild Oat,18.12.12,4064
+473,Tri p 5,0,,Grasses; Plants; Poaceae; Trisetum paniceum; Wild Oat,18.12.12,4065
+474,Tri ur 1,0,1,Crithodium urartu; Grasses; Plants; Poaceae; Red Wild Einkorn; Triticum urartu; Wheat,13.08.13,11077
+475,Tri ur 2,0,1,Crithodium urartu; Grasses; Plants; Poaceae; Red Wild Einkorn; Triticum urartu; Wheat,13.08.13,11075
+476,Tri ur 3,0,1,Crithodium urartu; Grasses; Plants; Poaceae; Red Wild Einkorn; Triticum urartu; Wheat,13.08.13,11076
+477,Tri ur 5,0,1,Crithodium urartu; Grasses; Plants; Poaceae; Red Wild Einkorn; Triticum urartu; Wheat,13.08.13,11074
+478,Uro m 1,1,,Brachiaria mutica; Brachiaria numidiana; Brachiaria purpurascens; Buffalo Grass; California Grass; Grasses; Mauritius Grass; Panicum barbinode; Panicum equinum; Panicum guadaloupense; Panicum muticum; Panicum numidianum; Panicum paraguayense; Panicum pictigluma; Panicum purpurascens; Para Grass; Plants; Poaceae; Urochloa mutica,20.08.18,12168
+479,Vac fa 1,1,,Acacia farnesiana; Dead-Finish; Fabaceae; Needle Bush; Plants; Prickly Moses; Sheep's Briar; Sweet Acacia; Vachellia farnesiana; Vachiella farnesiana,28.12.16,11813
+480,Vac fa 2,1,,Acacia farnesiana; Dead-Finish; Fabaceae; Needle Bush; Plants; Prickly Moses; Sheep's Briar; Sweet Acacia; Vachellia farnesiana; Vachiella farnesiana,26.02.15,11665
+481,Zea m 1,1,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,24.10.15,680
+482,Zea m 11,0,1,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,04.02.12,6139
+483,Zea m 12,1,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,18.09.16,682
+484,Zea m 13,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,24.10.15,683
+485,Zea m 2,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,24.10.15,6138
+486,Zea m 22,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,15.08.15,9198
+487,Zea m 3,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,24.10.15,3014
+488,Zea m 4,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,15.12.12,832
+489,Zea m 5,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,06.12.12,1600
+490,Zea m 7,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,28.12.16,1398
+491,Zea m Zm13,0,,Corn; Grasses; Maize; Plants; Poaceae; Zea mays,18.12.12,1004
+492,Zyg f 2,0,,Plants; Syrian Bean-Caper; Zygophyllaceae; Zygophyllum fabago,10.03.12,863
