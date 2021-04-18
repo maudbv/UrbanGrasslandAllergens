@@ -5,3 +5,8 @@
 .Rproj
 .DS_store
 UrbanGrasslandAllergens.Rproj
+
+results/*.pdf
+results/*.png
+results/*.csv
+results/*.Rdata
