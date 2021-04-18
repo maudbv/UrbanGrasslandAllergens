@@ -1,0 +1,16 @@
+"Metadata for dataset ""molecule_data.csv""",
+from Bernard-Verdier et al. 2021,
+,
+,
+,
+Column name,description
+Species,Species accepted name in the dataset
+Genus,Genus of the species
+Allergen.name,"name of the allergen molecule in the dataset, modified from sources by giving a common name to poaceae tribes"
+Allergen.genus.name,"name of the allergen molecule in the dataset, modified from sources by giving a common name to poaceae tribes and to species from the same genus"
+Allergen.family,biochemical family of the allergen molecule
+Databases,Source databases for allergen molecules and families
+Manual.reference,Additional references added manually
+Alternative.molecule.names,List of equivalent molecule names (at the species level) found in various databases
+Matched.species.names,"matched species names in the databases, sometimes only matched at the genus or tribe level"
+Match.types,type of name matching: 1 = exact species name; 1b = genus level; 3 = tribe level

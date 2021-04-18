@@ -1,18 +1,19 @@
 # Export clean data tables
 
-## Clean allergen data tables for re-analyses ####
-write.csv( species_allergen ,file = "clean data/species_allergenicity.csv")
-write.csv( molecule_data,file = "clean data/allergen_molecule_data.csv")
-write.csv( molecule_sum,file = "clean data/allergen_molecule_summary.csv")
-write.csv( mol_mat,file = "clean data/allergen_species_by_molecule_matrix.csv")
+# ________Output formatted allergen data tables for re-analyses ####
+write.csv( species_allergen ,file = "data/formatted data/species_allergenicity.csv")
+write.csv( molecule_data,file = "data/formatted data/allergen_molecule_data.csv")
+write.csv( molecule_sum,file = "data/formatted data/allergen_molecule_summary.csv")
+write.csv( mol_mat,file = "data/formatted data/allergen_species_by_molecule_matrix.csv")
 
-# Simplified data tables in the "results" folder: ####
-# Species allergen and trait data 
+# _________Simplified data tables in the "clean data" folder: ####
 
+## Species allergen and trait data ####
 # clean up the columns
 tmp <- species_allergen
-tmp$tribe <- species_data[match(species_allergen$Species.match, species_data$Species.simple),
-             "tribe"]
+tmp$tribe <- species_data[match(species_allergen$Species.match,
+                                species_data$Species.simple),
+                          "tribe"]
 tmp <- tmp[, c(
   "Species_name","Species_acceptedname","family","tribe",
   
@@ -61,9 +62,9 @@ colnames(tmp) <- c("Species_name", "Accepted_name","Family", "Tribe",
 
 # Export csv: 
 write.csv( tmp,  na = "" ,row.names = FALSE,
-           file = "results/species_allergenicity_data.csv")
+           file = "clean data/species_allergenicity_data.csv")
 
-# allergen molecule data:
+## allergen molecule data: ####
 tmp  <- molecule_data[, c( "Species","genus",
   "Allergen.simple","Allergen.genus","Allergen.Family",
   "Databases","Ref.manual","Mol.alt","Matched.names", "Matches.with.database"
@@ -79,10 +80,34 @@ tmp[tmp == "NA"] <- ""
 
 # Export csv: 
 write.csv( tmp, na = "" ,row.names = FALSE,
-           file = "results/molecule_data.csv")
+           file = "clean data/molecule_data.csv")
 rm(tmp)
 
-# Table of subset of the most allergenic species
+## species cover data: ######
+tmp  <- vegcomm
+
+# Export csv: 
+write.csv( tmp, row.names = TRUE,
+           file = "clean data/species_abundance_data.csv")
+rm(tmp)
+
+
+
+## plot parameter data: ######
+tmp  <- plot_summary[, c("ID_plot","Seal_500","Pop_500","prop.neo","BNIs",
+                         "SR","SR.nat","SR.arch","SR.neo","Rao")]
+
+colnames(tmp) <- c("ID_plot", "perc.Impervious.surfaces", "Population.density","Prop.Neophytes", "BNIs",
+                   "SR", "SR.nat","SR.arc","SR.neo","Rao.Q") 
+
+# Export csv: 
+write.csv( tmp, row.names = FALSE,
+           file = "clean data/environmental_factors_data.csv")
+rm(tmp)
+
+
+
+# Supplementary table of subset of the most allergenic species ####
 
 # clean up the columns
 tmp<- species_allergen
@@ -135,7 +160,7 @@ tmp <- tmp[, c(
 
 # Export csv: 
 write.csv( tmp,  na = "" ,row.names = FALSE,
-           file = "results/Table_5_select_species_allergen.csv")
+           file = "results/Table_S7_select_species_allergen.csv")
 rm(tmp)
 
 

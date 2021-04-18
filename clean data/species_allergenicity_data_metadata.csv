@@ -1,0 +1,38 @@
+"Metadata for the data file ""species_allergenicity_data.csv""",,,
+from Bernard-Verdier et al. 2021,,,
+,,,
+,,,
+Column name,description,unit,type
+Species_name,Species name in the vegetation surveys,-,character
+Accepted_name,"Accepted species name according to Missouri Botanical Gardens (http://urbanis.tropicos.org, accessed 23 Nov 2019)",-,character
+Family,Taxonomic family (extracted from NCBI database),-,character
+Tribe,"Taxonomic tribe name, when available (NCBI database)",-,character
+Frequency,"frequency of the species in the 2017 Berlin grassland vegetation survey, counted as the number of plots where present out of 236 plots surveyed",number of grassland plots,integer
+Freq_rural,"frequency of the species in the most rural ('near-rural"") plots (19 plots; % impervious surfaces <7%)",number of grassland plots,integer
+Freq_suburb,"frequency of the species in the most rural ('low-urban"") plots (18 plots; % impervious surfaces >7% and <30%)",number of grassland plots,integer
+Freq_urban,"frequency of the species in the most rural ('high-urban"") plots (18 plots; % impervious surfaces >30%)",number of grassland plots,integer
+Status_Berlin,Introduction status of the species in Berlin according to Seitz et al. 2012: I = indigenous; A = archaeophyte; N = neophyte,-,character
+first_evidence,Year of first evidenc of newly introduced neophyte in Berlin (Seitz et al. 2012),year,integer
+Flowering_beg,Month of first flowering for Germany (Biolflor 2018),month,character
+Flowering_end,Month of last flowering for Germany (Biolflor 2018),month,character
+fl_period,Length of flowering period,number of months,integer
+phenology_score,Phenology score based on the duration of flowering (cf. Supplementary Material S1): 1: <1 month; 2:  <2 months; 3 :  > 2 months),ordinal score 1-3,integer
+main_pollination,"Main pollination vector, classified in 6 simplified categories: wind, wind-insect, insect, insect-selfing, selfing, cleistogamy",categories,character
+Mueller_flower_type,Flower types according to Mueller classification,categories,character
+pollen_score,"Pollination vector scores, reduced to 4 categories according to main_pollination and Mueller flower type: 0 (no pollen; selfing); 1 ( insect; insect-selfing; wind flowers also calssified as cleistogam); 2 (wind-insect,); 3 (wind)",categories 0-3,integer
+trait_source,Source for pollination and phenology trait data: all from Biolflor queried in 2018,-,integer
+allergenicity_strict,"strict allergenicity of the species, base only on species-level information from databases or the literature (0 = non-allergenic; 1 = allergenic)",-,binary
+allergenicity,"broad allergenicity of the species, defined based on genus and tribe-level information from databases or the literature (0 = non-allergenic; 1 = allergenic)",-,binary
+allergen_score,Allergenicity score based on prevalence and severity of reactions in patients suffering from hay fever (cf. Table in Supplementary Material S1),ordinal score 0-3,integer
+PAV,"Potential allergenic value, a scoring index based on multiplying pollen score x phenology score x allergenicity score (Cari–anos et al. 2016)",ordinal score 0-36,integer
+IUIS,Presence or absence of the species in the IIUIS allergen database,-,binary
+SDAP,Presence or absence of the species in the SDAP database,-,binary
+Allergenonline,Presence or absence of the species in the Allergenonline database,-,binary
+Allergome,Presence or absence of the species in the allergome database,-,binary
+AllFam,Presence or absence of the species in the AllFam database,-,binary
+additional_ref,Reference providing additional information on allergenicity not included in one of the main databases for a given species,-,character
+react_europe_Allergome,Percentage of prevalence in europe according to the data in Allergome database (when available),%,real
+FDA_allergen_code,"Index number of the allergenic species in the FDA report 2011 (USA), when available",-,integer
+ref_severity,"additional references to estimate allergen severity, i.e. allergenicity scores",-,character
+Comment_severity,Resoning behind the interpretation of the reference on allergen severity,-,character
+molecule_unknown,Indicating whether the species has only unknown/undetermined allergen molecules in our dataset.,-,binary

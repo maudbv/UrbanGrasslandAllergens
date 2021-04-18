@@ -54,8 +54,7 @@ rm(i, sp, spp,gen, genera, tmp, smat, pi, beg, end, x,y,z,tmp2)
 ## export formatted data tables:
 source('scripts/Data formatting/Export formatted datatables.R')
 
-
 ## SAVE formatted data for analyses:
- save.image(file ="data/Urban_Grassland_Allergens_data.Rdata")
- print("Data imported and formatted in data file 'data/Urban_Grassland_Allergens_data.Rdata'")
+ save.image(file ="clean data/Urban_Grassland_Allergens_data.Rdata")
+ print("Data imported and formatted in data file 'clean data/Urban_Grassland_Allergens_data.Rdata'")
 

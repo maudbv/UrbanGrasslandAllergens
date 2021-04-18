@@ -1,0 +1,22 @@
+"Metadata for the dataset ""environmental_factors_data.csv""",,,,
+from Bernard-Verdier et al. 2021,,,,
+,,,,
+,,,,
+Column name,description,unit,range,reference
+ID_plot,Unique identification code for the grassland plot (4 x 4 m),character,,"von der Lippe et al, 2020"
+perc.Impervious.surfaces,Percentage of impervious surfaces in a 500m buffer around the grassland patch in which the plot is situated (2015),%,0-68,"von der Lippe et al, 2020"
+Population.density,Human population density in a 500m buffer around the grassland patch in which the plot is situated (2015),inhabitants/ha,0-106,"von der Lippe et al, 2020"
+Prop.Neophytes,Proportion of species which are classified as neophyte in the grassland plot (4 x 4 m),proportion,0-0.22,"von der Lippe et al, 2020; Seitz et al. 2012"
+BNIs,Standardised Biotic Novelty Index,proportion,0-85,"Schittko & Bernard-Verdier et al., 2020"
+SR,"Total vascular species richness in the grassland plot, excluding seedlings from tree and large shrubs",number of species,,"von der Lippe et al, 2020"
+SR.nat,Native species richness,number of species,,"von der Lippe et al, 2020; Seitz et al. 2013"
+SR.arc,Archaeophyte species richness,number of species,,"von der Lippe et al, 2020; Seitz et al. 2014"
+SR.neo,Neophyte species richness,number of species,,"von der Lippe et al, 2020; Seitz et al. 2015"
+Rao.Q,"Rao's quadratic entropy of the grassland plot community, measured on 10 plant funcitonal traits",unitless,,"Schittko & Bernard-Verdier et al., 2020"
+,,,,
+,,,,
+,,,,
+References,,,,
+"Schittko, C., Bernard_Verdier, M., Heger, T., Buchholz, S., Kowarik, I., Lippe, M., Seitz, B., Joshi, J. & Jeschke, J.M. (2020) A multidimensional framework for measuring biotic novelty: How novel is a community? Global Change Biology, 26, 4401Ð4417.",,,,
+"Seitz, B., Ristow, M., Prasse, R., Machatzi, B., Klemm, G., Bšcker, R. & Sukopp, H. (2012) Der Berliner Florenatlas (ed Botanischer Verein von Berlin und Brandenburg 1859 e. V. (Hrsg.)). Natur+Text.",,,,
+"von der Lippe, M., Buchholz, S., Hiller, A., Seitz, B. & Kowarik, I. (2020) CityScapeLab Berlin: A research platform for untangling urbanization effects on biodiversity. Sustainability (Switzerland), 12, 2565.",,,,

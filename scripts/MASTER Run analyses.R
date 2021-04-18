@@ -28,8 +28,8 @@ library(vioplot)
 
 # Load Data:
 # source('scripts/Import_all_data.R')
-load("data/Urban_Grassland_Allergens_data.Rdata")
-print(paste("Allergen Data from", file.info("data/Urban_Grassland_Allergens_data.Rdata")$ctime, "is loaded"))
+load("clean data/Urban_Grassland_Allergens_data.Rdata")
+print(paste("Allergen Data from", file.info("clean data/Urban_Grassland_Allergens_data.Rdata")$ctime, "is loaded"))
 
 # My own utility functions:
 source('scripts/utils/add.stats.R')

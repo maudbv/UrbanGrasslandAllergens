@@ -1,0 +1,9 @@
+"Metadata for the file ""species_abundance_data.csv""",,
+from Bernard-Verdier et al. 2021,,
+,,
+Community matrix providing the percent cover of all vascular plant species (excluding tree and shrub seedling) in each grassland plot.,,
+"Percent covers were visually estimated in 56 4 x 4m grassland plots in Berlin, during spring-summer 2017, by Birgit Seitz (Technische Universitaet Berlin)",,
+cf.,"_von der Lippe, M., Buchholz, S., Hiller, A., Seitz, B. & Kowarik, I. (2020) CityScapeLab Berlin: A research platform for untangling urbanization effects on biodiversity. Sustainability (Switzerland), 12, 2565.",
+,,
+Columns,Vascular plant species (non-trees or large shrubs),216 species
+rows,Grassland plot site,56 plots
