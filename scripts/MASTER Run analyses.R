@@ -77,8 +77,8 @@ table.monthly.models <- doBy::orderBy(~ group - level +type ,
 write.csv(table.monthly.models,
           file = "results/table monthly models.csv")
 
-# Check spatial autocorrelation (Moran's I) ####
-source('scripts/Analyses/test spatial autocorrelation.R')
+# Plot figures for manuscript
+source('scripts/Illustration/Figures manuscript 1.0.R')
 
 # Save all results ####
 save.image(file ="results/Urban_Grassland_Allergens_results.Rdata")
