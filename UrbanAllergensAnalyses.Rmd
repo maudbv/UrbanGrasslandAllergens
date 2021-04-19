@@ -68,7 +68,7 @@ source('scripts/Analyses/fit.allergen.glms.R')
 
 ```
 
-![Map of the Cityscapelab Berlin. 56 dry grassland plots (4x4m) are distributed along an urbanisation gradient.](data/Berlin map of 56 plots.png){width=80%}
+![Map of the Cityscapelab Berlin. 56 dry grassland plots (4x4m) are distributed along an urbanisation gradient.](data/print map without background.png){width=90%}
 
 # Data overview
 
