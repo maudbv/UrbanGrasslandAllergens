@@ -6,6 +6,8 @@
 This repository contains the code and data to reproduce the analyses in the manuscript entitled *Allergens in grasslands increase with urbanisation and plant invasions*, currently in preparation.
 This code analyses the allergenic properties of 56 plots of dry acidic grasslands in Berlin, Germany. This research work is part of the BIBS project, **Bridging in Biodiversity Science**, funded by the BMBF, Germany.
 
+![print map without background](https://user-images.githubusercontent.com/6454302/115233650-763e1800-a118-11eb-85f5-00cddf7cff4c.png){width=70%}
+
 ## Data
 Raw data for the project are in the **data/** folder. The R script **script/Import_all_data.R** will import, clean and format all the data, and output four clean data tables in the clean data/ folder. Associated metadata are also provided as .csv files for these four tables.
 
