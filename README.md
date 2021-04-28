@@ -1,5 +1,7 @@
 # Allergenic properties of Berlin grasslands
-<a href="https://doi.org/10.5281/zenodo.4724929"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4724929.svg" alt="DOI"></a>
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4724929.svg)](https://doi.org/10.5281/zenodo.4724929)
+
 
 *Author*: Maud Bernard-Verdier
 *Collaborators*: Birgit Seitz, Sascha Buchholz, Ingo Kowarik & Jonathan Jeschke
@@ -24,7 +26,3 @@ The master script **script/MASTER Run analyses.R** will run all analyses sequent
 An Rmarkdown document **UrbanAllergensAnalyses.Rmd** is also provided to create an illustrated report summarising results.
 
 <img src="https://user-images.githubusercontent.com/6454302/115234901-da151080-a119-11eb-89ba-4b752414cfd6.png" alt="Figure 4" width="600">
-
-
-
-https://zenodo.org/badge/DOI/10.5281/zenodo.4724929.svg
