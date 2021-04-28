@@ -23,3 +23,5 @@ The master script **script/MASTER Run analyses.R** will run all analyses sequent
 An Rmarkdown document **UrbanAllergensAnalyses.Rmd** is also provided to create an illustrated report summarising results.
 
 <img src="https://user-images.githubusercontent.com/6454302/115234901-da151080-a119-11eb-89ba-4b752414cfd6.png" alt="Figure 4" width="600">
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4724929.svg)](https://doi.org/10.5281/zenodo.4724929)
