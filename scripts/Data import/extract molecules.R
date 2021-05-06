@@ -234,7 +234,7 @@ molecule_data$IUIS <- molecule_data$Allergen.simple %in% molecule_data$Allergen.
 # remove most obvious repeated entries: 
 molecule_data <- molecule_data[- which(duplicated(molecule_data[,c("Species", "Matched.name","Allergen.simple","Group", "Ref")])),]
 print(nrow(molecule_data))
-#755 rows left
+#728 rows left
 
 ## Extract allergen family from the ALLFAM database ##
 # AT FIRST: Simple match with allergen names to the AllFam database
@@ -306,8 +306,8 @@ poas<- species_data[which(species_data$genus == "Poa"),"Species_col"]
 
 
 tmp <- molecule_data[molecule_data$Species %in% grasses,]
-# 15 grasses in th emolecule data, out of 36 in the vegetatino survey
-# We are going to add new species and neww molecules to the molecule dataframe:
+# 19 grasses in molecule data, out of 36 in the vegetation survey
+# We are going to add new species and new molecules to the molecule dataframe:
 # 31 of which are pooideae...
 # Molecules assigned per genus or tribe
 dim(tmp)
@@ -356,6 +356,7 @@ grass.matrix<- do.call(rbind.data.frame, grass.matrix)
 grass.matrix$Allergen.Family.grass <- grass_allergens$Protein.family[
   match(grass.matrix$grass.group, grass_allergens$Allergen.group)]
 
+
 # Merge columns with grass allergens to molecule_data
 tmp <- merge(molecule_data, grass.matrix, all = TRUE)
 
@@ -380,6 +381,12 @@ molecule_data <- molecule_data[-which(molecule_data$Allergen.simple %in% c("Fes_
 # correct genus allergens to include tribe level molecules:
 molecule_data$Allergen.genus[!is.na(molecule_data$Allergen.created)] <-
   molecule_data$Allergen.created[!is.na(molecule_data$Allergen.created)]
+
+# Add information that grass allergens were added manually
+molecule_data$Ref[ which(
+  !is.na(molecule_data$Allergen.created)
+  & is.na(molecule_data$Ref))] <- "allergen added based on Grass taxonomy"
+
 
 ### Manually correct the rest of the missing Allergen Families ####
 ## Identify missing families:  98 molecules out of 804
