@@ -26,18 +26,18 @@ library(inlmisc)
 library(ggplot2)
 library(vioplot)
 
-# Load Data: ####
-# source('scripts/Import_all_data.R')
-load("clean data/Urban_Grassland_Allergens_data.Rdata")
-print(paste("Allergen Data from", file.info("clean data/Urban_Grassland_Allergens_data.Rdata")$ctime, "is loaded"))
-
-# Load my own utility functions: ####
+# Load my own utility functions: 
 source('scripts/utils/add.stats.R')
 source('scripts/utils/p2star.R')
 source('scripts/utils/cor.print.R')
 
-# load specific functions to fit GLMs to our data: ####
+# load specific functions to fit GLMs to our data: 
 source('scripts/Analyses/fit.allergen.glms.R')
+
+# Load Data: ####
+# source('scripts/Import_all_data.R')
+load("clean data/Urban_Grassland_Allergens_data.Rdata")
+print(paste("Allergen Data from", file.info("clean data/Urban_Grassland_Allergens_data.Rdata")$ctime, "is loaded"))
 
 # Explore distribution of species in allergen space ####
 source("scripts/Analyses/1. ordination allergenics in allfam space.R")

@@ -2,11 +2,11 @@
 
 (function() {
 # Figure 1: Cover of allergenic species along novelty gradients ####
-png(file = "results/figure 1.png",width = 18, height = 18,
+png(file = "results/figure 1.png",width = 13, height = 18,
     unit = "cm", res = 600)
 # pdf(file = "results/figure 1.pdf",width = 7, height = 6)
 par (
-   mfrow = c(3, 3),
+   mfrow = c(3, 2),
    mar = c(2, 1, 2, 1),
    oma = c(2, 5, 1, 1),
    mgp = c(2,0.5,0),
@@ -20,16 +20,15 @@ for (k in 1:3) {
    tmp <- allergen_summary
    y <- c("cover.all", "cover.exo.all", "all.num.exo")[k]
    mod <- c("n","n","p")[k]
-   leg <- c("Allergenic\ncumulative cover ",
-            "Non-native allergenic\ncumulative cover",
+   leg <- c("Allergenic\n cover ",
+            "Non-native allergenic\n cover",
             "Non-native allergenic\nspecies richness")[k]
    tmp$y <- tmp[, y]
    
-   for (i in 1:3) {
+   for (i in 1:2) {
       xleg <- c("% Impervious surfaces",
-                "Proportion of neophytes",
-                "BNIs")[i]
-      x <- c("Seal_500", "prop.neo", "BNIs")[i]
+                "Proportion of neophytes")[i]
+      x <- c("Seal_500", "prop.neo")[i]
       tmp$x <- tmp[, x]
       
       plot(y ~ x,
