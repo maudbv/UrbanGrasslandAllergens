@@ -1,7 +1,7 @@
-# Community Allergenicity along the gradient
+# Community Allergernicity along the gradient
 # Fitting generalized linear models to allergenic species richness, proportion and cover
 # Extract both the "best model" with interaction (prop.neo*seal_500)
-# and three independant models for each of the three predictors: Seal_500, prop.neo, BNIs
+# and three independant models for each of the two predictors: Seal_500 & prop.neo
 
 glms.SRall <- (function(exclude.absences = TRUE,
                         show.plots = FALSE){
@@ -16,13 +16,13 @@ stopifnot(!all(c(is.null(fit.poisson.glms),
              is.null(fit.lms))))
 
 # Create a table of results:   ####
-glms.table <- data.frame(matrix(NA, nrow = 0,ncol =24) )
+glms.table <- data.frame(matrix(NA, nrow = 0,ncol =19) )
 colnames(glms.table) <- c("group", "type","n.obs","class","var",
                           "Best.model", "df.resid","P.lrt","R2",
                           "PropNeo.coef", "PropNeo.se",
                           "PropNeo.df","PropNeo.P","PropNeo.R2",
-                          "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2",
-                          "BNIs.coef", "BNIs.se","BNIs.df","BNIs.P","BNIs.R2")
+                          "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2"
+                          )
 
 # Create a list to store the models: 
 all.models <- list()
@@ -45,7 +45,7 @@ if (exclude.absences) {
 }
 n = length(tmp[,y])
 fit <- fit.poisson.glms(dataset = tmp, var = y,
-                        BNI.include = F,plot.graphs = show.plots)
+                        plot.graphs = show.plots)
 
 glms.table[i,] <- c(g,type, n, fit$result.table)
 rownames(glms.table)[i] <- y
@@ -74,7 +74,7 @@ for (i in 1:5) {
    n = length(tmp[,y])
 
    fit <- fit.lms(dataset = tmp, var = y,
-                  BNI.include = F,plot.graphs = show.plots)
+                  plot.graphs = show.plots)
    
    glms.table[i + 5,] <- c(g,type, n, fit$result.table)
    rownames(glms.table)[i + 5] <- y
@@ -107,7 +107,7 @@ for (i in 1:4) {
    
    # Fit Binomials for proportions
    fit <- fit.binom.glms(dataset = tmp, var = x,tot = y,
-                         BNI.include = F,plot.graphs = show.plots)
+                         plot.graphs = show.plots)
    glms.table[i + 10,] <- c(g,type, n, fit$result.table)
    rownames(glms.table)[i + 10] <- nam
    

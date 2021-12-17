@@ -2,7 +2,7 @@
 # with three possible predictors: 
 # % Impervious surfaces (Seal_500)
 # Proportion of neophytes (prop.neo)
-# Biotic novelty index (BNIs) 
+
 
 require(Hmisc) 
 require(corrplot)
@@ -78,8 +78,7 @@ extract.preds <- function(mod = f.best) {
 
 # Poisson GLMs
 fit.poisson.glms <- function(dataset, var,
-                             plot.graphs = FALSE,
-                             BNI.include = FALSE) {
+                             plot.graphs = FALSE) {
   require(MuMIn)
   require(performance)
   
@@ -90,26 +89,17 @@ fit.poisson.glms <- function(dataset, var,
     f0 = glm(y ~ 1, data = dataset, family = poisson),
     f1a = glm(y ~ prop.neo, data = dataset, family = poisson),
     f1b = glm(y ~ Seal_500 , data = dataset, family = poisson),
-    f1c = glm(y~ BNIs , data = dataset, family = poisson),
-    
     f2a = glm(y ~ Seal_500  + prop.neo  , data = dataset, family = poisson),
-    f2b = glm(y ~ prop.neo +  BNIs , data = dataset, family = poisson),
-    f2c = glm(y ~ Seal_500  +  BNIs , data = dataset, family = poisson),
-    f3 = glm(y ~  Seal_500 + prop.neo +  BNIs , data = dataset, family = poisson),
-    f4a = glm(y ~ Seal_500 * prop.neo , data = dataset, family = poisson),
-    f4b = glm(y ~  Seal_500 * BNIs , data = dataset, family = poisson)
+    f4a = glm(y ~ Seal_500 * prop.neo , data = dataset, family = poisson)
   )
   
   # Extract best models: 
-  if (BNI.include) sel = model.sel(mods.list)
-  if (BNI.include == FALSE) {
-    sel = model.sel(mods.list[-c(4,6,7,8,10)])
-  }
+ 
+  sel = model.sel(mods.list)
   mods <- rownames(subset(sel, delta <2))
   
   f.best <- mods.list[[mods[1]]]
-  
-  
+
   if ("f0" %in% mods) {
     if (mods[1] == "f0") {
       f.best <-  mods.list$f0
@@ -153,10 +143,7 @@ fit.poisson.glms <- function(dataset, var,
                        r2_nagelkerke(mods.list$f1a)[[1]],
                        coef.mods$f1b[2,1:2],
                        aov.mods$f1b$`Resid. Df`, aov.mods$f1b$`Pr(>Chi)`,
-                       r2_nagelkerke(mods.list$f1b)[[1]],
-                       coef.mods$f1c[2,1:2],
-                       aov.mods$f1c$`Resid. Df`, aov.mods$f1c$`Pr(>Chi)`,
-                       r2_nagelkerke(mods.list$f1c)[[1]]),
+                       r2_nagelkerke(mods.list$f1b)[[1]]),
                      digits = 4)
   
   out.indiv <-  c(class(f.best)[1], var,
@@ -170,7 +157,7 @@ fit.poisson.glms <- function(dataset, var,
   
   # Plot graphs:
   if (plot.graphs) {
-    par (mfrow = c(1,3),
+    par (mfrow = c(1,2),
          mar = c(4,3,2,2),
          oma =c(1,2,0,0))
     
@@ -186,19 +173,11 @@ fit.poisson.glms <- function(dataset, var,
           pch = 20,
           ylab = "",
           xlab = "Proportion of Neophytes")
-    
     add.stats(mods.list$f1a, type = "glm")
     
-    plot( y ~ BNIs,   
-          data= dataset,
-          pch = 20,
-          ylab = "",
-          xlab = "BNIs")
-    
-    add.stats(mods.list$f1c, type = "glm")
     mtext(2, text = var,
           outer = TRUE, cex = 0.7)
-  }
+    }
   return(list(result.table = out.indiv,
                predictor.table = out.best.pred,
                models = mods.list))
@@ -206,8 +185,7 @@ fit.poisson.glms <- function(dataset, var,
 
 # Binomial GLMs: used for proportion data
 fit.binom.glms <- function(dataset, var, tot,
-                           plot.graphs = FALSE,
-                           BNI.include = FALSE) {
+                           plot.graphs = FALSE) {
   
   dataset$x <- dataset[, var]
   dataset$y <- dataset[, tot]
@@ -217,15 +195,9 @@ fit.binom.glms <- function(dataset, var, tot,
     f0 = glm(cbind(x,y-x) ~ 1, data = dataset, family = quasibinomial),
     f1a = glm(cbind(x,y-x) ~ prop.neo, data = dataset, family = quasibinomial),
     f1b = glm(cbind(x,y-x) ~ Seal_500 , data = dataset, family = quasibinomial),
-    f1c = glm(cbind(x,y-x)~ BNIs , data = dataset, family = quasibinomial),
-    
     f2a = glm(cbind(x,y-x) ~ Seal_500  + prop.neo  , data = dataset, family = quasibinomial),
-    f2b = glm(cbind(x,y-x) ~ prop.neo +  BNIs , data = dataset, family = quasibinomial),
-    f2c = glm(cbind(x,y-x) ~ Seal_500  +  BNIs , data = dataset, family = quasibinomial),
-    f3 = glm(cbind(x,y-x) ~  Seal_500 + prop.neo +  BNIs , data = dataset, family = quasibinomial),
-    f4a = glm(cbind(x,y-x) ~ Seal_500 * prop.neo , data = dataset, family = quasibinomial),
-    f4b = glm(cbind(x,y-x) ~  Seal_500 * BNIs , data = dataset, family = quasibinomial)
-  )
+    f4a = glm(cbind(x,y-x) ~ Seal_500 * prop.neo , data = dataset, family = quasibinomial)
+   )
   
   disp.param <- lapply( quasi.mods.list, function(x) summary(x)$dispersion)
   
@@ -233,22 +205,15 @@ fit.binom.glms <- function(dataset, var, tot,
     f0 = glm(cbind(x,y-x) ~ 1, data = dataset, family = binomial),
     f1a = glm(cbind(x,y-x) ~ prop.neo, data = dataset, family = binomial),
     f1b = glm(cbind(x,y-x) ~ Seal_500 , data = dataset, family = binomial),
-    f1c = glm(cbind(x,y-x)~ BNIs , data = dataset, family = binomial),
     
     f2a = glm(cbind(x,y-x) ~ Seal_500  + prop.neo  , data = dataset, family = binomial),
-    f2b = glm(cbind(x,y-x) ~ prop.neo +  BNIs , data = dataset, family = binomial),
-    f2c = glm(cbind(x,y-x) ~ Seal_500  +  BNIs , data = dataset, family = binomial),
-    f3 = glm(cbind(x,y-x) ~  Seal_500 + prop.neo +  BNIs , data = dataset, family = binomial),
-    f4a = glm(cbind(x,y-x) ~ Seal_500 * prop.neo , data = dataset, family = binomial),
-    f4b = glm(cbind(x,y-x) ~  Seal_500 * BNIs , data = dataset, family = binomial)
-  )
+    f4a = glm(cbind(x,y-x) ~ Seal_500 * prop.neo , data = dataset, family = binomial)
+   )
   disp.param <- lapply( mods.list, function(x) summary(x)$dispersion)
   
   # Extract best models: 
-  if (BNI.include) sel = model.sel(mods.list,)
-  if (BNI.include == FALSE) {
-    sel = model.sel(mods.list[-c(4,6,7,8,10)])
-  }
+  sel = model.sel(mods.list)
+  
   mods <- rownames(subset(sel, delta <2))
 
   f.best <- mods.list[[mods[1]]]
@@ -287,13 +252,13 @@ fit.binom.glms <- function(dataset, var, tot,
   r2.best <- r2_tjur(mods.list$f.best)[[1]]
   r2.f1a <-  r2_tjur(mods.list$f1a)[[1]]
   r2.f1b <- r2_tjur(mods.list$f1b)[[1]]
-  r2.f1c <- r2_tjur(mods.list$f1c)[[1]]
+ 
 
   # alternative based on r2beta
   # r2.best <- r2glmm::r2beta(f.best)[1,"Rsq"]
   # r2.f1a <- r2beta(mods.list$f1a)[1,"Rsq"]
   # r2.f1b <- r2beta(mods.list$f1b)[1,"Rsq"]
-  # r2.f1c <- r2beta(mods.list$f1c)[1,"Rsq"]
+
   
   # Store statistics
   out.indiv <- round(c(r2.best,
@@ -302,10 +267,7 @@ fit.binom.glms <- function(dataset, var, tot,
                        r2.f1a,
                        coef.mods$f1b[2,1:2],
                        aov.mods$f1b$`Resid. Df`, aov.mods$f1b$`Pr(>Chi)`,
-                       r2.f1b,
-                       coef.mods$f1c[2,1:2],
-                       aov.mods$f1c$`Resid. Df`, aov.mods$f1c$`Pr(>Chi)`,
-                       r2.f1c),
+                       r2.f1b),
                      digits = 4)
   
   out.indiv <-  c(class(f.best)[1], var,
@@ -320,7 +282,7 @@ fit.binom.glms <- function(dataset, var, tot,
   
   # Plot graphs: (# wrong dispersion parameter is being used = overly optimistic)
   if (plot.graphs) {
-    par (mfrow = c(1,3),
+    par (mfrow = c(1,2),
          mar = c(4,3,2,2),
          oma =c(1,2,0,0))
     
@@ -338,14 +300,7 @@ fit.binom.glms <- function(dataset, var, tot,
           xlab = "Proportion of Neophytes")
     
     add.stats(mods.list$f1a, type = "glm")
-    
-    plot( x/y ~ BNIs,   
-          data= dataset,
-          pch = 20,
-          ylab = "",
-          xlab = "BNIs")
-    
-    add.stats(mods.list$f1c, type = "glm")
+
     mtext(2, text = var,
           outer = TRUE, cex = 0.7)
   }
@@ -356,8 +311,7 @@ fit.binom.glms <- function(dataset, var, tot,
 
 # Negative binomial GLMs
 fit.negbin.glms <- function(dataset, var,
-                             plot.graphs = FALSE,
-                             BNI.include = FALSE) {
+                             plot.graphs = FALSE) {
   
   dataset$y <- dataset[, var]
   require(MASS)
@@ -366,20 +320,12 @@ fit.negbin.glms <- function(dataset, var,
     f0 = glm.nb(y ~ 1, data = dataset),
     f1a = glm.nb(y ~ prop.neo, data = dataset),
     f1b = glm.nb(y ~ Seal_500 , data = dataset),
-    f1c = glm.nb(y~ BNIs , data = dataset),
     f2a = glm.nb(y ~ Seal_500  + prop.neo  , data = dataset),
-    f2b = glm.nb(y ~ prop.neo +  BNIs , data = dataset),
-    f2c = glm.nb(y ~ Seal_500  +  BNIs , data = dataset),
-    f3 = glm.nb(y ~  Seal_500 + prop.neo +  BNIs , data = dataset),
-    f4a = glm.nb(y ~ Seal_500 * prop.neo , data = dataset),
-    f4b = glm.nb(y ~  Seal_500 * BNIs , data = dataset)
+    f4a = glm.nb(y ~ Seal_500 * prop.neo , data = dataset)
   )
   
   # Extract best models: 
-  if (BNI.include) sel = model.sel(mods.list)
-  if (BNI.include == FALSE) {
-    sel = model.sel(mods.list[-c(4,6,7,8,10)])
-  }
+  sel = model.sel(mods.list)
   mods <- rownames(subset(sel, delta <2))
   
   f.best <- mods.list[[mods[1]]]
@@ -415,10 +361,7 @@ fit.negbin.glms <- function(dataset, var,
                        r2_nagelkerke(mods.list$f1a)[[1]],
                        coef.mods$f1b[2,1:2],
                        aov.mods$f1b$`Resid. df`, aov.mods$f1b$P,
-                       r2_nagelkerke(mods.list$f1b)[[1]],
-                       coef.mods$f1c[2,1:2],
-                       aov.mods$f1c$`Resid. df`, aov.mods$f1c$P,
-                       r2_nagelkerke(mods.list$f1c)[[1]]),
+                       r2_nagelkerke(mods.list$f1b)[[1]]),
                      digits = 4)
   
   out.indiv <-  c(class(f.best)[1], var,
@@ -433,7 +376,7 @@ fit.negbin.glms <- function(dataset, var,
   
   # Plot graphs:
   if (plot.graphs) {
-    par (mfrow = c(1,3),
+    par (mfrow = c(1,2),
          mar = c(4,3,2,2),
          oma =c(1,2,0,0))
     
@@ -451,14 +394,7 @@ fit.negbin.glms <- function(dataset, var,
           xlab = "Proportion of Neophytes")
     
     add.stats(mods.list$f1a, type = "negbin")
-    
-    plot( y ~ BNIs,   
-          data= dataset,
-          pch = 20,
-          ylab = "",
-          xlab = "BNIs")
-    
-    add.stats(mods.list$f1c, type = "negbin")
+   
     mtext(2, text = var,
           outer = TRUE, cex = 0.7)
   }
@@ -470,8 +406,7 @@ fit.negbin.glms <- function(dataset, var,
 
 # Normal linear models
 fit.lms <- function(dataset, var ,
-                    plot.graphs = FALSE,
-                    BNI.include = FALSE) {
+                    plot.graphs = FALSE) {
   
   dataset$y <- dataset[, var]
   
@@ -480,22 +415,12 @@ fit.lms <- function(dataset, var ,
     f0 = lm(y ~ 1, data = dataset),
     f1a = lm(y ~ prop.neo, data =  dataset),
     f1b = lm(y ~ Seal_500 , data =  dataset),
-    f1c = lm(y ~ BNIs, data =  dataset),
-    
     f2a = lm(y ~  Seal_500 + prop.neo , data =  dataset),
-    f2b = lm(y ~  prop.neo + BNIs , data =  dataset),
-    f2c = lm(y ~  Seal_500 + BNIs, data =  dataset),
-    f3 = lm(y ~   Seal_500 + prop.neo + BNIs , data =  dataset),
-    f4a = lm(y ~  prop.neo * Seal_500  , data =  dataset),
-    f4b = lm(y ~  BNIs * Seal_500  , data =  dataset)
+    f4a = lm(y ~  prop.neo * Seal_500  , data =  dataset)
   )
   
   # Extract Best model
-  if (BNI.include) sel = model.sel(mods.list)
-  if (BNI.include == FALSE) {
-    sel = model.sel(mods.list[-c(4,6,7,8,10)])
-  }
-  
+  sel = model.sel(mods.list)
   mods <- rownames(subset(sel, delta <2))
   
   f.best <- mods.list[[mods[1]]]
@@ -530,10 +455,7 @@ fit.lms <- function(dataset, var ,
                        r2(mods.list$f1a)[[1]],
                        coef.mods$f1b[2,1:2],
                        aov.mods$f1b$Res.Df[2], aov.mods$f1b$P[2],
-                       r2(mods.list$f1b)[[1]],
-                       coef.mods$f1c[2,1:2],
-                       aov.mods$f1c$Res.Df[2], aov.mods$f1c$P[2],
-                       r2(mods.list$f1c)[[1]]),
+                       r2(mods.list$f1b)[[1]]),
                      digits = 4)
   
   out.indiv <-  c(class(f.best)[1], var,
@@ -546,7 +468,7 @@ fit.lms <- function(dataset, var ,
   
   # Plots graphs 
   if (plot.graphs) {
-    par (mfrow = c(1,3),
+    par (mfrow = c(1,2),
          mar = c(4,3,2,2),
          oma =c(1,2,0,0))
     
@@ -565,12 +487,6 @@ fit.lms <- function(dataset, var ,
     
     add.stats(mods.list$f1a, type = "lm")
     
-    plot( y ~ BNIs,   
-          data= dataset,
-          pch = 20,
-          ylab = "",
-          xlab = "BNIs")
-    add.stats(mods.list$f1c, type = "lm")
     mtext(2, text = var,
           outer = TRUE, cex = 0.7)
   }

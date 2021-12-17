@@ -14,13 +14,12 @@ glms.SRall.month <- (function(exclude.absences = TRUE,
                    is.null(fit.lms))))
   
   # Create a table of results:   ####
-  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =24) )
+  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =19) )
   colnames(glms.table) <- c("group", "type","n.obs","class","var",
                             "Best.model", "df.resid","P.lrt","R2",
                             "PropNeo.coef", "PropNeo.se",
                             "PropNeo.df","PropNeo.P","PropNeo.R2",
-                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2",
-                            "BNIs.coef", "BNIs.se","BNIs.df","BNIs.P","BNIs.R2")
+                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2")
   
   # Create a list to store the models: 
   all.models <- list()
@@ -47,7 +46,7 @@ glms.SRall.month <- (function(exclude.absences = TRUE,
     }
     n = length(tmp[,y])
     fit <- fit.lms(dataset = tmp, var = y,
-                            BNI.include = F,plot.graphs = show.plots)
+                            plot.graphs = show.plots)
     
     glms.table[i,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i] <- y
@@ -82,7 +81,7 @@ glms.SRall.month <- (function(exclude.absences = TRUE,
     n = length(tmp[,y])
     
     fit <- fit.lms(dataset = tmp, var = y,
-                   BNI.include = F,plot.graphs = show.plots)
+                   plot.graphs = show.plots)
     
     glms.table[i + 5,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i + 5] <- y

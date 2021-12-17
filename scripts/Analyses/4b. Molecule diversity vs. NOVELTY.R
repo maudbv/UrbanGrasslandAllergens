@@ -10,7 +10,7 @@ library(rsq)
 # Community Allergenicity along the gradient
 # Fitting generalized linear models to allergenic species richness, proportion and cover
 # Extract both the "best model" with interaction (prop.neo*seal_500)
-# and three independant models for each of the three predictors: Seal_500, prop.neo, BNIs
+# and three independent models for each of the two predictors: Seal_500, prop.neo
 
 glms.AR <- (function(exclude.absences = TRUE,
                      show.plots = FALSE){
@@ -25,13 +25,12 @@ glms.AR <- (function(exclude.absences = TRUE,
                    is.null(fit.negbin.glms))))
   
   # Create a table of results:   ####
-  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =24) )
+  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =19) )
   colnames(glms.table) <- c("group", "type","n.obs","class","var",
                             "Best.model", "df.resid","P.lrt","R2",
                             "PropNeo.coef", "PropNeo.se",
                             "PropNeo.df","PropNeo.P","PropNeo.R2",
-                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2",
-                            "BNIs.coef", "BNIs.se","BNIs.df","BNIs.P","BNIs.R2")
+                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2")
   
   # Create a list to store the models: 
   all.models <- list()
@@ -53,8 +52,7 @@ glms.AR <- (function(exclude.absences = TRUE,
       tmp <- tmp[which(tmp[,z]>0 & !is.na(tmp[,y])),]
     }
     n = length(tmp[,y])
-    fit <- fit.negbin.glms(dataset = tmp, var = y,
-                           BNI.include = F,plot.graphs = show.plots)
+    fit <- fit.negbin.glms(dataset = tmp, var = y, plot.graphs = show.plots)
     
     glms.table[i,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i] <- y
@@ -86,7 +84,7 @@ glms.AR <- (function(exclude.absences = TRUE,
     n = length(tmp[,y])
     
     # Fit Binomials for proportions
-    fit <- fit.binom.glms(tmp, x, y, BNI.include = F,plot.graphs = show.plots)
+    fit <- fit.binom.glms(tmp, x, y,plot.graphs = show.plots)
     glms.table[i + 5,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i + 5] <- nam
     

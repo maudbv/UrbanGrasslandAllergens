@@ -90,13 +90,3 @@ plot_summary$prop.arch <- as.numeric(plot_summary$SR.arch)/ as.numeric(plot_summ
 plot_summary$prop.exo <- as.numeric(plot_summary$SR.exo)/ as.numeric(plot_summary$SR)
 plot_summary$prop.resid <- as.numeric(plot_summary$SR.resid)/ as.numeric(plot_summary$SR)
 
-
-# Calculate Biotic Novelty Index and Rao's quadratic entropy  ####
-# From Schittko et al. 2020, modified to include only herbaceous species (ie not trees)
-source('scripts/Data import/Calculate BNI for BIBS.R')
-plot_summary$BNI <- BNI.berlin$BNI[
-  match(rownames(BNI.berlin),plot_summary$ID_plot)]
-plot_summary$BNIs <- BNI.berlin$BNIs[
-  match(rownames(BNI.berlin),plot_summary$ID_plot)]
-plot_summary$Rao <- BNI.berlin$RaoQ[
-  match(rownames(BNI.berlin),plot_summary$ID_plot)]

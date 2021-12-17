@@ -6,7 +6,6 @@ library(corrplot)
 ## CORRELATION MATRIX for Allergen Molecule Richness ######
 tmp <- allergen_summary[,c("SR","SR.nat", "SR.arch", "SR.neo","all.num",
                            "FR","FR.nat", "FR.arc", "FR.neo",
-                           "Rao",
                            "nb.mol","nb.mol.neo","nb.mol.arc","nb.mol.nat", "nb.mol.exo",
                            "nb.allfam","nb.allfam.neo","nb.allfam.arc","nb.allfam.nat", "nb.allfam.exo")]
 
