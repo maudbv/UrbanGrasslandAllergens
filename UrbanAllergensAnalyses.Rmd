@@ -1,8 +1,8 @@
 ---
 title: "Analyses of urban grassland allergens"
 output:
-  pdf_document: default
   html_notebook: null
+  pdf_document: default
   html_document:
     df_print: null
 date: "`r format(Sys.time(), '%d %B, %Y')`"
@@ -142,6 +142,12 @@ tmp <- data.frame(nmol = assigned,
 mol.score <- cor.test(~nmol + score, data = tmp,
                       method = "spearman")
 
+tmp <- data.frame(nmol = assigned, 
+             pav= species_allergen[allergenics,]$PAV)
+# tmp <- tmp[tmp$nmol >0,] # to remove species with no known molecule
+mol.pav <- cor.test(~nmol + pav, data = tmp,
+                      method = "spearman")
+
 # plot(jitter(score) ~ jitter(nmol), data = tmp,
 #      xlab = "Recorded molecules per allergenic species",
 #      ylab = "Allergenicity score")
@@ -177,7 +183,7 @@ mol.sp.taxo <- data.frame(
 
 Overall, `r sum(species_allergen$allergenicity)` allergenic species (`r round(sum(species_allergen$allergenicity)/length(species_allergen$allergenicity),3)*100`% of all recorded species) were found in the vegetation plots, of which `r sum(assigned>0)` were assigned known allergen molecules. 
 
-The number of allergen molecules identified per allergenic species ranged from `r min(assigned[assigned>0])` to `r max(assigned[assigned>0])` (median = `r median(assigned[assigned>0])`, mean = `r round(mean(assigned[assigned>0]),2)`, sd = `r round(sd(assigned[assigned>0]),2)`). Overall, the higher the number of allergens per species, the higher the allergenicity score of the species (Spearman rank correlation: rho = `r round(mol.score$estimate[[1]],2)`, n = `r sum(assigned>0)`, P =`r round(mol.score$p.value,4)`).
+The number of allergen molecules identified per allergenic species ranged from `r min(assigned[assigned>0])` to `r max(assigned[assigned>0])` (median = `r median(assigned[assigned>0])`, mean = `r round(mean(assigned[assigned>0]),2)`, sd = `r round(sd(assigned[assigned>0]),2)`). Overall, the higher the number of allergens per species, the higher the allergenicity score of the species (Spearman rank correlation: rho = `r round(mol.score$estimate[[1]],2)`, n = `r sum(assigned>0)`, P =`r round(mol.score$p.value,4)`), and the higher the PAV (rho = `r round(mol.pav$estimate[[1]],2)`, n = `r sum(assigned>0)`, P =`r round(mol.pav$p.value,4)`).
 
 Pollination syndrome and taxonomic family were the best predictors of species allergenicity. Wind-pollinated species, which represented `r round(sum(species_allergen$anemophilous)/nrow(species_allergen),2)*100`% of all species, were `r round(anem.t$estimate[1])` times more likely to be allergenic than species with other pollination modes (Fisher exact test: odds.ratio = `r round(anem.t$estimate[1],2)`, P = `r round(anem.t$p.value,4)`) and tended to have higher allergen scores (G-test: G = `r round(anem.G$sta,2)` , df = `r round(anem.G$param,2)`,  P = `r round(anem.G$p.value,4)`). 
 

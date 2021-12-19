@@ -685,6 +685,35 @@ colSums(allfam_mat) # No unknown families
 allfam_mat$Unknown<- 0
 allfam_mat[names(which(! rowSums(allfam_mat[allergenics, ])>0)), "Unknown"] <- 1
 
+# STRICT strict_allfam_mat
+strict_allfam_mat <-
+  data.frame(matrix(
+    0,
+    nrow = length(species_allergen$Species),
+    ncol = length(unique(molecule_data$Allergen.Family)),
+    dimnames = list(species_allergen$Species,
+                    sort(unique(
+                      molecule_data$Allergen.Family
+                    )))
+  ),
+  check.names = FALSE)
+
+dim(strict_allfam_mat)
+
+for (sp in species_allergen$Species) {
+  smat <- molecule_data[molecule_data$Species == sp ,]
+  smat <- smat[ which(smat$Matches.with.database %in% c("1",   "1b" )),]
+  if (nrow(smat) > 0) {
+    strict_allfam_mat[sp, unique(smat$Allergen.Family)] <- 1
+  }
+}
+colSums(strict_allfam_mat) # No unknown families
+
+## Add allergen family as "Unknown" if the species is allergenic but does not show up
+strict_allfam_mat$Unknown<- 0
+strict_allfam_mat[names(which(! rowSums(strict_allfam_mat[allergenics, ])>0)), "Unknown"] <- 1
+
+
 ## Taxonomic Family X Allergen family matrix
 allfam_mat_fam <- as.data.frame(t(sapply( unique(species_allergen$family), function(x) {
   mat <- species_allergen[species_allergen$family == x,]
