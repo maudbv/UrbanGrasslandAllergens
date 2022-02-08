@@ -84,3 +84,4 @@ source('scripts/Illustration/Figures manuscript.R')
 
 # Save all results ####
 save.image(file ="results/Urban_Grassland_Allergens_results.Rdata")
+# load("results/Urban_Grassland_Allergens_results.Rdata")

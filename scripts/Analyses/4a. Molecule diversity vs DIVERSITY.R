@@ -9,6 +9,8 @@ tmp <- allergen_summary[,c("SR","SR.nat", "SR.arch", "SR.neo","all.num",
                            "nb.mol","nb.mol.neo","nb.mol.arc","nb.mol.nat", "nb.mol.exo",
                            "nb.allfam","nb.allfam.neo","nb.allfam.arc","nb.allfam.nat", "nb.allfam.exo")]
 
+tmp[tmp$SR.neo == 0, c("FR.neo","nb.mol.neo","nb.allfam.neo")] <- NA
+
 cor.AR.print <- cor.print (data = tmp, method = "spearman",
                            plotting = FALSE)
 cor.AR <- cor.print(tmp,return.print = FALSE, plotting = FALSE)

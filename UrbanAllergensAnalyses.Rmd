@@ -81,9 +81,9 @@ source('scripts/Analyses/fit.allergen.glms.R')
 
 # correlations plot_summary
 # 
-# cor.gradients <- cor.print(plot_summary[, c("Seal_500","prop.neo","BNIs","Pop_500","Rao",
+# cor.gradients <- cor.print(plot_summary[, c("Seal_500","prop.neo","Pop_500",
 #                            "SR")], return.print = FALSE)
-cor.table <- cor.print(plot_summary[, c("Seal_500","prop.neo","BNIs","Pop_500","Rao",
+cor.table <- cor.print(plot_summary[, c("Seal_500","prop.neo","Pop_500",
                            "SR")], return.print = TRUE)
 knitr::kable(cor.table, format ="markdown",
              digits = 4,
@@ -200,10 +200,20 @@ status.all.G <- DescTools::GTest(status.all)
 #G = 0.44836, X-squared df = 2, p-value = 0.7992
 p.status.all <- round((status.all/rowSums(status.all))[,2],3)*100
 
-# Allergen score per floristic status
+# Allergen score per Introduction status
 tmp <- table(species_allergen[,c( "Introduction_status_Seitz2012", "allergen_score")])
 status.score <-  DescTools::GTest(tmp)
 # G = 10.054, X-squared df = 8, p-value = 0.2612
+
+# Pollination syndrome per Introduction status
+tmp <- table(species_allergen[,c( "Introduction_status_Seitz2012","anemophilous")])
+status.pollin <-  DescTools::GTest(tmp)
+# G = 16.222, X-squared df = 10, p-value = 0.09346
+
+tmp <- table(species_allergen[,c( "native","anemophilous")])
+status.pollin <-  DescTools::GTest(tmp)
+# G = 2.6315, X-squared df = 2, p-value = 0.2683
+
 
 # PAV per floristic status
 # select allergenics only (avoid two many zeros)

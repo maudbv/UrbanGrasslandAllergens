@@ -190,7 +190,7 @@ fit.binom.glms <- function(dataset, var, tot,
   dataset$x <- dataset[, var]
   dataset$y <- dataset[, tot]
   
-  # Poisson GLM : 
+  # GLM : 
   quasi.mods.list <- list(
     f0 = glm(cbind(x,y-x) ~ 1, data = dataset, family = quasibinomial),
     f1a = glm(cbind(x,y-x) ~ prop.neo, data = dataset, family = quasibinomial),
