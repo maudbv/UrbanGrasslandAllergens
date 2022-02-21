@@ -39,34 +39,36 @@ source('scripts/Analyses/fit.allergen.glms.R')
 load("clean data/Urban_Grassland_Allergens_data.Rdata")
 print(paste("Allergen Data from", file.info("clean data/Urban_Grassland_Allergens_data.Rdata")$ctime, "is loaded"))
 
-# Explore distribution of species in allergen space ####
+# 1 - Explore distribution of species in allergen space ####
 source("scripts/Analyses/1. ordination allergenics in allfam space.R")
 
-# Allergenic species diversity ####
+# 2 - Allergenic species diversity ####
 source('scripts/Analyses/2a. Allergenic richness vs. DIVERSITY .R')
 source('scripts/Analyses/2b. Allergenic richness vs NOVELTY.R')
 
-# PAV of communities ####
+# 3 - PAV of communities ####
 source('scripts/Analyses/3. Mean PAV analyses.R')
 
-# Allergen molecule diversity ####
+# 4 - Allergen molecule diversity ####
 plot.all.graphs = FALSE
 source('scripts/Analyses/4a. Molecule diversity vs DIVERSITY.R')
 source('scripts/Analyses/4b. Molecule diversity vs. NOVELTY.R')
 source('scripts/Analyses/4c. ALLFAM diversity vs. NOVELTY.R')
 
-# Beta-dissimilarity in species and allergen composition ####
+# 5 - Beta-dissimilarity in species and allergen composition ####
 source('scripts/Analyses/5a. Beta dissimilarity in species.R')
 source('scripts/Analyses/5b. Beta dissimilarity in molecules.R')
+source('scripts/Analyses/5c. Beta dissimilarity in Allergen families.R')
 
-# Phenology of allergen production ####
-source('scripts/Analyses/6a. Analyses temporal spectrum.R')
+# 6 - Phenology of allergen production ####
+source('scripts/Analyses/6a. Analyses flowering phenology.R')
 
-# Monthly averaged values based on flowering phenology: ####
+## Monthly averaged values based on flowering phenology: 
 source('scripts/Analyses/6b. Monthly SRall with novelty.R')
 source('scripts/Analyses/6c. Monthly AR with novelty.R')
 source('scripts/Analyses/6d. Monthly AllfamR with novelty.R')
 
+## exported table for monthly models
 table.monthly.models <- rbind(
   SR = glms.SRall.month$glms.table,
   AR =  glms.AR.month$glms.table,
@@ -77,8 +79,9 @@ table.monthly.models <- doBy::orderBy(~ group - level +type ,
 write.csv(table.monthly.models,
           file = "results/table monthly models.csv")
 
-# Plot figures for manuscript
-source('scripts/Illustration/Figures manuscript 1.0.R')
+# Plot figures for manuscript ####
+source('scripts/Illustration/Figures manuscript.R')
 
 # Save all results ####
 save.image(file ="results/Urban_Grassland_Allergens_results.Rdata")
+# load("results/Urban_Grassland_Allergens_results.Rdata")

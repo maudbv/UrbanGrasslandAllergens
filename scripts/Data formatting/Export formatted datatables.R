@@ -94,11 +94,11 @@ rm(tmp)
 
 
 ## plot parameter data: ######
-tmp  <- plot_summary[, c("ID_plot","Seal_500","Pop_500","prop.neo","BNIs",
-                         "SR","SR.nat","SR.arch","SR.neo","Rao")]
+tmp  <- plot_summary[, c("ID_plot","Seal_500","Pop_500","prop.neo",
+                         "SR","SR.nat","SR.arch","SR.neo")]
 
-colnames(tmp) <- c("ID_plot", "perc.Impervious.surfaces", "Population.density","Prop.Neophytes", "BNIs",
-                   "SR", "SR.nat","SR.arc","SR.neo","Rao.Q") 
+colnames(tmp) <- c("ID_plot", "perc.Impervious.surfaces", "Population.density","Prop.Neophytes",
+                   "SR", "SR.nat","SR.arc","SR.neo") 
 
 # Export csv: 
 write.csv( tmp, row.names = FALSE,

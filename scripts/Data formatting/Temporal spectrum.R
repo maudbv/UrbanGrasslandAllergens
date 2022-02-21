@@ -1,7 +1,10 @@
 ### TEMPORAL SPECTRUM of ALLERGIES
+# Take flowering phenology into account to calculate the 
+# mean monthly cover and richness of allergenic species, molecules and molecule families
 
-# Check and clean the flowering phenology data:
 
+
+# Check and format the flowering phenology data:
 rownames(species_allergen)[which(!apply(!is.na(cbind(species_allergen$fl.beg,species_allergen$fl.end)),1,all))]
 
 # Missing data for one species, corrected from Bioflor database (Sept. 2020)
@@ -270,6 +273,7 @@ fl_allfam_exo_plot <- t(sapply(rownames(vegcomm), function(m) {
   return(out)
 }))
 
+
 # Weighted by percent cover: 
 fl_allfam_plot_wtd <- t(sapply(rownames(vegcomm), function(m) {
   sp <- colnames(vegcomm)[vegcomm[m,]>0]
@@ -323,6 +327,8 @@ fl_allfam_exo_plot_wtd <- t(sapply(rownames(vegcomm), function(m) {
   out <- colSums(allfams %*% (as.numeric(cov)*fls))
   return(out)
 }))
+
+
 
 # Number of UNIQUE allfam per month by subset of plots ####
 ## Subsets along gradient: 
@@ -388,7 +394,7 @@ molpheno <-  data.frame(
     period.fl =  apply(fl_mol_plot , 1,
                        function(x) max(which(x>0)) - min(which(x>0)) +1),
     peak.fl =apply(fl_mol_plot  , 1, function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl = apply(fl_mol_plot  , 1, function(x) sum(x)/12),
+    cum.fl = apply(fl_mol_plot  , 1, function(x) sum(x)/12), # mean monthly value
     
     beg.fl.5pc =  apply(fl_mol_plot_wtd  , 1, function(x) min(which(x>=5))),
     end.fl.5pc =   apply(fl_mol_plot_wtd , 1, function(x) max(which(x>=5))),
@@ -396,7 +402,7 @@ molpheno <-  data.frame(
                            function(x) max(which(x>=5)) - min(which(x>0)) +1),
     peak.fl.wtd =apply(fl_mol_plot_wtd  , 1,
                        function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.wtd = apply(fl_mol_plot_wtd  , 1, function(x) sum(x)/12),
+    cum.fl.wtd = apply(fl_mol_plot_wtd  , 1, function(x) sum(x)/12), # mean monthly value
     
     # Neophytes
     beg.fl.neo =  apply(fl_mol_neo_plot, 1, function(x) min(which(x>0))),
@@ -405,7 +411,7 @@ molpheno <-  data.frame(
                        function(x) max(which(x>0)) - min(which(x>0)) +1),
     peak.fl.neo =apply(fl_mol_neo_plot  , 1,
                        function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.neo = apply(fl_mol_neo_plot  , 1, function(x) sum(x)/12),
+    cum.fl.neo = apply(fl_mol_neo_plot  , 1, function(x) sum(x)/12), # mean monthly value
     beg.fl.neo.5pc =  apply(fl_mol_neo_plot_wtd  , 1,
                             function(x) min(which(x>=5))),
     end.fl.neo.5pc =   apply(fl_mol_neo_plot_wtd , 1,
@@ -414,7 +420,7 @@ molpheno <-  data.frame(
                            function(x) max(which(x>=5)) - min(which(x>0)) +1),
     peak.fl.neo.wtd =apply(fl_mol_neo_plot_wtd  , 1,
                        function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.neo.wtd = apply(fl_mol_neo_plot_wtd  , 1, function(x) sum(x)/12),
+    cum.fl.neo.wtd = apply(fl_mol_neo_plot_wtd  , 1, function(x) sum(x)/12), # mean monthly value
     
     
     # archaeophytes
@@ -424,7 +430,7 @@ molpheno <-  data.frame(
                            function(x) max(which(x>0)) - min(which(x>0)) +1),
     peak.fl.arc =apply(fl_mol_arc_plot  , 1,
                        function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.arc = apply(fl_mol_arc_plot  , 1, function(x) sum(x)/12),
+    cum.fl.arc = apply(fl_mol_arc_plot  , 1, function(x) sum(x)/12), # mean monthly value
     beg.fl.arc.5pc =  apply(fl_mol_arc_plot_wtd  , 1,
                             function(x) min(which(x>=5))),
     end.fl.arc.5pc =   apply(fl_mol_arc_plot_wtd , 1,
@@ -433,7 +439,7 @@ molpheno <-  data.frame(
                                function(x) max(which(x>=5)) - min(which(x>0)) +1),
     peak.fl.arc.wtd =apply(fl_mol_arc_plot_wtd  , 1,
                            function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.arc.wtd = apply(fl_mol_arc_plot_wtd  , 1, function(x) sum(x)/12),
+    cum.fl.arc.wtd = apply(fl_mol_arc_plot_wtd  , 1, function(x) sum(x)/12), # mean monthly value
     
     
     # natives
@@ -443,7 +449,7 @@ molpheno <-  data.frame(
                            function(x) max(which(x>0)) - min(which(x>0)) +1),
     peak.fl.nat =apply(fl_mol_nat_plot  , 1,
                        function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.nat = apply(fl_mol_nat_plot  , 1, function(x) sum(x)/12),
+    cum.fl.nat = apply(fl_mol_nat_plot  , 1, function(x) sum(x)/12), # mean monthly value
     beg.fl.nat.5pc =  apply(fl_mol_nat_plot_wtd  , 1,
                             function(x) min(which(x>=5))),
     end.fl.nat.5pc =   apply(fl_mol_nat_plot_wtd , 1,
@@ -452,7 +458,7 @@ molpheno <-  data.frame(
                                function(x) max(which(x>=5)) - min(which(x>0)) +1),
     peak.fl.nat.wtd =apply(fl_mol_nat_plot_wtd  , 1,
                            function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.nat.wtd = apply(fl_mol_nat_plot_wtd  , 1, function(x) sum(x)/12),
+    cum.fl.nat.wtd = apply(fl_mol_nat_plot_wtd  , 1, function(x) sum(x)/12), # mean monthly value
     
     # exotics
     beg.fl.exo =  apply(fl_mol_exo_plot, 1, function(x) min(which(x>0))),
@@ -461,7 +467,7 @@ molpheno <-  data.frame(
                            function(x) max(which(x>0)) - min(which(x>0)) +1),
     peak.fl.exo =apply(fl_mol_exo_plot  , 1,
                        function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.exo = apply(fl_mol_exo_plot  , 1, function(x) sum(x)/12),
+    cum.fl.exo = apply(fl_mol_exo_plot  , 1, function(x) sum(x)/12), # mean monthly value
     beg.fl.exo.5pc =  apply(fl_mol_exo_plot_wtd  , 1,
                             function(x) min(which(x>=5))),
     end.fl.exo.5pc =   apply(fl_mol_exo_plot_wtd , 1,
@@ -470,14 +476,13 @@ molpheno <-  data.frame(
                                function(x) max(which(x>=5)) - min(which(x>0)) +1),
     peak.fl.exo.wtd =apply(fl_mol_exo_plot_wtd  , 1,
                            function(x) if (sum(x)!=0) min(which(x == max(x))) else NA),
-    cum.fl.exo.wtd = apply(fl_mol_exo_plot_wtd  , 1, function(x) sum(x)/12)
+    cum.fl.exo.wtd = apply(fl_mol_exo_plot_wtd  , 1, function(x) sum(x)/12) # mean monthly value
   )   
 
 
 rownames(molpheno) <- allergen_summary$plot
 molpheno[is.infinite(as.matrix(molpheno))] <- NA
 molpheno <- as.data.frame(molpheno, as.is = T)
-
 
 
 # ALLFAMPHENO : ALLFAM pheno metrics for all plots: ####

@@ -8,29 +8,18 @@ library(r2glmm)
 
 ## CORRELATION MATRICES with allergenic SPECIES RICHNESS #####
 tmp <- allergen_summary[,c("SR","SR.nat", "SR.arch", "SR.neo",
-                           "Rao",
                            "all.num","severe.all.num",
                            "all.num.neo","all.num.arc","all.num.nat",
                            "all.num.exo",
                            "cover.all","cover.nat.all",
                            "cover.arc.all","cover.neo.all","cover.exo.all")]
 
-cor.SRall.print <- cor.print(tmp, plotting = TRUE)
+cor.SRall.print <- cor.print(tmp, plotting = FALSE)
 cor.SRall <- cor.print(tmp,return.print = FALSE, plotting = FALSE)
 
 write.csv(cor.SRall.print,
           "results/Spearman Cor table diversity vs. allergenic SR.csv")
 
-# model with Rao and SR
-
-f0 <- glm( all.num ~ 1 , allergen_summary, family = poisson)
-f <- glm( all.num ~ Rao + SR , allergen_summary, family = poisson)
-r2beta(f)
-
-mod_SRandRAO <- c( df = f$df.residual,
-   P = anova(f0,f, test = "LRT")[2,5],
-   r2 = r2(f)
-)
 
 
 # Mean statistics to report: ####

@@ -22,6 +22,7 @@ if ( (!is.null(cor.mat)) & (class(cor.mat) != "rcorr") ) {
 
   if (plotting) {
     par(mfrow= c(1,1))
+    diag(cor.mat$P) <- 1
     corrplot(corr = cor.mat$r, method = "ellipse", 
              p.mat = cor.mat$P, insig = "label_sig",
              sig.level = c(0.001, 0.01,0.05 ),

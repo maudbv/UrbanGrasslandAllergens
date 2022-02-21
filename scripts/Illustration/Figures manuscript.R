@@ -219,7 +219,7 @@ title(main ="b) End of Flowering")
 abline(h = 1:12, col = "grey90", lty = "dotted")
 vioplot(as.numeric(fl.end) ~ Introduction_status_Seitz2012, 
         data =species_allergen,
-        outlier = FALSE, col ="#ff7cc250" , border = "#ff7cc2",
+        outlier = FALSE, col ="#E44D3050" , border = "#E44D30",
         ann = FALSE,axes = FALSE, add = TRUE)
 axis(2, at = 1:12, labels = NA, las = 1, cex.axis=0.8)
 mtext( 3, adj = 1, cex = 0.7,
@@ -240,7 +240,7 @@ title(main ="c) Length of Flowering")
 #abline(h = 1:12, col = "grey90", lty = "dotted")
 vioplot(as.numeric(fl.period) ~ Introduction_status_Seitz2012, 
         data =species_allergen,
-        outlier = FALSE, col ="#fc5a5a50" , border = "#fc5a5a",
+        outlier = FALSE, col ="#FBAB3450" , border = "#FBAB34",
         ann = FALSE,axes = FALSE, add = TRUE)
 axis(2, at = 1:12, labels=1:12, las = 1, cex.axis=0.9)
 mtext(2, text = "Number of months", cex = 0.8, line = 1.8)
@@ -408,7 +408,7 @@ dev.off()
 
 
 
-# Figure S1: Broad vs strict definitions of allergenicity ####
+# Appendix 1 figure 1: Broad vs strict definitions of allergenicity ####
 
 png(width = 14, height = 15, unit ="cm", res = 600,
     file = "results/figure S1.png")
@@ -430,7 +430,7 @@ add.stats(cor.test(rowSums(mol_plot_strict),
 dev.off()
 
 
-# Figure S2A: allergen families by floristic status ####
+# Figure S1A: allergen families by floristic status ####
 png(width = 14, height = 15, unit ="cm", res = 600,
     file = "results/figure S2A.png")
 
@@ -474,7 +474,7 @@ legend("bottomright",
 # many unknown family groups make it difficult to judge.
 
 dev.off()
-# Figure S2B: Allergen family accumulatino curve #####
+# Figure S1B: Allergen family accumulation curve #####
 png(width = 11, height = 12, unit ="cm", res = 600,
     file = "results/figure S2B.png")
 
@@ -561,7 +561,7 @@ dev.off()
 
 
 
-# Figure S2C: NMDS of species in allergen family space ####
+# Figure S1C: NMDS of species in allergen family space ####
 png(width = 17, height = 13, unit ="cm", res = 600,
     file = "results/figure S2C.png")
 
@@ -723,220 +723,19 @@ dev.off()
 
 
 
-# Figure S3: temporal distribution of allergenics by family ####
-#  FAMILY allergenic flowering
-png(width = 26, height = 11, unit ="cm", res = 600,
-    file = "results/figure S3.png")
-
-par(mfrow = c(1,2), mar = c(2,4,2,1),
-    mgp = c(2,0.5,0),
-    tcl = - 0.3,
-    las = 1,
-    cex.axis = 0.8)
-
-# All allergenics
-y <- flower_month
-y$family <- species_allergen[rownames(species_allergen),"family"]
-y <- y[allergenics,]
-y <- doBy::summaryBy(.~ family,data = y, FUN = sum)
-rownames(y) <- y$family
-y<- y[-1]
-
-# Vector of colors per family:
-col.vec <- GetColors(nrow(y), stops = c(0.1,1))
-names(col.vec) <- rownames(y)
-
-plot(1:12, seq(0, max(y)+2, length.out = 12),  type = "n",
-     axes = FALSE, xlab = "", ylab = "Nb. Flowering allergenic species")
-axis(1, at = 1:12, labels = substr(months, 1,3))
-axis(2, las = 1)
-abline(v = 1:12, col = "grey90", lty = "dotted")
-
-for (i in 1:nrow(y)){
-   rf <- range(which(y[i,]>0))+c(-1,+1)
-   f<- smooth.spline(x = 1:12, y = as.numeric(y[i,]), spar = 0.2)
-   pf <- predict(f, x = seq(rf[1], rf[2], length.out = 100))
-   lines(pf,col = col.vec[rownames(y)[i]])
-}
-legend( "topleft",legend = rownames(y),
-        lty = "solid", lwd = 1.4,
-        col = col.vec, cex = 0.5, bty = "n")
-
-
-# For neophytes:  FAMILY allergenic flowering
-y <- flower_month
-y$family <- species_allergen[rownames(species_allergen),"family"]
-y <- y[intersect(allergenics,exotics),]
-y <- doBy::summaryBy(.~ family,data = y, FUN = sum)
-rownames(y) <- y$family
-y<- y[-1]
-
-plot(1:12, seq(0, max(y)+2, length.out = 12),  type = "n",
-     axes = FALSE, xlab = "", ylab = "Nb. Flowering non-native allergenic species")
-axis(1, at = 1:12, labels = substr(months, 1,3))
-axis(2, las = 1)
-abline(v = 1:12, col = "grey90", lty = "dotted")
-
-for (i in 1:nrow(y)){
-   rf <- range(which(y[i,]>0))+c(-1,+1)
-   f<- smooth.spline(x = 1:12, y = as.numeric(y[i,]), spar = 0.2)
-   pf <- predict(f, x = seq(rf[1], rf[2], length.out = 100))
-   lines(pf,col = col.vec[rownames(y)[i]])
-}
-dev.off()
-
-# Figure SB.1: Beta-dissimilarity and dbRDA ####
-# GRAPH
-png(width = 16, height = 22,unit ="cm", res = 600,
-    file = "results/figure SB.1.png")
-
-
-par(mfcol = c(3,2), mar = c(3,3,2,1),
-    mgp = c(1.6,0.4,0), las = 1, tck = -0.01)
-
-for (i in 1:3) {
-   
-   #Select dbrda:
-   dbrda.sp <- list(dbrda.sp.all.jacc,
-                    dbrda.mol.all.jacc, 
-                    dbrda.allfam.all.jacc)[[i]]
-   
-   tit <- c("a)",
-            "c)",
-            "e)")[i]
-   col.code <- c("#B2266270", "#48876270", "#3681af70")[i]
-   
-   # Calculate overall statistics:
-   (dbrda.model <- anova(dbrda.sp, by=NULL, perm.max=999))
-   (dbrda.model$R2 <-dbrda.model$SumOfSqs/
-         sum(dbrda.model$SumOfSqs))
-   
-   # Calculate partial R2:
-   (dbrda.terms <- anova(dbrda.sp, by="margin", perm.max=999))
-   dbrda.terms$R2 <- dbrda.terms$SumOfSqs/sum(dbrda.terms$SumOfSqs)
-   (dbrda.terms)
-   dbrda.terms$names <- c("% Impervious","Prop.Neophytes","SR", "BNIs","Rao's Q", "resid")
-   
-   # Plot :
-   ordi <- plot(dbrda.sp, type = "n",
-                cex.axis = 0.8, 
-                xlim = c(-3,3), ylim = c(-3,3))
-   points(dbrda.sp, type = "p" , pch = 20,  col = col.code)
-   
-   arrows(0,0, dbrda.sp$CCA$biplot[,1]*2.5, dbrda.sp$CCA$biplot[,2]*2.5,
-          length = 0.08,lwd = 1.5, angle = 35, col = "grey20")
-   
-   text(dbrda.sp$CCA$biplot[,1]*3.1,
-        dbrda.sp$CCA$biplot[,2]*3,
-        labels = c("% Impervious", "Prop.Neo","SR",
-                   "BNIs","Rao"), cex = 0.8, adj = 0)
-   
-   mtext(3, text= tit,adj = 0,
-         cex = 0.8, font = 2, line =1)
-   
-   # mtext(3, adj = 0, line = 0.1, cex= 0.7,
-   #       text = "Jaccard dissimilarities")
-   
-   mtext(3, adj = 1, line = 0.1, cex= 0.65,
-         text = as.expression(
-            substitute("R"^2*" = "*a*b,
-                       list(  a = round(dbrda.model[1,"R2"],2),
-                              b = p2star(dbrda.model[1,"Pr(>F)"],
-                                         marginal = TRUE)))))
-   #Legend 
-   list.expr = sapply(1:(nrow(dbrda.terms)-1), function(i){
-      x <-  dbrda.terms$names[i]
-      a <- round(dbrda.terms[i,"R2"],3)
-      b <- p2star(dbrda.terms[i,"Pr(>F)"], marginal = TRUE)
-      return(as.expression(substitute(x*": R"^2*" = "*a*b)))
-   })
-   
-   legend("topleft", cex = 0.65,adj = 0,bty = "n",
-          legend = list.expr )
-}
-
-# rows <- c("Allergenic\nspecies",
-#           "Allergen\nmolecules",
-#           "Allergen\nfamilies")
-# mtext(2, at = c(0.25,0.5,0.75), text= rows, 
-#       las = 1, adj = 1,
-#       outer = TRUE, cex = 0.8, font = 2, line =1)
-# 
-# 
-
-for (i in 1:3) {
-   
-   #Select dbrda:
-   dbrda.sp <- list(dbrda.sp.two.jacc,
-                    dbrda.mol.two.jacc, 
-                    dbrda.allfam.two.jacc)[[i]]
-   tit <- c("b)","d)","f)")[i]
-   
-   col.code <- c("#B2266270", "#48876270", "#3681af70")[i]
-   
-   # Calculate overall statistics:
-   (dbrda.model <- anova(dbrda.sp, by=NULL, perm.max=999))
-   (dbrda.model$R2 <-dbrda.model$SumOfSqs/
-         sum(dbrda.model$SumOfSqs))
-   
-   # Calculate partial R2:
-   (dbrda.terms <- anova(dbrda.sp, by="margin", perm.max=999))
-   dbrda.terms$R2 <- dbrda.terms$SumOfSqs/sum(dbrda.terms$SumOfSqs)
-   (dbrda.terms)
-   dbrda.terms$names <- c("% Impervious","Prop.Neophytes","resid")
-   
-   # Plot :
-   ordi <- plot(dbrda.sp, type = "n",
-                cex.axis = 0.8, 
-                xlim = c(-3,3), ylim = c(-3,3))
-   points(dbrda.sp, type = "p" , pch = 20,  col = col.code)
-   
-   arrows(0,0, dbrda.sp$CCA$biplot[,1]*2.5, dbrda.sp$CCA$biplot[,2]*2.5,
-          length = 0.08,lwd = 1.5, angle = 35, col = "grey20")
-   
-   text(dbrda.sp$CCA$biplot[,1]*3.1,
-        dbrda.sp$CCA$biplot[,2]*3,
-        labels = c("% Impervious", "Prop.Neo"), cex = 0.8, adj = 0)
-   
-   mtext(3, text= tit,adj = 0,
-         cex = 0.8, font = 2, line =1)
-   # mtext(3, adj = 0, line = 0.1, cex= 0.7,
-   #       text = "Jaccard dissimilarities")
-   
-   mtext(3, adj = 1, line = 0.1, cex= 0.65,
-         text = as.expression(
-            substitute("R"^2*" = "*a*b,
-                       list(  a = round(dbrda.model[1,"R2"],2),
-                              b = p2star(dbrda.model[1,"Pr(>F)"],
-                                         marginal = TRUE)))))
-   #Legend 
-   list.expr = sapply(1:(nrow(dbrda.terms)-1), function(i){
-      x <-  dbrda.terms$names[i]
-      a <- round(dbrda.terms[i,"R2"],3)
-      b <- p2star(dbrda.terms[i,"Pr(>F)"], marginal = TRUE)
-      return(as.expression(substitute(x*": R"^2*" = "*a*b)))
-   })
-   
-   legend("bottomleft", cex = 0.65,adj = 0,bty = "n",
-          legend = list.expr )
-}
-
-dev.off()
-# Figure 2 alt:
-
-# alt
-png(file = "results/figure 2 alt.png",
+# Figure S2: Trends in CWM(PAV) #######
+png(file = "results/figure S2.png",
     width = 18, height = 10,unit ="cm", res = 600)
 par (
-   mfrow = c(1, 2),
-   bty = "l",
-   mar = c(4, 3, 2, 1),
-   oma = c(0, 0, 1, 0),
-   mgp = c(2,0.4,0),
-   tcl = - 0.2,
-   las = 1,
-   cex.axis = 0.8,
-   xpd = TRUE
+  mfrow = c(1, 2),
+  bty = "l",
+  mar = c(4, 3, 2, 1),
+  oma = c(0, 0, 1, 0),
+  mgp = c(2,0.4,0),
+  tcl = - 0.2,
+  las = 1,
+  cex.axis = 0.8,
+  xpd = TRUE
 )
 
 # Panel 1: interaction plot for CWM.PAV
@@ -1011,6 +810,148 @@ mtext(2,text = substitute("Archaeophyte CWM" [a],list( a="PAV")),
 mtext(3,text = "(b)", adj = -0.2)
 
 dev.off()
+
+
+# Figure S3: temporal distribution of allergenics by family ####
+#  FAMILY allergenic flowering
+png(width = 26, height = 11, unit ="cm", res = 600,
+    file = "results/figure S3.png")
+
+par(mfrow = c(1,2), mar = c(2,4,2,1),
+    mgp = c(2,0.5,0),
+    tcl = - 0.3,
+    las = 1,
+    cex.axis = 0.8)
+
+# All allergenics
+y <- flower_month
+y$family <- species_allergen[rownames(species_allergen),"family"]
+y <- y[allergenics,]
+y <- doBy::summaryBy(.~ family,data = y, FUN = sum)
+rownames(y) <- y$family
+y<- y[-1]
+
+# Vector of colors per family:
+col.vec <- GetColors(nrow(y), stops = c(0.1,1))
+names(col.vec) <- rownames(y)
+
+plot(1:12, seq(0, max(y)+2, length.out = 12),  type = "n",
+     axes = FALSE, xlab = "", ylab = "Nb. Flowering allergenic species")
+axis(1, at = 1:12, labels = substr(months, 1,3))
+axis(2, las = 1)
+abline(v = 1:12, col = "grey90", lty = "dotted")
+
+for (i in 1:nrow(y)){
+   rf <- range(which(y[i,]>0))+c(-1,+1)
+   f<- smooth.spline(x = 1:12, y = as.numeric(y[i,]), spar = 0.2)
+   pf <- predict(f, x = seq(rf[1], rf[2], length.out = 100))
+   lines(pf,col = col.vec[rownames(y)[i]])
+}
+legend( "topleft",legend = rownames(y),
+        lty = "solid", lwd = 1.4,
+        col = col.vec, cex = 0.5, bty = "n")
+
+
+# For neophytes:  FAMILY allergenic flowering
+y <- flower_month
+y$family <- species_allergen[rownames(species_allergen),"family"]
+y <- y[intersect(allergenics,exotics),]
+y <- doBy::summaryBy(.~ family,data = y, FUN = sum)
+rownames(y) <- y$family
+y<- y[-1]
+
+plot(1:12, seq(0, max(y)+2, length.out = 12),  type = "n",
+     axes = FALSE, xlab = "", ylab = "Nb. Flowering non-native allergenic species")
+axis(1, at = 1:12, labels = substr(months, 1,3))
+axis(2, las = 1)
+abline(v = 1:12, col = "grey90", lty = "dotted")
+
+for (i in 1:nrow(y)){
+   rf <- range(which(y[i,]>0))+c(-1,+1)
+   f<- smooth.spline(x = 1:12, y = as.numeric(y[i,]), spar = 0.2)
+   pf <- predict(f, x = seq(rf[1], rf[2], length.out = 100))
+   lines(pf,col = col.vec[rownames(y)[i]])
+}
+dev.off()
+
+# Figure SB.1: Beta-dissimilarity and dbRDA ####
+# GRAPH
+png(width = 10, height = 22,unit ="cm", res = 600,
+    file = "results/figure SB.1.png")
+
+
+par(mfcol = c(3,1), mar = c(3,3,2,1),
+    mgp = c(1.6,0.4,0), las = 1, tck = -0.01)
+
+
+# rows <- c("Allergenic\nspecies",
+#           "Allergen\nmolecules",
+#           "Allergen\nfamilies")
+# mtext(2, at = c(0.25,0.5,0.75), text= rows, 
+#       las = 1, adj = 1,
+#       outer = TRUE, cex = 0.8, font = 2, line =1)
+# 
+# 
+
+for (i in 1:3) {
+   
+   #Select dbrda:
+   dbrda.sp <- list(dbrda.sp.two.jacc,
+                    dbrda.mol.two.jacc, 
+                    dbrda.allfam.two.jacc)[[i]]
+   tit <- c("a)","b)","c)")[i]
+   
+   col.code <- c("#B2266270", "#48876270", "#3681af70")[i]
+   
+   # Calculate overall statistics:
+   (dbrda.model <- anova(dbrda.sp, by=NULL, perm.max=999))
+   (dbrda.model$R2 <-dbrda.model$SumOfSqs/
+         sum(dbrda.model$SumOfSqs))
+   
+   # Calculate partial R2:
+   (dbrda.terms <- anova(dbrda.sp, by="margin", perm.max=999))
+   dbrda.terms$R2 <- dbrda.terms$SumOfSqs/sum(dbrda.terms$SumOfSqs)
+   (dbrda.terms)
+   dbrda.terms$names <- c("% Impervious","Prop.Neophytes","resid")
+   
+   # Plot :
+   ordi <- plot(dbrda.sp, type = "n",
+                cex.axis = 0.8, 
+                xlim = c(-3,3), ylim = c(-3,3))
+   points(dbrda.sp, type = "p" , pch = 20,  col = col.code)
+   
+   arrows(0,0, dbrda.sp$CCA$biplot[,1]*2.5, dbrda.sp$CCA$biplot[,2]*2.5,
+          length = 0.08,lwd = 1.5, angle = 35, col = "grey20")
+   
+   text(dbrda.sp$CCA$biplot[,1]*3.1,
+        dbrda.sp$CCA$biplot[,2]*3,
+        labels = c("% Impervious", "Prop.Neo"), cex = 0.8, adj = 0)
+   
+   mtext(3, text= tit,adj = 0,
+         cex = 0.8, font = 2, line =1)
+   # mtext(3, adj = 0, line = 0.1, cex= 0.7,
+   #       text = "Jaccard dissimilarities")
+   
+   mtext(3, adj = 1, line = 0.1, cex= 0.65,
+         text = as.expression(
+            substitute("R"^2*" = "*a*b,
+                       list(  a = round(dbrda.model[1,"R2"],2),
+                              b = p2star(dbrda.model[1,"Pr(>F)"],
+                                         marginal = TRUE)))))
+   #Legend 
+   list.expr = sapply(1:(nrow(dbrda.terms)-1), function(i){
+      x <-  dbrda.terms$names[i]
+      a <- round(dbrda.terms[i,"R2"],3)
+      b <- p2star(dbrda.terms[i,"Pr(>F)"], marginal = TRUE)
+      return(as.expression(substitute(x*": R"^2*" = "*a*b)))
+   })
+   
+   legend("bottomleft", cex = 0.65,adj = 0,bty = "n",
+          legend = list.expr )
+}
+
+dev.off()
+
 
 
 })()

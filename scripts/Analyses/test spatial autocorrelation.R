@@ -64,8 +64,17 @@ f <- glm(nb.allfam ~ Seal_500, allergen_summary, family = poisson)
 stopifnot(all(names(f$residuals) == rownames(plot_dist)))
 Moran.I(f$residuals, plot_dist ) # **
 
-# It seems like the number of allergen families is spatially autocorrelated, BUT: not the case for the subset of neophytes:
+# It seems like the number of allergen families per plot is spatially auto correlated,
+#  BUT: not the case for the subset of neophytes, which is the only one to show an interesting pattern
 
 f <- glm(nb.allfam.neo ~ Seal_500, allergen_summary, family = poisson)
 stopifnot(all(names(f$residuals) == rownames(plot_dist)))
 Moran.I(f$residuals, plot_dist ) # NS
+
+f <- glm(nb.allfam.nat ~ Seal_500, allergen_summary, family = poisson)
+stopifnot(all(names(f$residuals) == rownames(plot_dist)))
+Moran.I(f$residuals, plot_dist ) # **
+
+f <- glm(nb.allfam.arc ~ Seal_500, allergen_summary, family = poisson)
+stopifnot(all(names(f$residuals) == rownames(plot_dist)))
+Moran.I(f$residuals, plot_dist ) # *

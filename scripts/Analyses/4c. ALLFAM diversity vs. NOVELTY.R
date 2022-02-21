@@ -1,4 +1,4 @@
-## Analysing trends in Allergenic FAMILY molecule diversity along NOVELTY gradients
+## Analyzing trends in Allergenic FAMILY molecule diversity along NOVELTY gradients
 
 glms.allfam <- (function(exclude.absences = TRUE,
                         show.plots = FALSE){
@@ -14,13 +14,12 @@ glms.allfam <- (function(exclude.absences = TRUE,
                    is.null(fit.lms))))
   
   # Create a table of results:   ####
-  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =24) )
+  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =19) )
   colnames(glms.table) <- c("group", "type","n.obs","class","var",
                             "Best.model", "df.resid","P.lrt","R2",
                             "PropNeo.coef", "PropNeo.se",
                             "PropNeo.df","PropNeo.P","PropNeo.R2",
-                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2",
-                            "BNIs.coef", "BNIs.se","BNIs.df","BNIs.P","BNIs.R2")
+                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2")
   
   # Create a list to store the models: 
   all.models <- list()
@@ -42,7 +41,7 @@ glms.allfam <- (function(exclude.absences = TRUE,
       tmp <- tmp[which(tmp[,z]>0 & !is.na(tmp[,y])),]
     }
     n = length(tmp[,y])
-    fit <- fit.poisson.glms(tmp, y,BNI.include = F,plot.graphs = show.plots)
+    fit <- fit.poisson.glms(tmp, y,plot.graphs = show.plots)
     
     glms.table[i,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i] <- y
@@ -73,7 +72,7 @@ glms.allfam <- (function(exclude.absences = TRUE,
     n = length(tmp[,y])
     
     # Fit Binomials for proportions
-    fit <- fit.binom.glms(tmp, x, y, BNI.include = F,plot.graphs = show.plots)
+    fit <- fit.binom.glms(tmp, x, y, plot.graphs = show.plots)
     glms.table[i + 10,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i + 10] <- nam
     

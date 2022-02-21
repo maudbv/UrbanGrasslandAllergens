@@ -13,13 +13,12 @@ glms.allfam.month <- (function(exclude.absences = TRUE,
                    is.null(fit.lms))))
   
   # Create a table of results:   ####
-  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =24) )
+  glms.table <- data.frame(matrix(NA, nrow = 0,ncol =19) )
   colnames(glms.table) <- c("group", "type","n.obs","class","var",
                             "Best.model", "df.resid","P.lrt","R2",
                             "PropNeo.coef", "PropNeo.se",
                             "PropNeo.df","PropNeo.P","PropNeo.R2",
-                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2",
-                            "BNIs.coef", "BNIs.se","BNIs.df","BNIs.P","BNIs.R2")
+                            "Seal.coef", "Seal.se","Seal.df","Seal.P","Seal.R2")
   
   # Create a list to store the models: 
   all.models <- list()
@@ -33,7 +32,7 @@ glms.allfam.month <- (function(exclude.absences = TRUE,
   dat <- cbind(allfampheno[rownames(plot_summary),],
                allergen_summary)
   
-  # Trends in mean monthly SRall - LM ####
+  # Trends in mean monthly AllFam Richness - LM ####
   for (i in 1:5) {
     tmp <- dat
     y <- c("cum.fl", "cum.fl.nat","cum.fl.arc",
@@ -47,8 +46,7 @@ glms.allfam.month <- (function(exclude.absences = TRUE,
     }
     
     n = length(tmp[,y])
-    fit <- fit.lms(dataset = tmp, var = y,
-                   BNI.include = F,plot.graphs = show.plots)
+    fit <- fit.lms(dataset = tmp, var = y,plot.graphs = show.plots)
     
     glms.table[i,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i] <- y
@@ -62,7 +60,7 @@ glms.allfam.month <- (function(exclude.absences = TRUE,
     rm(tmp)
   }
   
-  # trends in wtd.mean monthly SRall - LM ####
+  # trends in wtd.mean monthly All fam richness - LM ####
   for (i in 1:5) {
     tmp <- dat
     y <- c("cum.fl.wtd", "cum.fl.nat.wtd","cum.fl.arc.wtd","cum.fl.neo.wtd","cum.fl.exo.wtd")[i]
@@ -81,8 +79,7 @@ glms.allfam.month <- (function(exclude.absences = TRUE,
     n = length(tmp[,y])
     
     # fit models 
-    fit <- fit.lms(dataset = tmp, var = y,
-                   BNI.include = F,  plot.graphs = show.plots)
+    fit <- fit.lms(dataset = tmp, var = y,  plot.graphs = show.plots)
     
     glms.table[i + 5,] <- c(g,type, n, fit$result.table)
     rownames(glms.table)[i + 5] <- y

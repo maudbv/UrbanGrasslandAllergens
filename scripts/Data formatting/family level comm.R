@@ -1,4 +1,4 @@
-## Family level community analyses
+## Taxonomic family level community analyses
 
 ## Groups of species by status:
 all.nat<- intersect(natives, allergenics)

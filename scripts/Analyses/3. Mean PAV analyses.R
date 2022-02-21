@@ -9,7 +9,7 @@ plot.trends.pav <-function(df = tmp,
                            interaction = TRUE,
                            plotting = plot.results){
    
-   df <- na.omit(df[, c("y", "Seal_500","prop.neo","BNIs")])
+   df <- na.omit(df[, c("y", "Seal_500","prop.neo")])
    
    # function to fit null model
    f.null <- function(dat = df) {
@@ -66,17 +66,15 @@ plot.trends.pav <-function(df = tmp,
    }
    
    # Format plotting device:
-   
    if (plotting) par (mfrow = c(1,3),mar = c(4,4, 2, 1), oma = c(0,0, 2,0))
+   
    # Apply to each variable:
    f1 <- fn(df, "Seal_500","% impervious surfaces")
    f2 <-  fn(df, "prop.neo", "Prop. Neophytes")
-   f3 <-  fn(df, "BNIs", "BNIs")
    if (plotting) mtext(3, text = plot.title, outer = TRUE)
    
    # Prepare results for testing interaction model
    f.int.a <- NULL
-   f.int.b <- NULL
 
    # If testing interaction model
    if (interaction) {
@@ -105,8 +103,7 @@ plot.trends.pav <-function(df = tmp,
    }
    
    f.int.a <- f.int(df, "Seal_500","prop.neo")
-   f.int.b <-  f.int(df, "Seal_500","BNIs")
-   
+ 
    }
    
    # Formatted output:
@@ -114,9 +111,7 @@ plot.trends.pav <-function(df = tmp,
                  summary(f1)$coefficients[2, 1:4],
                  r2(f1)[[1]][1],
                  summary(f2)$coefficients[2, 1:4],
-                 r2(f2)[[1]][1],
-                 summary(f3)$coefficients[2, 1:4],
-                 r2(f3)[[1]][1])
+                 r2(f2)[[1]][1])
    
    mean.pav.int.a <- c(f.int.a$df.residual,
                                   r2(f.int.a)[[1]][1],
@@ -126,25 +121,16 @@ plot.trends.pav <-function(df = tmp,
                                   summary(f.int.a)$coefficients[4, 1:4]
    )
    
-   mean.pav.int.b <- c(f.int.b$df.residual,
-                       r2(f.int.b)[[1]][1],
-                       anova(f0, f.int.b)[2,6],
-                       summary(f.int.b)$coefficients[2, 1:4],
-                       summary(f.int.b)$coefficients[3, 1:4],
-                       summary(f.int.b)$coefficients[4, 1:4]
-   )
+ 
    
 
    return(output <- list(
       models = list(f1 = f1,
                     f2 = f2,
-                    f3 = f3,
                     f0 = f0,
-                    f.int.a = f.int.a, 
-                    f.int.b = f.int.b),
+                    f.int.a = f.int.a),
       results = list(mean.pav = mean.pav,
-                     mean.pav.int.a = mean.pav.int.a,
-                     mean.pav.int.b = mean.pav.int.b)
+                     mean.pav.int.a = mean.pav.int.a)
    )
    )
 }
@@ -152,11 +138,10 @@ plot.trends.pav <-function(df = tmp,
 
 
 #create result table: ####
-pav.models <- data.frame(matrix(NA, nrow = 0,ncol =16))
+pav.models <- data.frame(matrix(NA, nrow = 0,ncol =11))
 colnames(pav.models) <- c("df.resid",
                           "Seal.coef","Seal.sd", "Seal.t","Seal.P","Seal.r2",
-                          "p.neo.coef","p.neo.sd", "p.neo.t","p.neo.P","p.neo.r2",
-                          "bni.coef","bni.sd", "bni.t","bni.P","bni.r2")
+                          "p.neo.coef","p.neo.sd", "p.neo.t","p.neo.P","p.neo.r2")
 
 
 pav.models.inter.pneo <- data.frame(matrix(NA, nrow = 0,ncol = 15))
@@ -165,12 +150,7 @@ colnames(pav.models.inter.pneo ) <- c("df.resid", "r2","P",
                           "p.neo.coef","p.neo.sd", "p.neo.t","p.neo.P",
                           "p.int.coef","p.int.sd", "p.int.t","p.int.P"
                           )
-pav.models.inter.bni <- data.frame(matrix(NA, nrow = 0,ncol = 15))
-colnames(pav.models.inter.bni ) <- c("df.resid", "r2","P",
-                                 "Seal.coef","Seal.sd", "Seal.t","Seal.P",
-                                 "bni.coef","bni.sd", "bni.t","bni.P",
-                                 "p.int.coef","p.int.sd", "p.int.t","p.int.P"
-)
+
 
 
 # Run the analyses for each types of mean PAV: ####
@@ -190,7 +170,6 @@ tmp <- tmp[!is.na(tmp$y),]
  
  pav.models[var,] <- m$results$mean.pav
  pav.models.inter.pneo[var,] <- m$results$mean.pav.int.a
- pav.models.inter.bni[var,] <- m$results$mean.pav.int.a
 }
 
 # Add mean and SD values ####
@@ -214,17 +193,15 @@ tmp <- tmp[!is.na(tmp$y),]
 pav.models <- as.data.frame(pav.models)
 pav.models <- cbind(tmp, pav.models[rownames(tmp),])
 pav.models.inter.pneo <- as.data.frame(pav.models.inter.pneo)[rownames(tmp),]
-pav.models.inter.bni <- as.data.frame(pav.models.inter.bni)[rownames(tmp),]
 
 # return results ####
 return(pav.analyses = list(pav.models = pav.models,
-                            pav.models.inter.pneo = pav.models.inter.pneo,
-                           pav.models.inter.bni = pav.models.inter.bni))
+                            pav.models.inter.pneo = pav.models.inter.pneo))
 })()
 
 # Write table : ####
 write.csv(pav.analyses$pav.models , "results/PAV.models.csv")
 write.csv(pav.analyses$pav.models.inter.pneo , "results/PAV.models.inter.pneo.csv")
-write.csv(pav.analyses$pav.models.inter.bni , "results/PAV.models.inter.bni.csv")
+
 
 
