@@ -408,7 +408,7 @@ dev.off()
 
 
 
-# Figure S1: Broad vs strict definitions of allergenicity ####
+# Appendix 1 figure 1: Broad vs strict definitions of allergenicity ####
 
 png(width = 14, height = 15, unit ="cm", res = 600,
     file = "results/figure S1.png")
@@ -430,7 +430,7 @@ add.stats(cor.test(rowSums(mol_plot_strict),
 dev.off()
 
 
-# Figure S2A: allergen families by floristic status ####
+# Figure S1A: allergen families by floristic status ####
 png(width = 14, height = 15, unit ="cm", res = 600,
     file = "results/figure S2A.png")
 
@@ -474,7 +474,7 @@ legend("bottomright",
 # many unknown family groups make it difficult to judge.
 
 dev.off()
-# Figure S2B: Allergen family accumulation curve #####
+# Figure S1B: Allergen family accumulation curve #####
 png(width = 11, height = 12, unit ="cm", res = 600,
     file = "results/figure S2B.png")
 
@@ -561,7 +561,7 @@ dev.off()
 
 
 
-# Figure S2C: NMDS of species in allergen family space ####
+# Figure S1C: NMDS of species in allergen family space ####
 png(width = 17, height = 13, unit ="cm", res = 600,
     file = "results/figure S2C.png")
 
@@ -723,6 +723,95 @@ dev.off()
 
 
 
+# Figure S2: Trends in CWM(PAV) #######
+png(file = "results/figure S2.png",
+    width = 18, height = 10,unit ="cm", res = 600)
+par (
+  mfrow = c(1, 2),
+  bty = "l",
+  mar = c(4, 3, 2, 1),
+  oma = c(0, 0, 1, 0),
+  mgp = c(2,0.4,0),
+  tcl = - 0.2,
+  las = 1,
+  cex.axis = 0.8,
+  xpd = TRUE
+)
+
+# Panel 1: interaction plot for CWM.PAV
+tmp <- allergen_summary
+f <- lm(CWM.pav ~ Seal_500 * prop.neo, tmp)
+library(interactions)
+p <- interactions::interact_plot(f, pred = Seal_500,  modx = prop.neo,
+                                 legend.main = "Prop. Neophytes",
+                                 plot.points = TRUE , interval = FALSE, 
+                                 x.label = "% Impervious surfaces",
+                                 y.label = "CWM.PAV",
+                                 colors = "seagreen",
+                                 point.size = 1,line.thickness = 0.8,
+                                 partial.residuals = TRUE,
+                                 facet.modx = FALSE
+)
+# Extract representative cut points for prop.neo :
+(unique(p$data$prop.neo)[1:2] + unique(p$data$prop.neo)[2:3])/2
+tmp$cut_prop.neo <- cut(allergen_summary$prop.neo, 
+                        breaks = c(0, 0.0405,0.0886,1),include.lowest = TRUE)
+cols <- colorRampPalette(c("peachpuff3","firebrick"))(3)
+
+plot(CWM.pav ~ Seal_500 ,data = tmp,
+     pch = 20,
+     col = cols[tmp$cut_prop.neo],
+     ann = FALSE)
+
+add.stats(f, plot.abline = "no")
+#mtext(3, text = "mean.PAV ~ %Imp.Surf * Prop.Neo",
+#      adj = 0, cex = 0.7)
+
+mtext( 1,text = "% Impervious surfaces", outer = FALSE,
+       cex = 0.9,line = 2, las = 0)
+mtext(2,text = substitute("CWM" [a],list( a="PAV")),outer = FALSE,
+      cex = 0.9, line = 1.5, las = 0)
+
+mtext(3,text = "(a)", adj = -0.2)
+
+# Add illustrative regression lines: 
+ltys <- c("dotted","dashed","solid")
+lines(CWM.pav ~ Seal_500 ,
+      data = p$data[p$data$modx_group == "+ 1 SD",],
+      col = cols[3], lty = ltys[3], lwd = 1.2)
+lines(CWM.pav ~ Seal_500 ,
+      data = p$data[p$data$modx_group == "Mean",],
+      col = cols[2], lty = ltys[2], lwd = 1.2)
+lines(CWM.pav ~ Seal_500 ,
+      data = p$data[p$data$modx_group == "- 1 SD",],
+      col = cols[1] , lty = ltys[1], lwd = 1.2)
+
+legend(2.5,20,
+       legend = c("-SD","Mean","+SD"),
+       title = "Proportion of Neophytes",
+       lty = ltys, col = cols, lwd = 1.2,
+       text.col = "grey10",
+       bty =  "n",
+       cex = 0.6,
+       inset = -0.07
+)
+
+# Second panel : CWM archaeophyte PAVs
+plot(CWM.arc.pav ~ Seal_500, data = allergen_summary,
+     pch = 20,col = "grey",ann = FALSE)
+
+add.stats(f <- lm(CWM.arc.pav ~ Seal_500, data = allergen_summary, na.action = "na.omit"),
+          type = "lm",l.col = "black")
+mtext( 1,text = "% Impervious surfaces", outer = FALSE,
+       cex = 0.9,line = 2, las = 0)
+mtext(2,text = substitute("Archaeophyte CWM" [a],list( a="PAV")),
+      outer = FALSE,
+      cex = 0.9, line = 1.5, las = 0)
+mtext(3,text = "(b)", adj = -0.2)
+
+dev.off()
+
+
 # Figure S3: temporal distribution of allergenics by family ####
 #  FAMILY allergenic flowering
 png(width = 26, height = 11, unit ="cm", res = 600,
@@ -862,95 +951,7 @@ for (i in 1:3) {
 }
 
 dev.off()
-# Figure 2 alt: #######
 
-# alt
-png(file = "results/figure 2 alt.png",
-    width = 18, height = 10,unit ="cm", res = 600)
-par (
-   mfrow = c(1, 2),
-   bty = "l",
-   mar = c(4, 3, 2, 1),
-   oma = c(0, 0, 1, 0),
-   mgp = c(2,0.4,0),
-   tcl = - 0.2,
-   las = 1,
-   cex.axis = 0.8,
-   xpd = TRUE
-)
-
-# Panel 1: interaction plot for CWM.PAV
-tmp <- allergen_summary
-f <- lm(CWM.pav ~ Seal_500 * prop.neo, tmp)
-library(interactions)
-p <- interactions::interact_plot(f, pred = Seal_500,  modx = prop.neo,
-                                 legend.main = "Prop. Neophytes",
-                                 plot.points = TRUE , interval = FALSE, 
-                                 x.label = "% Impervious surfaces",
-                                 y.label = "CWM.PAV",
-                                 colors = "seagreen",
-                                 point.size = 1,line.thickness = 0.8,
-                                 partial.residuals = TRUE,
-                                 facet.modx = FALSE
-)
-# Extract representative cut points for prop.neo :
-(unique(p$data$prop.neo)[1:2] + unique(p$data$prop.neo)[2:3])/2
-tmp$cut_prop.neo <- cut(allergen_summary$prop.neo, 
-                        breaks = c(0, 0.0405,0.0886,1),include.lowest = TRUE)
-cols <- colorRampPalette(c("peachpuff3","firebrick"))(3)
-
-plot(CWM.pav ~ Seal_500 ,data = tmp,
-     pch = 20,
-     col = cols[tmp$cut_prop.neo],
-     ann = FALSE)
-
-add.stats(f, plot.abline = "no")
-#mtext(3, text = "mean.PAV ~ %Imp.Surf * Prop.Neo",
-#      adj = 0, cex = 0.7)
-
-mtext( 1,text = "% Impervious surfaces", outer = FALSE,
-       cex = 0.9,line = 2, las = 0)
-mtext(2,text = substitute("CWM" [a],list( a="PAV")),outer = FALSE,
-      cex = 0.9, line = 1.5, las = 0)
-
-mtext(3,text = "(a)", adj = -0.2)
-
-# Add illustrative regression lines: 
-ltys <- c("dotted","dashed","solid")
-lines(CWM.pav ~ Seal_500 ,
-      data = p$data[p$data$modx_group == "+ 1 SD",],
-      col = cols[3], lty = ltys[3], lwd = 1.2)
-lines(CWM.pav ~ Seal_500 ,
-      data = p$data[p$data$modx_group == "Mean",],
-      col = cols[2], lty = ltys[2], lwd = 1.2)
-lines(CWM.pav ~ Seal_500 ,
-      data = p$data[p$data$modx_group == "- 1 SD",],
-      col = cols[1] , lty = ltys[1], lwd = 1.2)
-
-legend(2.5,20,
-       legend = c("-SD","Mean","+SD"),
-       title = "Proportion of Neophytes",
-       lty = ltys, col = cols, lwd = 1.2,
-       text.col = "grey10",
-       bty =  "n",
-       cex = 0.6,
-       inset = -0.07
-)
-
-# Second panel : CWM archaeophyte PAVs
-plot(CWM.arc.pav ~ Seal_500, data = allergen_summary,
-     pch = 20,col = "grey",ann = FALSE)
-
-add.stats(f <- lm(CWM.arc.pav ~ Seal_500, data = allergen_summary, na.action = "na.omit"),
-          type = "lm",l.col = "black")
-mtext( 1,text = "% Impervious surfaces", outer = FALSE,
-       cex = 0.9,line = 2, las = 0)
-mtext(2,text = substitute("Archaeophyte CWM" [a],list( a="PAV")),
-      outer = FALSE,
-      cex = 0.9, line = 1.5, las = 0)
-mtext(3,text = "(b)", adj = -0.2)
-
-dev.off()
 
 
 })()

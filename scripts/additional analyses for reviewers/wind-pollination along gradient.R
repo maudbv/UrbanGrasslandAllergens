@@ -1,5 +1,6 @@
 # Proportion of wind pollinated species with urbanisation
 
+# Add 
 temp <- allergen_summary
 anemophilous <- rownames(species_allergen)[which(species_allergen$anemophilous==1)]
 
