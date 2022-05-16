@@ -5,7 +5,7 @@
 *Author*: Maud Bernard-Verdier
 *Collaborators*: Birgit Seitz, Sascha Buchholz, Ingo Kowarik & Jonathan Jeschke
 
-This repository contains the code and data to reproduce the analyses in the manuscript entitled *Grassland allergenicity increases with urbanisation and plant invasions*, currently in revision.
+This repository contains the code and data to reproduce the analyses in the manuscript entitled *Grassland allergenicity increases with urbanisation and plant invasions*, accepted for publication in the journal Ambio.
 This code analyses the allergenic properties of 56 plots of dry acidic grasslands in Berlin, Germany. This research work is part of the BIBS project, **Bridging in Biodiversity Science**, funded by the BMBF, Germany.
 
 <img src="https://user-images.githubusercontent.com/6454302/115233650-763e1800-a118-11eb-85f5-00cddf7cff4c.png" alt="Map of Berlin 56 grasslands" width="600">
