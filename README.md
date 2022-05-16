@@ -1,6 +1,5 @@
 # Allergenic properties of Berlin grasslands
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4740338.svg)](https://doi.org/10.5281/zenodo.4740338)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4724928.svg)](https://doi.org/10.5281/zenodo.4724928)
 
 *Author*: Maud Bernard-Verdier
 *Collaborators*: Birgit Seitz, Sascha Buchholz, Ingo Kowarik & Jonathan Jeschke
