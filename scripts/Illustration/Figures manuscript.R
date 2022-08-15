@@ -1,10 +1,25 @@
 ## Figures for manuscript
 
 (function() {
-# Figure 1: Cover of allergenic species along novelty gradients ####
-png(file = "results/figure 1.png",width = 13, height = 18,
-    unit = "cm", res = 600)
-# pdf(file = "results/figure 1.pdf",width = 7, height = 6)
+  require (vioplot)
+  require (inlmisc)
+  # col.status <- c(GetColors(1, alpha = 0.6,stop = c(0.5,0.51)),
+  #                 GetColors(1, alpha = 0.6,stop = c(0.8,0.81)),
+  #                 GetColors(1, alpha = 0.6,stop = c(0.9,0.91)))
+  
+  col.status <- c(GetColors(1, alpha = 0.6,stop = c(0.3,0.31),
+                            scheme = "iridescent"),
+                  GetColors(1, alpha = 0.6,stop = c(0.65,0.66),
+                            scheme = "iridescent"),
+                  GetColors(1, alpha = 0.6,stop = c(0.8,0.81),
+                            scheme = "iridescent"))
+  
+  setEPS()
+# Figure 2: Cover of allergenic species along novelty gradients ####
+  postscript(file = "results/figure 2.eps",width = 6, height = 6.5)
+#png(file = "results/figure 2.png",width = 13, height = 18,
+#    unit = "cm", res = 600)
+# pdf(file = "results/figure 2.pdf",width = 7, height = 6)
 par (
    mfrow = c(3, 2),
    mar = c(2, 1, 2, 1),
@@ -79,11 +94,12 @@ dev.off()
 
 
 
-# Figure 2: Mean PAV along gradients ####
-# pdf(file = "results/figure 2.pdf",
+# Figure 3: Mean PAV along gradients ####
+# pdf(file = "results/figure 3.pdf",
 #     width = 7, height = 4)
- png(file = "results/figure 2.png",
-     width = 18, height = 10,unit ="cm", res = 600)
+postscript(file = "results/figure 3.eps",width = 7, height = 4)
+ # png(file = "results/figure 3.png",
+ #     width = 18, height = 10,unit ="cm", res = 600)
 par (
    mfrow = c(1, 2),
    bty = "l",
@@ -172,10 +188,12 @@ dev.off()
 
 
 
-# Figure 3: Violin plots of pheno traits ####
-
-png(file = "results/figure 3.png", 
-    width = 24, height = 11, unit = "cm", res = 600)
+# Figure 4: Violin plots of pheno traits ####
+ # png(file = "results/figure 4.png", 
+ #     width = 24, height = 11, unit = "cm", res = 600)
+cairo_ps("results/figure 4.eps",
+       width = 9, height = 4,
+       onefile = FALSE, fallback_resolution = 600)
 
 species_allergen$Introduction_status_Seitz2012<-factor(species_allergen$Introduction_status_Seitz2012, levels = c("I","A","N"))
 
@@ -254,24 +272,17 @@ text(x = 1:3, y = 12, labels = c("a", "b", "a"))
 
 dev.off()
 
-# Figure 4: Flowering species per months in 3 clusters ####
-
-# col.status <- c(GetColors(1, alpha = 0.6,stop = c(0.5,0.51)),
-#                 GetColors(1, alpha = 0.6,stop = c(0.8,0.81)),
-#                 GetColors(1, alpha = 0.6,stop = c(0.9,0.91)))
-
-col.status <- c(GetColors(1, alpha = 0.6,stop = c(0.3,0.31),
-                          scheme = "iridescent"),
-                GetColors(1, alpha = 0.6,stop = c(0.65,0.66),
-                          scheme = "iridescent"),
-                GetColors(1, alpha = 0.6,stop = c(0.8,0.81),
-                          scheme = "iridescent"))
-
+# Figure 5: Flowering species per months in 3 clusters ####
 # GRAPH POLYGONS - NUMBER OF ALLERGEN SPECIES & ALLFAM PER MONTH
-
-png(file = "results/figure 4.png", 
-     width = 24, height = 18, unit = "cm", res = 600)
-
+# png(file = "results/figure 5.png", 
+#      width = 24, height = 18, unit = "cm", res = 600)
+# tiff(file = "results/figure 5.tiff", 
+#      width = 24, height = 18, unit = "inch", res = 600,
+#      compression = c("jpeg"))
+#jpeg(file = "results/figure 5.jpeg", width = 24, height = 18, unit = "cm", res = 600)
+cairo_ps("results/figure 5.eps",
+         width = 10, height = 7,
+         onefile = FALSE, fallback_resolution = 600)
 ## Subsets along gradient: 
 z = plot_summary$Seal_levels
 table(z)
