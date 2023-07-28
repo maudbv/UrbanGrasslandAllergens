@@ -24,3 +24,6 @@ The master script **script/MASTER Run analyses.R** will run all analyses sequent
 An Rmarkdown document **UrbanAllergensAnalyses.Rmd** is also provided to create an illustrated report summarising results.
 
 <img src="https://user-images.githubusercontent.com/6454302/115234901-da151080-a119-11eb-89ba-4b752414cfd6.png" alt="Figure 4" width="600">
+
+## License
+The data in this project is licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/legalcode), and the R code used to forma, analyse and display results is licensed under the MIT license.
